@@ -1,0 +1,54 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+//REGION Apply the new passive to Avatar Wyll on level load, wherever they are
+
+PROC
+PROC_LevelLoadedOnce(_LevelName)
+AND
+DB_Avatars((CHARACTER)S_Player_Wyll_c774d764-4a17-48dc-b470-32ace9ce447d)
+AND
+IsTagged(S_Player_Wyll_c774d764-4a17-48dc-b470-32ace9ce447d, (TAG)RALLY_WYLL_b0d4c13a-8b99-4039-963f-cc39d037151e, 0)
+AND
+HasPassive(S_Player_Wyll_c774d764-4a17-48dc-b470-32ace9ce447d, "RallyWyll", 0)
+AND
+QRY_OnlyOnce("ORI_Rally_Wyll_Status_Gustav")
+THEN
+SetTag(S_Player_Wyll_c774d764-4a17-48dc-b470-32ace9ce447d, (TAG)RALLY_WYLL_b0d4c13a-8b99-4039-963f-cc39d037151e);
+AddPassive(S_Player_Wyll_c774d764-4a17-48dc-b470-32ace9ce447d, "RallyWyll");
+
+IF
+FlagSet(DEN_RaidingParty_Event_WyllEntersFight_95cc86b7-d74b-f176-3375-afcf87aada99, _, _)
+AND
+NOT DB_Avatars((CHARACTER)S_Player_Wyll_c774d764-4a17-48dc-b470-32ace9ce447d)
+AND
+IsTagged(S_Player_Wyll_c774d764-4a17-48dc-b470-32ace9ce447d, (TAG)RALLY_WYLL_b0d4c13a-8b99-4039-963f-cc39d037151e, 0)
+AND
+HasPassive(S_Player_Wyll_c774d764-4a17-48dc-b470-32ace9ce447d, "RallyWyll", 0)
+AND
+QRY_OnlyOnce("ORI_Rally_Wyll_Status_Gustav")
+THEN
+SetTag(S_Player_Wyll_c774d764-4a17-48dc-b470-32ace9ce447d, (TAG)RALLY_WYLL_b0d4c13a-8b99-4039-963f-cc39d037151e);
+AddPassive(S_Player_Wyll_c774d764-4a17-48dc-b470-32ace9ce447d, "RallyWyll");
+
+//END_REGION
+
+//REGION Complete goal if not in the toolkit
+
+IF
+LevelGameplayReady(_LevelName, _IsEditor)
+AND
+IsGameLevel(_LevelName, 1)
+AND
+QRY_OnlyOnce_IsSet("ORI_Rally_Wyll_Status_Gustav")
+THEN
+GoalCompleted;
+
+//END_REGION GoalCompleted
+
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "ModWrapper_Gustav"
