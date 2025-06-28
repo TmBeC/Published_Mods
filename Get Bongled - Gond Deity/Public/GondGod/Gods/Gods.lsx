@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="200"/>
+    <region id="Gods">
+        <node id="root">
+            <children>
+                <node id="God">
+                    <attribute id="Description" type="TranslatedString" handle="h918a813bgcb08g4ac5g977cg983954b8c4d5" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h92da2059g90a6g453dg9451g9184bc17ee24" version="1"/>
+                    <attribute id="Name" type="FixedString" value="Gond"/>
+                    <attribute id="UUID" type="guid" value="bfee2389-8bd7-44b3-b3f1-7e770e236812"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="9613a132-7400-42d9-924a-954fb8114ac2"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
