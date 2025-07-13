@@ -90,7 +90,9 @@
           "Action": "Insert"
         }
       ]
-    },
+    }
+  ],
+  "Progressions": [
     {
       "UUIDs": ["dbde4d66-d3e4-4c3f-ae87-fd6e2d1cd276", "a1729574-2f7b-4561-91d8-3766cf940420"],
       "Selectors": [
