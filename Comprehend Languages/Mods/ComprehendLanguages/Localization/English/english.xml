@@ -2,9 +2,11 @@
 <contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <content contentuid="h5498c74b2e6840d282b510ce2f1a6c480afd" version="1">Comprehend Languages</content>
   <content contentuid="h6f278d0b3ef04641b56e1f9b158f1e8f8a96" version="1">Understand the literal meaning of any spoken or written language that you hear or see.</content>
-  <content contentuid="h3448fe6a6117498ea5178e06e7c90772c418" version="1">Gain [1] toward speech checks with creatures who speak a language you understand other than Common.</content>
+  <content contentuid="h3448fe6a6117498ea5178e06e7c90772c418" version="1">Gain +[1] toward speech checks with creatures who speak a language you understand other than Common.</content>
   <content contentuid="h1128d7b87ad048ed814a10d17b6bb60e6206" version="1">Comprehend Languages</content>
-  <content contentuid="hff442334a03f461684cb66dfa8287f5dff69" version="1">Understand the literal meaning of any spoken or written language and gain an additional [1] toward speech checks.</content>
+  <content contentuid="hff442334a03f461684cb66dfa8287f5dff69" version="1">Understand the literal meaning of any spoken or written language and gain an additional +[1] toward speech checks.</content>
+  <content contentuid="h0b2c8264gacfbg4127g97ddg5f357dbaedc6" version="1">Comprehend Languages</content>
+  <content contentuid="h31af588agb56bg4bc4g9c04gda9a161e495f" version="1">Understand the literal meaning of any spoken or written language and gain an additional +[1] toward speech checks.</content>
   <content contentuid="h51e9cbd57ec94b9087b932979bf7f0dege97" version="1">Language: Draconic</content>
   <content contentuid="hb2a9a3eecf6e479f972e079fb31824b6139d" version="1">You speak Draconic, the language of dragons, kobolds, and dragonborn.</content>
   <content contentuid="h314163c1d44b48acbd653f4be0626256042a" version="1">Language: Dwarvish</content>
@@ -69,4 +71,8 @@
   <content contentuid="hdc108fe588544417b523e00098e859ac8348" version="1">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; increases by 1 and you learn three languages of your choice.</content>
   <content contentuid="h9c1495efebd04c0582023817572711b5f5f3" version="1">Linguist</content>
   <content contentuid="hdfdcc35d888b4f8699135ded276c80c080ff" version="1">You have studied languages and codes. Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; increases by [1].</content>
+  <content contentuid="ha52e3b43g3bd0g440cg931eg712078c0e154" version="1">Language</content>
+  <content contentuid="haaf3d1f5g2fb4g4b27g8959ga886698106bf" version="1">Select a language.</content>
+  <content contentuid="h91f075f4g4736g4d9bg9dd8g38812886575c" version="1">Language Fluency</content>
+  <content contentuid="h14757482g6881g42f4g878eg55d7b2bdfeb9" version="1">Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Speech &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; directed at the target creature in their native tongue.</content>
 </contentList>

@@ -1,97 +1,5 @@
 {
   "FileVersion": 1,
-  "Races": [
-    {
-      "UUID": "0ab2874d-cfdc-405e-8a97-d37bfbb23c52",
-      "Children": [
-        {
-          "Type": "Tags",
-          "Values": ["6fe55c94-9799-4d8a-9853-baeee21de471"],
-          "Action": "Insert"
-        }
-      ]
-    },
-    {
-      "UUID": "6c038dcb-7eb5-431d-84f8-cecfaf1c0c5a",
-      "Children": [
-        {
-          "Type": "Tags",
-          "Values": ["0b263829-9fb8-46e0-810f-4f8c4abd8105"],
-          "Action": "Insert"
-        }
-      ]
-    },
-    {
-      "UUID": "4f5d1434-5175-4fa9-b7dc-ab24fba37929",
-      "Children": [
-        {
-          "Type": "Tags",
-          "Values": ["0b263829-9fb8-46e0-810f-4f8c4abd8105"],
-          "Action": "Insert"
-        }
-      ]
-    },
-    {
-      "UUID": "78cd3bcc-1c43-4a2a-aa80-c34322c16a04",
-      "Children": [
-        {
-          "Type": "Tags",
-          "Values": ["885fef6e-c3ff-49ca-945c-8787d3d56edd"],
-          "Action": "Insert"
-        }
-      ]
-    },
-    {
-      "UUID": "9c61a74a-20df-4119-89c5-d996956b6c66",
-      "Children": [
-        {
-          "Type": "Tags",
-          "Values": ["2b95ee1a-0d44-4d9f-8bb0-cb87ea0934b6"],
-          "Action": "Insert"
-        }
-      ]
-    },
-    {
-      "UUID": "f1b3f884-4029-4f0f-b158-1f9fe0ae5a0d",
-      "Children": [
-        {
-          "Type": "Tags",
-          "Values": ["a0918c07-b9b2-4982-aec4-15267e2ba317"],
-          "Action": "Insert"
-        }
-      ]
-    },
-    {
-      "UUID": "45f4ac10-3c89-4fb2-b37d-f973bb9110c0",
-      "Children": [
-        {
-          "Type": "Tags",
-          "Values": ["0b263829-9fb8-46e0-810f-4f8c4abd8105"],
-          "Action": "Insert"
-        }
-      ]
-    },
-    {
-      "UUID": "5c39a726-71c8-4748-ba8d-f768b3c11a91",
-      "Children": [
-        {
-          "Type": "Tags",
-          "Values": ["2e0ad571-7d84-4c1c-bc6d-3842855e1535"],
-          "Action": "Insert"
-        }
-      ]
-    },
-    {
-      "UUID": "b6dccbed-30f3-424b-a181-c4540cf38197",
-      "Children": [
-        {
-          "Type": "Tags",
-          "Values": ["f6523a5a-4c5b-4f9f-a2b7-97c1019e74a4"],
-          "Action": "Insert"
-        }
-      ]
-    }
-  ],
   "Progressions": [
     {
       "UUIDs": ["dbde4d66-d3e4-4c3f-ae87-fd6e2d1cd276", "a1729574-2f7b-4561-91d8-3766cf940420"],
@@ -101,7 +9,116 @@
           "Function": "SelectPassives",
           "Params": {
             "Guid": "65debbca-95e7-444a-8f07-df7661e045db",
-            "Amount": "1"
+            "Amount": "1",
+            "SelectorId": "RacialLanguages"
+          }
+        }
+      ]
+    },
+    {
+      "UUID": ["3c9a0bd8-bb0f-4a42-b77f-7a9a1cff2e5d"],
+      "Selectors": [
+        {
+          "Action": "Insert",
+          "Function": "PassivesAdded",
+          "Params": {
+            "Strings": "Language_Dwarvish"
+          }
+        }
+      ]
+    },
+    {
+      "UUID": ["496486a4-b5f2-4f91-90ea-6cad9023952e"],
+      "Selectors": [
+        {
+          "Action": "Insert",
+          "Function": "PassivesAdded",
+          "Params": {
+            "Strings": "Language_Elvish"
+          }
+        }
+      ]
+    },
+    {
+      "UUID": ["bd4b36f8-4835-4b1d-b432-3021011cabe6"],
+      "Selectors": [
+        {
+          "Action": "Insert",
+          "Function": "PassivesAdded",
+          "Params": {
+            "Strings": "Language_Elvish"
+          }
+        }
+      ]
+    },
+    {
+      "UUID": ["d48f8fb3-4351-4b5d-a28c-946fd33be726"],
+      "Selectors": [
+        {
+          "Action": "Insert",
+          "Function": "PassivesAdded",
+          "Params": {
+            "Strings": "Language_Gnomish"
+          }
+        }
+      ]
+    },
+    {
+      "UUID": ["963edcba-c572-4f51-b447-8810bbb43a8e"],
+      "Selectors": [
+        {
+          "Action": "Insert",
+          "Function": "PassivesAdded",
+          "Params": {
+            "Strings": "Language_Halfling"
+          }
+        }
+      ]
+    },
+    {
+      "UUID": ["a1729574-2f7b-4561-91d8-3766cf940420"],
+      "Selectors": [
+        {
+          "Action": "Insert",
+          "Function": "PassivesAdded",
+          "Params": {
+            "Strings": "Language_Elvish"
+          }
+        }
+      ]
+    },
+    {
+      "UUID": ["cabc4d46-f08e-4a48-8937-0bd1067ab43d"],
+      "Selectors": [
+        {
+          "Action": "Insert",
+          "Function": "PassivesAdded",
+          "Params": {
+            "Strings": "Language_Draconic"
+          }
+        }
+      ]
+    },
+    {
+      "UUID": ["56529178-3df2-4067-b1c0-e35fe82fbd37"],
+      "Selectors": [
+        {
+          "Action": "Insert",
+          "Function": "PassivesAdded",
+          "Params": {
+            "Strings": "Language_Infernal"
+          }
+        }
+      ]
+    },
+    {
+      "UUID": ["816fa8c7-7648-48f7-8309-cb4e7383e45f"],
+      "Selectors": [
+        {
+          "Action": "Insert",
+          "Function": "PassivesAdded",
+          "Params": {
+            "Strings": "Language_Orc"
           }
         }
       ]
