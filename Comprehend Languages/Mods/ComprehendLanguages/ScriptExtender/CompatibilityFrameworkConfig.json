@@ -17,7 +17,7 @@
     },
     {
       "UUID": ["3c9a0bd8-bb0f-4a42-b77f-7a9a1cff2e5d"],
-      "Selectors": [
+      "Strings": [
         {
           "Action": "Insert",
           "Function": "PassivesAdded",
@@ -29,7 +29,7 @@
     },
     {
       "UUID": ["496486a4-b5f2-4f91-90ea-6cad9023952e"],
-      "Selectors": [
+      "Strings": [
         {
           "Action": "Insert",
           "Function": "PassivesAdded",
@@ -41,7 +41,7 @@
     },
     {
       "UUID": ["bd4b36f8-4835-4b1d-b432-3021011cabe6"],
-      "Selectors": [
+      "Strings": [
         {
           "Action": "Insert",
           "Function": "PassivesAdded",
@@ -53,7 +53,7 @@
     },
     {
       "UUID": ["d48f8fb3-4351-4b5d-a28c-946fd33be726"],
-      "Selectors": [
+      "Strings": [
         {
           "Action": "Insert",
           "Function": "PassivesAdded",
@@ -65,7 +65,7 @@
     },
     {
       "UUID": ["963edcba-c572-4f51-b447-8810bbb43a8e"],
-      "Selectors": [
+      "Strings": [
         {
           "Action": "Insert",
           "Function": "PassivesAdded",
@@ -77,7 +77,7 @@
     },
     {
       "UUID": ["a1729574-2f7b-4561-91d8-3766cf940420"],
-      "Selectors": [
+      "Strings": [
         {
           "Action": "Insert",
           "Function": "PassivesAdded",
@@ -89,7 +89,7 @@
     },
     {
       "UUID": ["cabc4d46-f08e-4a48-8937-0bd1067ab43d"],
-      "Selectors": [
+      "Strings": [
         {
           "Action": "Insert",
           "Function": "PassivesAdded",
@@ -101,7 +101,7 @@
     },
     {
       "UUID": ["56529178-3df2-4067-b1c0-e35fe82fbd37"],
-      "Selectors": [
+      "Strings": [
         {
           "Action": "Insert",
           "Function": "PassivesAdded",
@@ -113,7 +113,7 @@
     },
     {
       "UUID": ["816fa8c7-7648-48f7-8309-cb4e7383e45f"],
-      "Selectors": [
+      "Strings": [
         {
           "Action": "Insert",
           "Function": "PassivesAdded",
