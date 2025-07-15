@@ -1,0 +1,52 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+//REGION Dialog influencing tags
+
+DB_FluentInInfernal((TAG)LANGUAGES_INFERNAL_f6523a5a-4c5b-4f9f-a2b7-97c1019e74a4);
+DB_FluentInInfernal((TAG)COMPREHEND_LANGUAGES_1d6e36a6-d757-449b-8040-2af3f1a99c3a);
+
+//END_REGION
+
+KBSECTION
+//REGION Astarion ScarReading scene, if not a Tiefling but know Infernal or cast Comprehend Languages, temporarily grant the REALLY_TIEFLING tag for dialogue purposes
+
+IF
+DialogStarted(CAMP_Astarion_CRD_ScarReading_19b588ee-c022-b259-dffe-5bbb793f60bb, _)
+AND
+DB_FluentInInfernal(_LanguageTag)
+AND
+DB_DialogPlayers(_, _Player, _)
+AND
+IsTagged(_Player, _LanguageTag, 1)
+AND
+IsTagged(_Player, (TAG)REALLY_TIEFLING_7bf7207f-7406-49c0-b501-eaaa2bb4efd7, 0)
+THEN
+SetTag(_Player, (TAG)LANGUAGES_TEMP_3ed96bb6-0b05-419a-a143-e1df9dafd482);
+SetTag(_Player, (TAG)REALLY_TIEFLING_7bf7207f-7406-49c0-b501-eaaa2bb4efd7);
+
+//END_REGION
+
+
+//REGION Tag removal
+
+IF
+DialogEnded(CAMP_Astarion_CRD_ScarReading_19b588ee-c022-b259-dffe-5bbb793f60bb, _)
+AND
+DB_FluentInInfernal(_LanguageTag)
+AND
+DB_DialogPlayers(_, _Player, _)
+AND
+IsTagged(_Player, _LanguageTag, 1)
+AND
+IsTagged(_Player, (TAG)REALLY_TIEFLING_7bf7207f-7406-49c0-b501-eaaa2bb4efd7, 1)
+AND
+IsTagged(_Player, (TAG)LANGUAGES_TEMP_3ed96bb6-0b05-419a-a143-e1df9dafd482, 1)
+THEN
+ClearTag(_Player, (TAG)REALLY_TIEFLING_7bf7207f-7406-49c0-b501-eaaa2bb4efd7);
+
+//END_REGION
+
+EXITSECTION
+
+ENDEXITSECTION
