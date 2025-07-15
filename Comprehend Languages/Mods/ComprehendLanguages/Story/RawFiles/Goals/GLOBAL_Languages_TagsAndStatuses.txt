@@ -68,10 +68,8 @@ AND
 DB_Players(_Player)
 AND
 IsTagged(_Player, (TAG)COMPREHEND_LANGUAGES_1d6e36a6-d757-449b-8040-2af3f1a99c3a, 1)
-AND
-DB_DialogNPCs(_, _Target, _)
 THEN
-ApplyStatus(_Target, "COMPREHEND_LANGUAGES_BONUS", -1.0, 1, _Player);
+ApplyStatus(_Player, "COMPREHEND_LANGUAGES_BONUS", -1.0, 1);
 
 //END_REGION
 

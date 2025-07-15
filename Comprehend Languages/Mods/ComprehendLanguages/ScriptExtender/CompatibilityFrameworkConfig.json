@@ -16,110 +16,92 @@
       ]
     },
     {
-      "UUID": ["3c9a0bd8-bb0f-4a42-b77f-7a9a1cff2e5d"],
+      "UUIDs": ["3c9a0bd8-bb0f-4a42-b77f-7a9a1cff2e5d"],
       "Strings": [
         {
           "Action": "Insert",
-          "Function": "PassivesAdded",
-          "Params": {
-            "Strings": "Language_Dwarvish"
-          }
+          "Type": "PassivesAdded",
+          "Strings": ["Language_Dwarvish"]
         }
       ]
     },
     {
-      "UUID": ["496486a4-b5f2-4f91-90ea-6cad9023952e"],
+      "UUIDs": ["496486a4-b5f2-4f91-90ea-6cad9023952e"],
       "Strings": [
         {
           "Action": "Insert",
-          "Function": "PassivesAdded",
-          "Params": {
-            "Strings": "Language_Elvish"
-          }
+          "Type": "PassivesAdded",
+          "Strings": ["Language_Elvish"]
         }
       ]
     },
     {
-      "UUID": ["bd4b36f8-4835-4b1d-b432-3021011cabe6"],
+      "UUIDs": ["bd4b36f8-4835-4b1d-b432-3021011cabe6"],
       "Strings": [
         {
           "Action": "Insert",
-          "Function": "PassivesAdded",
-          "Params": {
-            "Strings": "Language_Elvish"
-          }
+          "Type": "PassivesAdded",
+          "Strings": ["Language_Elvish"]
         }
       ]
     },
     {
-      "UUID": ["d48f8fb3-4351-4b5d-a28c-946fd33be726"],
+      "UUIDs": ["d48f8fb3-4351-4b5d-a28c-946fd33be726"],
       "Strings": [
         {
           "Action": "Insert",
-          "Function": "PassivesAdded",
-          "Params": {
-            "Strings": "Language_Gnomish"
-          }
+          "Type": "PassivesAdded",
+          "Strings": ["Language_Gnomish"]
         }
       ]
     },
     {
-      "UUID": ["963edcba-c572-4f51-b447-8810bbb43a8e"],
+      "UUIDs": ["963edcba-c572-4f51-b447-8810bbb43a8e"],
       "Strings": [
         {
           "Action": "Insert",
-          "Function": "PassivesAdded",
-          "Params": {
-            "Strings": "Language_Halfling"
-          }
+          "Type": "PassivesAdded",
+          "Strings": ["Language_Halfling"]
         }
       ]
     },
     {
-      "UUID": ["a1729574-2f7b-4561-91d8-3766cf940420"],
+      "UUIDs": ["a1729574-2f7b-4561-91d8-3766cf940420"],
       "Strings": [
         {
           "Action": "Insert",
-          "Function": "PassivesAdded",
-          "Params": {
-            "Strings": "Language_Elvish"
-          }
+          "Type": "PassivesAdded",
+          "Strings": ["Language_Elvish"]
         }
       ]
     },
     {
-      "UUID": ["cabc4d46-f08e-4a48-8937-0bd1067ab43d"],
+      "UUIDs": ["cabc4d46-f08e-4a48-8937-0bd1067ab43d"],
       "Strings": [
         {
           "Action": "Insert",
-          "Function": "PassivesAdded",
-          "Params": {
-            "Strings": "Language_Draconic"
-          }
+          "Type": "PassivesAdded",
+          "Strings": ["Language_Draconic"]
         }
       ]
     },
     {
-      "UUID": ["56529178-3df2-4067-b1c0-e35fe82fbd37"],
+      "UUIDs": ["56529178-3df2-4067-b1c0-e35fe82fbd37"],
       "Strings": [
         {
           "Action": "Insert",
-          "Function": "PassivesAdded",
-          "Params": {
-            "Strings": "Language_Infernal"
-          }
+          "Type": "PassivesAdded",
+          "Strings": ["Language_Infernal"]
         }
       ]
     },
     {
-      "UUID": ["816fa8c7-7648-48f7-8309-cb4e7383e45f"],
+      "UUIDs": ["816fa8c7-7648-48f7-8309-cb4e7383e45f"],
       "Strings": [
         {
           "Action": "Insert",
-          "Function": "PassivesAdded",
-          "Params": {
-            "Strings": "Language_Orc"
-          }
+          "Type": "PassivesAdded",
+          "Strings": ["Language_Orc"]
         }
       ]
     }
