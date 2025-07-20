@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="200" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Halfling, the language of the halflings." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="hb27e3db4a6574ae6b21660dbd41109380f09" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h86c71cf0a8e448398a7a6464417fe976g258" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="LANGUAGES_HALFLING" />
+			<attribute id="UUID" type="guid" value="885fef6e-c3ff-49ca-945c-8787d3d56edd" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Code" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+				<node id="Properties" />
+			</children>
+		</node>
+	</region>
+</save>

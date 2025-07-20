@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="200" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Celestial, the language of the celestials." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h50014de092b64d5e89032b4378100695690a" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h9880f527e11a415da30f6b11380c3a77a8g7" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="LANGUAGES_CELESTIAL" />
+			<attribute id="UUID" type="guid" value="3cb31e1c-4f02-4c36-b100-08f7842e51aa" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Code" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+				<node id="Properties" />
+			</children>
+		</node>
+	</region>
+</save>

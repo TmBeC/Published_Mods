@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="200" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Goblin, the language of the goblins, hobgoblins, and bugbears." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h1dac49702e784a17a8108586740bb0495554" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="he9f6324fa85345db9b87f9e5f1c4a7d6288b" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="LANGUAGES_GOBLIN" />
+			<attribute id="UUID" type="guid" value="afa07aae-043f-44b0-b611-1a2aff46e3ef" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Code" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+				<node id="Properties" />
+			</children>
+		</node>
+	</region>
+</save>

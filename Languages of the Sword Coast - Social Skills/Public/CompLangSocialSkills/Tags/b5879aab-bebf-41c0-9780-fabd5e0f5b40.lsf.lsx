@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="200" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Undercommon, the language of the Underdark." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h05c8f229e6184c96930f263941ce4a35bbcc" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h1b04d2dcc07d48a4bbe648e3e6120ca15dfe" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="LANGUAGES_UNDERCOMMON" />
+			<attribute id="UUID" type="guid" value="b5879aab-bebf-41c0-9780-fabd5e0f5b40" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Code" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+				<node id="Properties" />
+			</children>
+		</node>
+	</region>
+</save>

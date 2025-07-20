@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="200" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Abyssal, the language of the demons." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="hbab224d93c3247c68427db92f1146b6e8902" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h7d300ef27cbd42779a4ab42af77979bbedac" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="LANGUAGES_ABYSSAL" />
+			<attribute id="UUID" type="guid" value="f6e88507-97e3-49e7-b2ed-15bb205e336f" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Code" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+				<node id="Properties" />
+			</children>
+		</node>
+	</region>
+</save>

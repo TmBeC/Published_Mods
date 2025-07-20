@@ -1,0 +1,85 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+//REGION Dialog referencing Infernal
+
+DB_InfernalDialog((DIALOGRESOURCE)CAMP_Astarion_CRD_ScarReading_c3b2bc4f-46a5-1b25-f2aa-288dbbf47f43);
+DB_InfernalDialog((DIALOGRESOURCE)CAMP_GoblinHuntCelebration_SD_ROM_NightWithAstarion_f1f9ad82-3973-9307-7a9d-35c014ee2d68);
+
+//END_REGION
+
+//REGION Dialog influencing tags
+
+DB_FluentInInfernal((TAG)LANGUAGES_INFERNAL_f6523a5a-4c5b-4f9f-a2b7-97c1019e74a4);
+DB_FluentInInfernal((TAG)COMPREHEND_LANGUAGES_1d6e36a6-d757-449b-8040-2af3f1a99c3a);
+
+//END_REGION
+
+KBSECTION
+//REGION Savegame Patch for DBs
+
+IF
+SavegameLoaded()
+AND
+NOT DB_InfernalDialog(_)
+THEN
+DB_InfernalDialog((DIALOGRESOURCE)CAMP_Astarion_CRD_ScarReading_c3b2bc4f-46a5-1b25-f2aa-288dbbf47f43);
+DB_InfernalDialog((DIALOGRESOURCE)CAMP_GoblinHuntCelebration_SD_ROM_NightWithAstarion_f1f9ad82-3973-9307-7a9d-35c014ee2d68);
+
+IF
+SavegameLoaded()
+AND
+NOT DB_FluentInInfernal(_)
+THEN
+DB_FluentInInfernal((TAG)LANGUAGES_INFERNAL_f6523a5a-4c5b-4f9f-a2b7-97c1019e74a4);
+DB_FluentInInfernal((TAG)COMPREHEND_LANGUAGES_1d6e36a6-d757-449b-8040-2af3f1a99c3a);
+
+//END_REGION
+
+
+//REGION Astarion ScarReading scene, if not a Tiefling but know Infernal or cast Comprehend Languages, temporarily grant the REALLY_TIEFLING tag for dialogue purposes
+
+IF
+DialogStarted(_InfernalDialog, _)
+AND
+DB_InfernalDialog(_InfernalDialog)
+AND
+DB_FluentInInfernal(_LanguageTag)
+AND
+DB_Players(_Player)
+AND
+IsTagged(_Player, _LanguageTag, 1)
+AND
+IsTagged(_Player, (TAG)REALLY_TIEFLING_7bf7207f-7406-49c0-b501-eaaa2bb4efd7, 0)
+THEN
+SetTag(_Player, (TAG)LANGUAGES_TEMP_3ed96bb6-0b05-419a-a143-e1df9dafd482);
+SetTag(_Player, (TAG)REALLY_TIEFLING_7bf7207f-7406-49c0-b501-eaaa2bb4efd7);
+
+//END_REGION
+
+//REGION Tag removal
+
+IF
+DialogEnded(_InfernalDialog, _)
+AND
+DB_InfernalDialog(_InfernalDialog)
+AND
+DB_FluentInInfernal(_LanguageTag)
+AND
+DB_DialogPlayers(_, _Player, _)
+AND
+IsTagged(_Player, _LanguageTag, 1)
+AND
+IsTagged(_Player, (TAG)REALLY_TIEFLING_7bf7207f-7406-49c0-b501-eaaa2bb4efd7, 1)
+AND
+IsTagged(_Player, (TAG)LANGUAGES_TEMP_3ed96bb6-0b05-419a-a143-e1df9dafd482, 1)
+THEN
+ClearTag(_Player, (TAG)LANGUAGES_TEMP_3ed96bb6-0b05-419a-a143-e1df9dafd482);
+ClearTag(_Player, (TAG)REALLY_TIEFLING_7bf7207f-7406-49c0-b501-eaaa2bb4efd7);
+
+//END_REGION
+
+
+EXITSECTION
+
+ENDEXITSECTION

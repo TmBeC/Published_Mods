@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="200" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Elvish, the language of the elves." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h557d5977509249bab688144f4f1ae76c9555" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="hb68d0785fbb14f848f947ad5e5b304e9cd8b" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="LANGUAGES_ELVISH" />
+			<attribute id="UUID" type="guid" value="0b263829-9fb8-46e0-810f-4f8c4abd8105" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Code" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+				<node id="Properties" />
+			</children>
+		</node>
+	</region>
+</save>

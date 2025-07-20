@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="200"/>
+    <region id="ProgressionDescriptions">
+        <node id="root">
+            <children>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="haaf3d1f5g2fb4g4b27g8959ga886698106bf" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha52e3b43g3bd0g440cg931eg712078c0e154" version="1"/>
+                    <attribute id="SelectorId" type="FixedString" value="RacialLanguages"/>
+                    <attribute id="UUID" type="guid" value="73a7a022-3e3d-4b85-9a5c-637389b5edde"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

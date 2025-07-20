@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="200"/>
+    <region id="Feats">
+        <node id="root">
+            <children>
+                <node id="Feat">
+                    <attribute id="CanBeTakenMultipleTimes" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Linguist"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Linguist"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(332aeda4-311d-40f1-b787-3a684cc511cd,3,CunningLinguist)"/>
+                    <attribute id="UUID" type="guid" value="590e68c6-c5aa-463c-8d88-a6a5746dd472"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="200" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Giant, the language of the giants and ogres." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h1860c7e2c1a4461e9b308433033c2c6cd52c" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="ha521bd0d8d394145b712e4a43cf8e9850c23" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="LANGUAGES_GIANT" />
+			<attribute id="UUID" type="guid" value="704f25aa-2848-4998-8b1d-682120103c1a" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Code" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+				<node id="Properties" />
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="200" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Gith, the language of the gith." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="hdf2c3c08g6b55g43a5g94a6gd748b5f77f70" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h4aaed1a6g497bg4be5gbc76g0320ed38043d" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="LANGUAGES_GITH" />
+			<attribute id="UUID" type="guid" value="0f608a73-1850-43f2-bcf1-77e1a379edaa" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Code" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+				<node id="Properties" />
+			</children>
+		</node>
+	</region>
+</save>

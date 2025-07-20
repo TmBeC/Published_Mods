@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="200" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Primordial, the language of the elementals and djinni." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h3fbb7e3e1c8f41cca658ad55bcedcd75fgbc" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h7108995f667040bb9ab5aa82bfc8f968e055" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="LANGUAGES_PRIMORDIAL" />
+			<attribute id="UUID" type="guid" value="c2010e37-fcc4-4665-80e9-0e4c919b4541" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Code" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+				<node id="Properties" />
+			</children>
+		</node>
+	</region>
+</save>

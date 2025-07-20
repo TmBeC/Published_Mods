@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="200" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Infernal, the language of the devils, fiends, cambions, and tieflings." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h7d1db9a1743b46e6b964b8f48018d5dca4d6" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h60231fc06a9a46269ea3187e835219d72b3f" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="LANGUAGES_INFERNAL" />
+			<attribute id="UUID" type="guid" value="f6523a5a-4c5b-4f9f-a2b7-97c1019e74a4" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Code" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+				<node id="Properties" />
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="200" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Deep Speech, the language of the mind flayers and intellect devourers." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h3281480e88184082a985a60bd9a14887a1a4" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h122df77159a94f9d9119e5fb6828c64d5e67" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="LANGUAGES_DEEPSPEECH" />
+			<attribute id="UUID" type="guid" value="d1e52e63-527a-4230-a7f3-825295a96c55" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Code" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+				<node id="Properties" />
+			</children>
+		</node>
+	</region>
+</save>

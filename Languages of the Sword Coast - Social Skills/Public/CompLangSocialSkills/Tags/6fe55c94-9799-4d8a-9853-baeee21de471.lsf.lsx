@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="200" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Dwarvish, the language of the dwarves." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h68e0a557490a4a4f84904c66ab6948887fa8" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h3f9291d951194973b61611d5f4d002fe41c5" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="LANGUAGES_DWARVISH" />
+			<attribute id="UUID" type="guid" value="6fe55c94-9799-4d8a-9853-baeee21de471" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Code" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+				<node id="Properties" />
+			</children>
+		</node>
+	</region>
+</save>

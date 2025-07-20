@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="200" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Draconic, the language of dragons, kobolds, and dragonborn." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h0855db0d757648848aaa30189708a171gefe" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="hed92405c99f54b07bf0571aeaf454dccc61a" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="LANGUAGES_DRACONIC" />
+			<attribute id="UUID" type="guid" value="2b95ee1a-0d44-4d9f-8bb0-cb87ea0934b6" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Code" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+				<node id="Properties" />
+			</children>
+		</node>
+	</region>
+</save>
