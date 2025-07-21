@@ -8,6 +8,7 @@ DB_InfernalDialog((DIALOGRESOURCE)CAMP_GoblinHuntCelebration_SD_ROM_NightWithAst
 
 //END_REGION
 
+
 //REGION Dialog influencing tags
 
 DB_FluentInInfernal((TAG)LANGUAGES_INFERNAL_f6523a5a-4c5b-4f9f-a2b7-97c1019e74a4);
@@ -52,10 +53,11 @@ IsTagged(_Player, _LanguageTag, 1)
 AND
 IsTagged(_Player, (TAG)REALLY_TIEFLING_7bf7207f-7406-49c0-b501-eaaa2bb4efd7, 0)
 THEN
-SetTag(_Player, (TAG)LANGUAGES_TEMP_3ed96bb6-0b05-419a-a143-e1df9dafd482);
+SetTag(_Player, (TAG)ASTARION_SCARREAD_INFERNAL_3ed96bb6-0b05-419a-a143-e1df9dafd482);
 SetTag(_Player, (TAG)REALLY_TIEFLING_7bf7207f-7406-49c0-b501-eaaa2bb4efd7);
 
 //END_REGION
+
 
 //REGION Tag removal
 
@@ -72,13 +74,12 @@ IsTagged(_Player, _LanguageTag, 1)
 AND
 IsTagged(_Player, (TAG)REALLY_TIEFLING_7bf7207f-7406-49c0-b501-eaaa2bb4efd7, 1)
 AND
-IsTagged(_Player, (TAG)LANGUAGES_TEMP_3ed96bb6-0b05-419a-a143-e1df9dafd482, 1)
+IsTagged(_Player, (TAG)ASTARION_SCARREAD_INFERNAL_3ed96bb6-0b05-419a-a143-e1df9dafd482, 1)
 THEN
-ClearTag(_Player, (TAG)LANGUAGES_TEMP_3ed96bb6-0b05-419a-a143-e1df9dafd482);
+ClearTag(_Player, (TAG)ASTARION_SCARREAD_INFERNAL_3ed96bb6-0b05-419a-a143-e1df9dafd482);
 ClearTag(_Player, (TAG)REALLY_TIEFLING_7bf7207f-7406-49c0-b501-eaaa2bb4efd7);
 
 //END_REGION
-
 
 EXITSECTION
 

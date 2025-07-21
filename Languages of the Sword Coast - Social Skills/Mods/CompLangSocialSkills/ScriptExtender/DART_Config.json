@@ -2,13 +2,10 @@
     "Disabled":false,
     "Tags":[
         {
-            "3ed96bb6-0b05-419a-a143-e1df9dafd482":{
-                "Source":"SourceUUIDHere",
+            "7bf7207f-7406-49c0-b501-eaaa2bb4efd7":{
+                "Source":"3ed96bb6-0b05-419a-a143-e1df9dafd482",
                 "DisplayName":"h1a5dae88gceaag4ce1gaf8fg1f622368aba9",
-                "Description":"h8838d562g8682g4557gab75g73383f7f6ab2",
-                "Dialog":{
-                    "OriginalHandleUUIDHere":"Replacement Handle Or Plain Text"
-                }
+                "Description":"h8838d562g8682g4557gab75g73383f7f6ab2"
             }
         }
     ]

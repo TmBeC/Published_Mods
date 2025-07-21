@@ -7,7 +7,7 @@
 				<node id="Resource">
 					<attribute id="ID" type="FixedString" value="569b71c7-f2c1-47c0-a1fc-1127c4df31e6" />
 					<attribute id="Name" type="LSString" value="IconAtlas" />
-					<attribute id="SourceFile" type="LSString" value="Public/ComprehendLanguages/Assets/Textures/Icons/IconAtlas.dds" />
+					<attribute id="SourceFile" type="LSString" value="Public/CompLangSocialSkills/Assets/Textures/Icons/IconAtlas.dds" />
 					<attribute id="Template" type="FixedString" value="IconAtlas" />
 					<attribute id="Streaming" type="bool" value="True" />
 					<attribute id="Type" type="int32" value="1" />

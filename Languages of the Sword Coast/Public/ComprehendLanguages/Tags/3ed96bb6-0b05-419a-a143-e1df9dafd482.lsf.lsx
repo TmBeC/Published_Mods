@@ -4,10 +4,10 @@
 	<region id="Tags">
 		<node id="Tags">
 			<attribute id="Description" type="LSString" value="Temporary tag for Osiris calls." />
-			<attribute id="DisplayDescription" type="TranslatedString" handle="ls::TranslatedStringRepository::s_HandleUnknown" version="0" />
-			<attribute id="DisplayName" type="TranslatedString" handle="ls::TranslatedStringRepository::s_HandleUnknown" version="0" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h0500664cg4fd1g4a7eg8d7eg2264f5a53861" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h9686288cge2a1g4883g9c32g83333a77e46d" version="1" />
 			<attribute id="Icon" type="FixedString" value="" />
-			<attribute id="Name" type="FixedString" value="LANGUAGES_TEMP" />
+			<attribute id="Name" type="FixedString" value="ASTARION_SCARREAD_INFERNAL" />
 			<attribute id="UUID" type="guid" value="3ed96bb6-0b05-419a-a143-e1df9dafd482" />
 			<children>
 				<node id="Categories">
