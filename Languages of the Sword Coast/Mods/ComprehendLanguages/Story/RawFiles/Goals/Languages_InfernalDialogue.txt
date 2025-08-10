@@ -41,7 +41,7 @@ DB_FluentInInfernal((TAG)COMPREHEND_LANGUAGES_1d6e36a6-d757-449b-8040-2af3f1a99c
 //REGION Astarion ScarReading scene, if not a Tiefling but know Infernal or cast Comprehend Languages, temporarily grant the REALLY_TIEFLING tag for dialogue purposes
 
 IF
-DialogActorJoined(_InfernalDialog, _, _, _)
+DialogStarted(_InfernalDialog, _)
 AND
 DB_InfernalDialog(_InfernalDialog)
 AND

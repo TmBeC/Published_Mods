@@ -2,7 +2,7 @@
   "FileVersion": 1,
   "Progressions": [
     {
-      "UUIDs": ["dbde4d66-d3e4-4c3f-ae87-fd6e2d1cd276", "a1729574-2f7b-4561-91d8-3766cf940420"],
+      "UUIDs": ["dbde4d66-d3e4-4c3f-ae87-fd6e2d1cd276", "a1729574-2f7b-4561-91d8-3766cf940420", "db13a1fb-7d64-4309-a1c8-e2a5c752ded5"],
       "Selectors": [
         {
           "Action": "Insert",
@@ -26,6 +26,16 @@
       ]
     },
     {
+      "UUIDs": ["bd012f5b-0a0b-424e-ab7c-186dbd82ab30"],
+      "Strings": [
+        {
+          "Action": "Insert",
+          "Type": "PassivesAdded",
+          "Strings": ["Language_Undercommon"]
+        }
+      ]
+    },
+    {
       "UUIDs": ["496486a4-b5f2-4f91-90ea-6cad9023952e"],
       "Strings": [
         {
@@ -36,12 +46,12 @@
       ]
     },
     {
-      "UUIDs": ["bd4b36f8-4835-4b1d-b432-3021011cabe6"],
+      "UUIDs": ["4a634f24-bdcb-4559-b8be-7847133ad1c3"],
       "Strings": [
         {
           "Action": "Insert",
           "Type": "PassivesAdded",
-          "Strings": ["Language_Elvish"]
+          "Strings": ["Language_Elvish","Language_Undercommon"]
         }
       ]
     },
@@ -52,6 +62,16 @@
           "Action": "Insert",
           "Type": "PassivesAdded",
           "Strings": ["Language_Gnomish"]
+        }
+      ]
+    },
+    {
+      "UUIDs": ["938b6f72-18a6-4af0-924b-5292251d32bf"],
+      "Strings": [
+        {
+          "Action": "Insert",
+          "Type": "PassivesAdded",
+          "Strings": ["Language_Undercommon"]
         }
       ]
     },

@@ -3,19 +3,19 @@ SubGoalCombiner SGC_AND
 INITSECTION
 //REGION Language tags to Racial REALLY tag associations
 
-DB_LanguagePassiveToRace(Language_Draconic, (TAG)REALLY_DRAGONBORN_39783f17-8484-46a6-aa3b-f3d51122e5f3);
-DB_LanguagePassiveToRace(Language_Dwarvish, (TAG)REALLY_DWARF_ad129444-0f41-4114-9ee5-2b9902d7ca8d);
-DB_LanguagePassiveToRace(Language_Elvish, (TAG)REALLY_ELF_772b1dc6-14be-417f-afa3-c6cf364f45b4);
-DB_LanguagePassiveToRace(Language_Elvish, (TAG)REALLY_DROWELF_676e854b-d74b-44f3-8363-3ef27164a54d);
-DB_LanguagePassiveToRace(Language_Elvish, (TAG)REALLY_HALFELF_277f9609-ad0c-4883-b56d-0850904e88df);
-DB_LanguagePassiveToRace(Language_Gith, (TAG)REALLY_GITHYANKI_e49c027c-6ec6-4158-9afb-8b59236d10fd);
-DB_LanguagePassiveToRace(Language_Gnomish, (TAG)REALLY_GNOME_42483542-7915-4de5-a7d9-ac0d15fe301c);
-DB_LanguagePassiveToRace(Language_Halfling, (TAG)REALLY_HALFLING_2b40a033-7a5c-47e9-92f0-7de9b5cd3a42);
-DB_LanguagePassiveToRace(Language_Orc, (TAG)REALLY_HALFORC_ab3eff19-d094-4102-88bd-d097b6b6e4f0);
-DB_LanguagePassiveToRace(Language_Infernal, (TAG)REALLY_TIEFLING_7bf7207f-7406-49c0-b501-eaaa2bb4efd7);
-
-DB_LanguageChoiceRaces((TAG)REALLY_HUMAN_8e288154-e7ca-4277-b2df-e61639b1cce8);
-DB_LanguageChoiceRaces((TAG)REALLY_HALFELF_277f9609-ad0c-4883-b56d-0850904e88df);
+DB_LanguagePassiveToRace("Language_Draconic", (TAG)REALLY_DRAGONBORN_39783f17-8484-46a6-aa3b-f3d51122e5f3);
+DB_LanguagePassiveToRace("Language_Dwarvish", (TAG)REALLY_DWARF_ad129444-0f41-4114-9ee5-2b9902d7ca8d);
+DB_LanguagePassiveToRace("Language_Elvish", (TAG)REALLY_ELF_772b1dc6-14be-417f-afa3-c6cf364f45b4);
+DB_LanguagePassiveToRace("Language_Elvish", (TAG)REALLY_DROWELF_676e854b-d74b-44f3-8363-3ef27164a54d);
+DB_LanguagePassiveToRace("Language_Elvish", (TAG)REALLY_HALFELF_277f9609-ad0c-4883-b56d-0850904e88df);
+DB_LanguagePassiveToRace("Language_Gith", (TAG)REALLY_GITHYANKI_e49c027c-6ec6-4158-9afb-8b59236d10fd);
+DB_LanguagePassiveToRace("Language_Gnomish", (TAG)REALLY_GNOME_42483542-7915-4de5-a7d9-ac0d15fe301c);
+DB_LanguagePassiveToRace("Language_Halfling", (TAG)REALLY_HALFLING_2b40a033-7a5c-47e9-92f0-7de9b5cd3a42);
+DB_LanguagePassiveToRace("Language_Orc", (TAG)REALLY_HALFORC_ab3eff19-d094-4102-88bd-d097b6b6e4f0);
+DB_LanguagePassiveToRace("Language_Infernal", (TAG)REALLY_TIEFLING_7bf7207f-7406-49c0-b501-eaaa2bb4efd7);
+DB_LanguagePassiveToRace("Language_Undercommon", (TAG)REALLY_DROWELF_676e854b-d74b-44f3-8363-3ef27164a54d);
+DB_LanguagePassiveToRace("Language_Undercommon", (TAG)REALLY_DUERGARDWARF_45b007f7-f4f6-46e2-9480-395a49b87ef3);
+DB_LanguagePassiveToRace("Language_Undercommon", (TAG)REALLY_DEEPGNOME_17d29357-beba-4096-accc-c28bdea88fda);
 
 //END_REGION
 
