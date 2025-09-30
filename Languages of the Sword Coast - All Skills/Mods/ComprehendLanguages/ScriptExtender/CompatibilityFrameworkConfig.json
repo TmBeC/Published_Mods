@@ -134,6 +134,16 @@
           "Strings": ["Language_Orc"]
         }
       ]
+    },
+    {
+      "UUIDs": ["16f00e7f-12f6-4cff-b610-4ee738b02d62", "cd3d8b16-37ce-4107-a2e3-e729751c2b1c"],
+      "Strings": [
+        {
+          "Action": "Insert",
+          "Type": "PassivesAdded",
+          "Strings": ["Language_ThievesCant"]
+        }
+      ]
     }
   ]
 }
