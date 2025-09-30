@@ -26,7 +26,7 @@ KBSECTION
 //REGION DB initialization
 
 IF
-SavegameLoaded(_)
+SavegameLoaded()
 AND
 DB_LanguagesSwordCoast_Initialized(0)
 THEN
