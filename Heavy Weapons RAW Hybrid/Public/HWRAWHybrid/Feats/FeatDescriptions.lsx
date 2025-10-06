@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="400"/>
+    <region id="FeatDescriptions">
+        <node id="root">
+            <children>
+                <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h452393abgca81g418cg9f32g751cbae8c611" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hf41eb2bag6496g4187g994dg62b9cb959e29" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="GreatWeaponMaster"/>
+                    <attribute id="FeatId" type="guid" value="c09815f7-282b-4ccf-bd89-a51caa1b550f"/>
+                    <attribute id="UUID" type="guid" value="da220d1c-c365-4695-9c3a-60927f364201"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

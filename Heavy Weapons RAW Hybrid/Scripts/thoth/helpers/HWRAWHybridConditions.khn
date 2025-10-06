@@ -1,0 +1,21 @@
+local __util = require 'larian.util'
+
+function GreatWeaponMaster(entity)
+    local entity = entity or context.Source
+    local weapon = context.AttackWeapon
+
+    local isHeavy = HasWeaponProperty(WeaponProperties.Heavy, weapon)
+    local isTwoHanded = HasWeaponProperty(WeaponProperties.Twohanded, weapon)
+    local isMelee = HasWeaponProperty(WeaponProperties.Melee, weapon)
+    local isVersatile = HasWeaponProperty(WeaponProperties.Versatile, weapon)
+    local isOffhandMelee = WieldingWeapon('Melee', true, false, entity)
+    local isOffhandAmmunition = WieldingWeapon('Ammunition', true, false, entity)
+    local hasShield = HasShieldEquipped(entity)
+
+    return IsProficientWith(entity, weapon) & ((isTwoHanded & isMelee & isHeavy) | (isVersatile & ~isOffhandMelee & ~isOffhandAmmunition & ~hasShield))
+end
+
+function SizeEqualOrSmallerHWRAW(size, entity)
+    entity = entity or context.Target
+    return ConditionResult(entity.Size ~= Size.None and entity.Size.value <= size.value)
+end

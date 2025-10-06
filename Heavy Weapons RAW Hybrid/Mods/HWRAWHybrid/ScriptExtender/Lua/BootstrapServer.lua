@@ -1,0 +1,2 @@
+local updatedDescription = Ext.Loca.GetTranslatedString("h01f1c02egcb82g4184g8d3cg13920f87f3f0")
+Ext.Loca.UpdateTranslatedString("h084a4735gab9bg4807g842fg2ca022baa5c1", updatedDescription)
