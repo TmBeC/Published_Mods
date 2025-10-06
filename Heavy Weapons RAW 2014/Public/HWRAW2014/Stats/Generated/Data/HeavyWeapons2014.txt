@@ -8,7 +8,7 @@ data "Description" "hfc7f04aa215c4dcc9112276aba248c88ge89;1"
 data "Icon" "statIcons_HeavilyEncumbered"
 data "Properties" "IsHidden"
 data "BoostContext" "OnEquip;OnTurn;OnCreate"
-data "BoostConditions" "not SizeEqualOrGreater(Size.Medium, context.Source) and HasWeaponProperty(WeaponProperties.Heavy, GetAttackWeapon(context.Source))"
+data "BoostConditions" "SizeEqualOrSmallerHWRAW(Size.Small, context.Source) and HasWeaponProperty(WeaponProperties.Heavy, GetAttackWeapon(context.Source))"
 data "Boosts" "Disadvantage(AttackRoll)"
 
 // ==========================================================================

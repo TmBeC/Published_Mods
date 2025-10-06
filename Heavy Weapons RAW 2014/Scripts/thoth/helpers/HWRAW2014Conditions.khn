@@ -14,3 +14,8 @@ function GreatWeaponMaster(entity)
 
     return IsProficientWith(entity, weapon) & ((isTwoHanded & isMelee & isHeavy) | (isVersatile & ~isOffhandMelee & ~isOffhandAmmunition & ~hasShield))
 end
+
+function SizeEqualOrSmallerHWRAW(size, entity)
+    entity = entity or context.Target
+    return ConditionResult(entity.Size ~= Size.None and entity.Size.value <= size.value)
+end
