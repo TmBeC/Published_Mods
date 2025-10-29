@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="400"/>
+    <region id="ProgressionDescriptions">
+        <node id="root">
+            <children>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h525a1bdegce4fg41e4ga2d1gaa6962eed791" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hd2705f79g6f9cg4c08g8d21g309fa0f1fc0d" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="e2802148-aa2b-4113-9379-18fb0f7a7cd8"/>
+                    <attribute id="Type" type="FixedString" value="Hexblood"/>
+                    <attribute id="UUID" type="guid" value="5bbd993d-0bb4-4fa3-887f-cfc2e25c2426"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hba548b53g992bg4171g8af3gceebe63c9e50" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h1a7dc811g4f62g4863gbbcagd0c013e8ec7d" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="e2802148-aa2b-4113-9379-18fb0f7a7cd8"/>
+                    <attribute id="SelectorId" type="FixedString" value="AncestralLegacy"/>
+                    <attribute id="Type" type="FixedString" value="Hexblood"/>
+                    <attribute id="UUID" type="guid" value="35ee325b-4faf-472b-bc74-c08df45d2c26"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

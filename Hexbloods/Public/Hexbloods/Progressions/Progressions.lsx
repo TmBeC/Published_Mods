@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="400"/>
+    <region id="Progressions">
+        <node id="root">
+            <children>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Movement,9,0)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Hexblood"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Darkvision;Hexblood_InnateSpellcasting"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,2,AncestralLegacy);AddSpells(1918b64d-1d50-4ea1-a189-a316fbef3f60,,,,AlwaysPrepared,UntilRest)"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="TableUUID" type="guid" value="e2802148-aa2b-4113-9379-18fb0f7a7cd8"/>
+                    <attribute id="UUID" type="guid" value="a180c7a7-1339-4a93-95a2-b3654a8d4ae2"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

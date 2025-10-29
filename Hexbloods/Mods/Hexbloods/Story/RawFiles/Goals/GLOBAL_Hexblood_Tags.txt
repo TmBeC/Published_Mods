@@ -1,0 +1,22 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+//REGION Tag registration
+
+//Tag Exclusion
+DB_GLO_Tags_GameStartTagExclusionTag((TAG)BALDURIAN_f15e9b0d-676c-4f52-9abf-365cff89ef0f, (TAG)REALLY_HEXBLOOD_4315cd46-b287-499c-a4ed-50333ecfcd61);
+
+//Race tags
+DB_RaceTags((TAG)HEXBLOOD_618f87b4-64ef-45e6-abd2-e115453042f8, (TAG)REALLY_HEXBLOOD_4315cd46-b287-499c-a4ed-50333ecfcd61);
+
+//Race Meta tags
+DB_RaceMetaTags(RARE_d2f86ec3-c41f-47e1-8acd-984872a4d7d5, HEXBLOOD_618f87b4-64ef-45e6-abd2-e115453042f8);
+DB_RaceMetaTags(REALLY_RARE_987a41e3-2482-4c74-8c30-f3843cfdb7f3, REALLY_HEXBLOOD_4315cd46-b287-499c-a4ed-50333ecfcd61);
+
+//END_REGION
+KBSECTION
+
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "__Shared_Campaign"

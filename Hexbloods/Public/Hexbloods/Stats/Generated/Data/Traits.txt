@@ -1,0 +1,31 @@
+// ==========================================================================
+// Passive Traits
+
+new entry "Hexblood_InnateSpellcasting"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "Boosts" "UnlockSpell(Shout_DisguiseSelf,,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,,);UnlockSpell(Target_Hex,,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,,)"
+
+// ==========================================================================
+// Character Stats
+
+new entry "HeroHexbloodFemale"
+type "Character"
+using "_Hero"
+data "Weight" "75"
+
+new entry "HeroHexbloodMale"
+type "Character"
+using "_Hero"
+data "Weight" "90"
+
+new entry "HeroHexbloodFemaleStrong"
+type "Character"
+using "_Hero"
+data "Weight" "95"
+
+new entry "HeroHexbloodMaleStrong"
+type "Character"
+using "_Hero"
+data "Weight" "115"
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="400"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Hexblood Racial Spells"/>
+                    <attribute id="Spells" type="LSString" value="Shout_DisguiseSelf_Hexblood;Target_Hex_Hexblood"/>
+                    <attribute id="UUID" type="guid" value="1918b64d-1d50-4ea1-a189-a316fbef3f60"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
