@@ -1,7 +1,0 @@
-new entry "MSW_MizorasPact_B"
-type "PassiveData"
-data "DisplayName" "he78b7e37gbe23g4d97g9b6bgf9231cc42bd1;1"
-data "Description" "h12ff2176gc578g41f0g9c14g60581de6c251;1"
-data "Icon" "GenericIcon_DamageType_Fire"
-data "Properties" "Highlighted"
-data "Boosts" "DarkvisionRangeMin(12);ActiveCharacterLight(051648e6-f05a-e41f-e398-ffd5cd148989);AC(1)"
