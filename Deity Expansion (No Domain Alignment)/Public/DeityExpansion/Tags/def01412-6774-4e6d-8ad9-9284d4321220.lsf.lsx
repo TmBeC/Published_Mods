@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="400" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Player or NPC is a paladin of Auril." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h380dbc11g97deg40d3g8190g00391a57bd18" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h5c6bff7ag9abdg43a6ga560g442c5a535af8" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="PALADIN_AURIL" />
+			<attribute id="UUID" type="guid" value="def01412-6774-4e6d-8ad9-9284d4321220" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Class" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="10" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Player or NPC is a paladin of Asmodeus." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="he581d705ge90eg4f59gb399g0935e740dfe0" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h95d66604g0fe0g4035g802agb316ed3e5d53" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="PALADIN_ASMODEUS" />
+			<attribute id="UUID" type="guid" value="5250f707-dd25-45b1-b051-db6fdf7e8d54" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Class" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

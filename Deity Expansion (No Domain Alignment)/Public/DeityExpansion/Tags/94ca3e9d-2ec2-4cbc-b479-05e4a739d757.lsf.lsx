@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="200" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Player or NPC is a paladin of Karsus." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h75d2f50ag15d3g4ff5g99b9ga8853141bd49" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="hc233cd23ge745g49b7g91d0gea74d3b7b5c6" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="PALADIN_KARSUS" />
+			<attribute id="UUID" type="guid" value="94ca3e9d-2ec2-4cbc-b479-05e4a739d757" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Class" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="400"/>
+    <region id="Gods">
+        <node id="root">
+            <children>
+                <node id="God">
+                    <attribute id="Description" type="TranslatedString" handle="h3e88d14da86c430fbb53f5807620d8da07g3" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h66cde287349b40c19d6a6d29077db561dg4a" version="1"/>
+                    <attribute id="Name" type="FixedString" value="Ao"/>
+                    <attribute id="UUID" type="guid" value="dc7889e9-a114-4773-9a1c-11b0877b1224"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="dd7bcc2c-abec-4e6c-8c95-589fe7c7f8d4"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="TranslatedString" handle="h24e225d2g7290g4513g9a32gef0fabf88271" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha523324dg7166g4281g9c14ge52f19eac0d6" version="1"/>
+                    <attribute id="Name" type="FixedString" value="The_Absolute"/>
+                    <attribute id="UUID" type="guid" value="7220c81c-bc46-4a42-b3a4-2a383678252c"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="2ec25f9a-f51a-4c29-9ddb-1e74719e1603"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="6d08632e-0300-4587-80b9-8e411b0efb3b"/>
+                        </node>
+                    </children>
+                </node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="hbb858aa6gafe7g4ef3gae22g1f10f5713554" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="h42e3bed0gf71dg4860g84f2ge37a4e74da03" version="1"/>
+					<attribute id="Name" type="FixedString" value="Angharradh"/>
+					<attribute id="UUID" type="guid" value="74fb96e9-d039-48ff-925c-5ce131addc54"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="bdcccdc9-660f-46ca-8023-6138ded6c1bb"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="34064d50-38fe-44e4-aaed-129ac3b44933"/>
+						</node>
+					</children>
+				</node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="he3a82707g244ag41efg9aa0g0af47f450130" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="h6627ccacg8b87g4875ga705g4da30cb44d03" version="1"/>
+					<attribute id="Name" type="FixedString" value="AnnamAllFather"/>
+					<attribute id="UUID" type="guid" value="37f3ae96-7486-428d-a2b6-237f099a2046"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="94eb7a42-6274-4f83-8eef-21ad9892d089"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+						</node>
+					</children>
+				</node>
+                <node id="God">
+                    <attribute id="Description" type="TranslatedString" handle="h82f2e0c6g83fdg4620ga100gd487b276b869" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha55d80eegfd5eg4daagb66bgf5d77a21fda2" version="1"/>
+                    <attribute id="Name" type="FixedString" value="Asmodeus"/>
+                    <attribute id="UUID" type="guid" value="b711da4c-65a2-4724-9243-ef8ae339f221"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="f21dff64-b3d2-48b1-80f0-c6e54bc148c3"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="6d08632e-0300-4587-80b9-8e411b0efb3b"/>
+                        </node>
+                    </children>
+                </node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="hcf5c27f3g177eg48f4ga776g9c4ca87eb33d" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="h0b0c2fb8g68fcg40aagbf52gb69e915f2c7e" version="1"/>
+					<attribute id="Name" type="FixedString" value="Auril"/>
+					<attribute id="UUID" type="guid" value="d5d15b38-2678-496d-84ca-05b129e3c587"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="cd44e390-0e99-47fb-9cd4-6210f8d3853b"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="6d08632e-0300-4587-80b9-8e411b0efb3b"/>
+						</node>
+					</children>
+				</node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="hf04c21c4g1caeg4719g812egfdc1ea195885" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="hcc436e84gceb2g42fdg9f23g76e139ad149d" version="1"/>
+					<attribute id="Name" type="FixedString" value="Azuth"/>
+					<attribute id="UUID" type="guid" value="2c3f3576-a013-4a88-9a2e-fef6aef8821d"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="bb838dcb-dbc3-4c4f-8fee-df35e8612cc8"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+						</node>
+					</children>
+				</node>
+                <node id="God">
+                    <attribute id="Description" type="TranslatedString" handle="hc04d9bb1gf57eg4affgb4b0g33d255ad0cc4" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h8340bf5dg862eg44d3gb526g3cff0094afe7" version="1"/>
+                    <attribute id="Name" type="FixedString" value="Baphomet"/>
+                    <attribute id="UUID" type="guid" value="68721531-ecce-45b3-a8b3-3a8fa1394193"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="c04768e4-0e36-4153-9a24-da184c771bfb"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="6d08632e-0300-4587-80b9-8e411b0efb3b"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="TranslatedString" handle="h319b56ffgc23eg49e3ga0ddg28fdf2815c99" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h0186985fg2f01g4037gbdb2gf375858a8b2f" version="1"/>
+                    <attribute id="Name" type="FixedString" value="Beshaba"/>
+                    <attribute id="UUID" type="guid" value="59e49e94-8f3c-4d19-9955-1da02c8339f0"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="b81d5132-9919-4760-b2d7-5d80c676c042"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="6d08632e-0300-4587-80b9-8e411b0efb3b"/>
+                        </node>
+                    </children>
+                </node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="h606eb25cgd518g44feg8d1cg61f1b1b3e467" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="hfdbd928ag9b59g4a47g8a40g3cb7b17a36b3" version="1"/>
+					<attribute id="Name" type="FixedString" value="Blibdoolpoolp"/>
+					<attribute id="UUID" type="guid" value="63e5b3a7-90a8-442f-9702-d74f7567b3ea"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="e4a271a4-8eb9-47b6-98ec-cc24241da76b"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="6d08632e-0300-4587-80b9-8e411b0efb3b"/>
+						</node>
+					</children>
+				</node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="h97e58b13g3de9g4a49g9557g11f134943cab" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="h34761171g1c5fg471eg97fbg3d4a10a37e5f" version="1"/>
+					<attribute id="Name" type="FixedString" value="Celestian"/>
+					<attribute id="UUID" type="guid" value="388da5da-95bc-47e2-97ce-72863197a54a"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="a9d33564-b7c3-431c-9885-a9e1c4f4e35a"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+						</node>
+					</children>
+				</node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="hf4ddc26bga87dg487bgbd11g9ef7c0b9bc7f" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="h3761688bg48feg4a90gb28ag46ce566b0ff0" version="1"/>
+					<attribute id="Name" type="FixedString" value="ClangeddinSilverbeard"/>
+					<attribute id="UUID" type="guid" value="25fb1945-6873-4018-a952-764578ddf934"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="c84fba15-7e35-4bb5-a255-5de1f5d14ee8"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="34064d50-38fe-44e4-aaed-129ac3b44933"/>
+						</node>
+					</children>
+				</node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="hbe495a16gdf1fg4fe9g8de0ge748db5defa5" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="ha6875bf3gaac2g4358gbd13g2014d848dced" version="1"/>
+					<attribute id="Name" type="FixedString" value="Cyric"/>
+					<attribute id="UUID" type="guid" value="387178c9-3b6a-4a0d-8b83-399194b93eec"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="ef0096e9-f08c-43ad-9e14-0fc38732c382"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="6d08632e-0300-4587-80b9-8e411b0efb3b"/>
+						</node>
+					</children>
+				</node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="hd870f626g938dg4778g8ab8gdeb3cfb06984" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="hd524b2fbgf094g42a9gaac4gbd760b909ecc" version="1"/>
+					<attribute id="Name" type="FixedString" value="DeepSashelas"/>
+					<attribute id="UUID" type="guid" value="4a4020d4-7a54-4d68-b4c7-8b62afad39fe"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="4c4eb62f-b909-4a00-a08b-09f4a1acf570"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="34064d50-38fe-44e4-aaed-129ac3b44933"/>
+						</node>
+					</children>
+				</node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="h20e5fba4g7721g4a51gb0a0g1224d21607f3" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="hb3b0aa50gf371g4accg8911g3d750233a936" version="1"/>
+					<attribute id="Name" type="FixedString" value="Deneir"/>
+					<attribute id="UUID" type="guid" value="2847b0ba-1239-43fc-bfca-0e5ed1b398ed"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="28e061e2-f248-4da4-b2e1-1a9bbd87061b"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="34064d50-38fe-44e4-aaed-129ac3b44933"/>
+						</node>
+					</children>
+				</node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="h4c6ed6fbgaa1dg4ec5gabe9gd62976599373" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="h3b826e1eg68cag4509gb3f0g7badea8e72b7" version="1"/>
+					<attribute id="Name" type="FixedString" value="Dumathoin"/>
+					<attribute id="UUID" type="guid" value="8273203d-adae-4295-a100-9557b799ec91"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="543b1fe1-eaa2-44e0-aa3c-740a9bcc27c0"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+						</node>
+					</children>
+				</node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="h007f2700ga230g4dadga72dg156dc0db37d5" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="h7eac647bge98ag44f9g98abg830881602902" version="1"/>
+					<attribute id="Name" type="FixedString" value="Eadro"/>
+					<attribute id="UUID" type="guid" value="6f28ef5c-5511-43f0-ad06-14687cf0fb30"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="bf8a9598-5ea0-489d-9372-f23ce64e02cc"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+						</node>
+					</children>
+				</node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="hd80ff93fgd651g4c24gb380g2152d57d448f" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="h2a9b29adg3f98g44c8g92b6g1b530e2742c2" version="1"/>
+					<attribute id="Name" type="FixedString" value="Eldath"/>
+					<attribute id="UUID" type="guid" value="540c6f0f-dcaf-490d-a5b8-7f208649b989"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="e6d169ac-5048-4aad-bd13-d0adfbfbc4d5"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="34064d50-38fe-44e4-aaed-129ac3b44933"/>
+						</node>
+					</children>
+				</node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="h21259f02g6675g447cga2a3g94569ffc20cf" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="hac2aafc2ge7f3g4747gaf9dg3f328cd38a88" version="1"/>
+					<attribute id="Name" type="FixedString" value="Garyx"/>
+					<attribute id="UUID" type="guid" value="8b0f13a5-ae87-4d64-b3ff-975e26335ac2"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="29a834af-39c6-46b4-b5c8-09482eddc9d8"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="6d08632e-0300-4587-80b9-8e411b0efb3b"/>
+						</node>
+					</children>
+				</node>
+                <node id="God">
+                    <attribute id="Description" type="TranslatedString" handle="h918a813bgcb08g4ac5g977cg983954b8c4d5" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hfcf31be6g67afg476dgb06eg382f7e123b2d" version="1"/>
+                    <attribute id="Name" type="FixedString" value="Gond"/>
+                    <attribute id="UUID" type="guid" value="bfee2389-8bd7-44b3-b3f1-7e770e236812"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="9613a132-7400-42d9-924a-954fb8114ac2"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+                        </node>
+                    </children>
+                </node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="hdb4708e4g1069g4c91gb17dga6eb08d57945" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="h187217d5g07b1g4a3fga06bgfcf8529234c0" version="1"/>
+					<attribute id="Name" type="FixedString" value="Grazzt"/>
+					<attribute id="UUID" type="guid" value="7f8c852f-1aa5-4da8-87ec-bd1cae29895d"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="32d5b38b-6dec-4fe8-8ecd-938c194f3ea3"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="6d08632e-0300-4587-80b9-8e411b0efb3b"/>
+						</node>
+					</children>
+				</node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="h3f30ff4bg7affg4bdcgb88ega426a4b9edb7" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="h95ba5607g527bg4b8dg84c4g034b34e12db1" version="1"/>
+					<attribute id="Name" type="FixedString" value="Hruggek"/>
+					<attribute id="UUID" type="guid" value="a8c84f5f-323f-47d7-b5fe-2839540836a0"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="6aedb86d-b7a2-42ef-b0f2-6b9d6894c1a6"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="6d08632e-0300-4587-80b9-8e411b0efb3b"/>
+						</node>
+					</children>
+				</node>
+                <node id="God">
+                    <attribute id="Description" type="TranslatedString" handle="h7619b7c1g44dbg4a5cga61bg939ceba30a81" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hc7c32352gcfc6g4001ga5a9g47b218069508" version="1"/>
+                    <attribute id="Name" type="FixedString" value="Ilsensine"/>
+                    <attribute id="UUID" type="guid" value="85d994e9-eac0-4acc-a56e-bd85b4cd8eab"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="937f9afa-8515-4cca-9700-90ea186fa8b5"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="6d08632e-0300-4587-80b9-8e411b0efb3b"/>
+                        </node>
+                    </children>
+                </node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="hf5f3fe2cgd941g43degb033g2452aa4965b2" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="h96e9de3bgab75g40f2gae86gc1f15b91e184" version="1"/>
+					<attribute id="Name" type="FixedString" value="Ioun"/>
+					<attribute id="UUID" type="guid" value="a2947031-8b8c-41c7-9c9a-81454704a91e"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="1b9ecb94-981a-4349-b6f5-51dd06d2e87f"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+						</node>
+					</children>
+				</node>
+                <node id="God">
+                    <attribute id="Description" type="TranslatedString" handle="h307bcc61gdc9dg461fg9f1ag747765271207" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h9c409789g68bfg48d7g8699g782f4df06356" version="1"/>
+                    <attribute id="Name" type="FixedString" value="Karsus"/>
+                    <attribute id="UUID" type="guid" value="8bc29aa3-2cb2-4fa8-a03b-dbb480d663c1"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="ec8ea3ef-5627-4759-809c-062605b7a5e4"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+                        </node>
+                    </children>
+                </node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="hdb98299agdc63g425bgb8edgc44bbfebd1df" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="h2e44fdb9ga806g40aeg96deg0e858b80d4ee" version="1"/>
+					<attribute id="Name" type="FixedString" value="Kereska"/>
+					<attribute id="UUID" type="guid" value="fa0e8e33-3c29-4f72-8db7-26d76571275a"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="bf12547d-a968-46f8-9a72-c5be8eb03072"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+						</node>
+					</children>
+				</node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="h5f90d11agaabfg49c0g8c60gf0fa268c1aad" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="h33cf2159g719eg4330gad94g08f008beb51f" version="1"/>
+					<attribute id="Name" type="FixedString" value="Leira"/>
+					<attribute id="UUID" type="guid" value="5ddbf535-1777-47ba-b759-b98078b4e991"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="b42c85db-7229-4b77-a01c-55e637a8a061"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+						</node>
+					</children>
+				</node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="h20f573e3ga824g4c61g9f77gb5622cf40932" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="h8b8a9e8cgaa84g4ba9gb902g384a67bfa940" version="1"/>
+					<attribute id="Name" type="FixedString" value="Lliira"/>
+					<attribute id="UUID" type="guid" value="ba1160b5-69ac-46e8-b20d-2a4af260c66f"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="af9cd65a-f54f-4853-b7fa-f756a405fbfb"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="34064d50-38fe-44e4-aaed-129ac3b44933"/>
+						</node>
+					</children>
+				</node>
+                <node id="God">
+                    <attribute id="Description" type="TranslatedString" handle="h2bc01972g38a4g4376g87f1g649a6bc48027" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h893e65dagf30dg4eaegaf7bg2c5ec0a1c25e" version="1"/>
+                    <attribute id="Name" type="FixedString" value="Loviatar"/>
+                    <attribute id="UUID" type="guid" value="b82fc694-5abc-4611-a258-5fd363f5cd4f"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="68933220-3d15-4125-a154-012f38690227"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="6d08632e-0300-4587-80b9-8e411b0efb3b"/>
+                        </node>
+                    </children>
+                </node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="h97d02e3egf542g460dgb10agb5851c77e06f" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="h1408d328gba8bg4c8fgacf7gc16815bebd24" version="1"/>
+					<attribute id="Name" type="FixedString" value="Maglubiyet"/>
+					<attribute id="UUID" type="guid" value="2841db4f-097e-4ebf-b036-ad5f215c6e34"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="5b4c5db3-aaca-4c6d-9024-69709c61d58d"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="6d08632e-0300-4587-80b9-8e411b0efb3b"/>
+						</node>
+					</children>
+				</node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="h2a8dff73g8004g4501gaee4g9c297cdf9519" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="h24806cc3gb0b8g4f5fga1acgb0c5b85dc95a" version="1"/>
+					<attribute id="Name" type="FixedString" value="Malar"/>
+					<attribute id="UUID" type="guid" value="4d0f3be8-1633-4f87-8c18-067bf3431657"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="a490004d-297f-469f-a949-143422b497f8"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="6d08632e-0300-4587-80b9-8e411b0efb3b"/>
+						</node>
+					</children>
+				</node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="hcd2848c8g7f4dg4c77ga418g77a216f5c7e3" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="hd6f63e4eg13e5g4c18gb27dg1d3cf26dc52c" version="1"/>
+					<attribute id="Name" type="FixedString" value="Mask"/>
+					<attribute id="UUID" type="guid" value="71994c66-b5fc-4656-9675-3b62a2c7a890"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="b569fa63-0f29-45a5-bdb7-b3cfa55be097"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+						</node>
+					</children>
+				</node>
+                <node id="God">
+                    <attribute id="Description" type="TranslatedString" handle="hfd25c77fge146g4751g87f1g95e15266d99e" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h21324fc8g5f1dg4646g9ff4g614ac2ddbbf7" version="1"/>
+                    <attribute id="Name" type="FixedString" value="Milil"/>
+                    <attribute id="UUID" type="guid" value="508a90b0-83dc-4f84-8887-2586824948f8"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="cf1d3da4-8305-45d0-93b5-4c3c8e33cd97"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="34064d50-38fe-44e4-aaed-129ac3b44933"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="TranslatedString" handle="h00fabf0dg8753g4746gb2aag0c91b240c0c3" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h137c573fg5d9bg4c02ga928g6bc6199644f3" version="1"/>
+                    <attribute id="Name" type="FixedString" value="RavenQueen"/>
+                    <attribute id="UUID" type="guid" value="51d9695c-26ed-4a42-abd2-cf0edfc2cbb3"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="6adb355b-385e-4f43-b3ec-4a50d0876a17"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+                        </node>
+                    </children>
+                </node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="h2bb53575g0813g4f57g9405gd090a6e0ec37" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="h7c76c2c4ge783g46begb0b1g29d6b8e7aa4c" version="1"/>
+					<attribute id="Name" type="FixedString" value="Savras"/>
+					<attribute id="UUID" type="guid" value="56a89556-5ca4-4e56-a583-9576563006db"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="6926fa18-4e48-408f-b8a9-285adc1c135b"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+						</node>
+					</children>
+				</node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="he1bdcb32g26d1g45f2ga7ebg70af6b16e0dc" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="h0d948295gfd91g4832gaf78gaf2df8982213" version="1"/>
+					<attribute id="Name" type="FixedString" value="SehanineMoonbow"/>
+					<attribute id="UUID" type="guid" value="008e4a49-e8dc-4d7a-9b31-663c1e3ffc42"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="cb26f3e8-d402-4a2b-905a-398c7cba7198"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="34064d50-38fe-44e4-aaed-129ac3b44933"/>
+						</node>
+					</children>
+				</node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="h3b005e16g8119g444cg97f6gc16303668fa8" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="h1a3a09fcg8b81g47f7ga635g746bd0d5e4f1" version="1"/>
+					<attribute id="Name" type="FixedString" value="Semuanya"/>
+					<attribute id="UUID" type="guid" value="95b2e141-2f43-40e7-870b-c2e41635d1c1"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="ff5a148c-0db5-4bd9-946c-9d1a7335a3d6"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+						</node>
+					</children>
+				</node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="hd236b8b9g41b6g448cg9d1fgf1f9c9b546c8" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="h0ccd46a5g891bg47f5ga2f4gd7f52cf0542c" version="1"/>
+					<attribute id="Name" type="FixedString" value="SkoraeusStonebones"/>
+					<attribute id="UUID" type="guid" value="7140bc2f-9264-447a-a0cc-133070d1b71d"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="1780b31d-5075-49e5-926f-b40430afa7e2"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+						</node>
+					</children>
+				</node>
+                <node id="God">
+                    <attribute id="Description" type="TranslatedString" handle="h8fb031bage00eg475ag9952g07dbdd47df2d" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h7e80f392gc5a7g4cabgbaacg8808003d521d" version="1"/>
+                    <attribute id="Name" type="FixedString" value="Sune"/>
+                    <attribute id="UUID" type="guid" value="0187c5b2-9e8e-4371-9f3d-372914615bdd"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="df88e49e-cf3e-4eae-b6cf-84a82f5f9825"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="34064d50-38fe-44e4-aaed-129ac3b44933"/>
+                        </node>
+                    </children>
+                </node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="hef1e50dcge9a0g47ccg98f2gb2618e5092c7" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="h680d53dfgd4f1g4c9fg874eg71d26823419b" version="1"/>
+					<attribute id="Name" type="FixedString" value="Talona"/>
+					<attribute id="UUID" type="guid" value="508e7690-20e1-41e2-881d-0ee0e55f302f"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="c25f14a5-7223-4610-9a49-ed6ca6965c0f"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="6d08632e-0300-4587-80b9-8e411b0efb3b"/>
+						</node>
+					</children>
+				</node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="h03112ec7g1cbag4832gb289ge082130875b3" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="hc5e9382cg4d42g41f0g8b72g1aad080a1ffc" version="1"/>
+					<attribute id="Name" type="FixedString" value="Thrym"/>
+					<attribute id="UUID" type="guid" value="bcc4ddcf-ce42-408f-927f-53e80a896b67"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="ec465878-1561-40cf-aee2-557f13412318"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="6d08632e-0300-4587-80b9-8e411b0efb3b"/>
+						</node>
+					</children>
+				</node>
+                <node id="God">
+                    <attribute id="Description" type="TranslatedString" handle="h209489bbge89eg4675gbe40g808ec9b6a078" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="he10896c3gb6a5g4f06ga1acge56c68369ce2" version="1"/>
+                    <attribute id="Name" type="FixedString" value="Torm"/>
+                    <attribute id="UUID" type="guid" value="254093c6-b9dd-4f33-8731-e3bb30960d79"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="b8e9313e-42eb-4b45-897b-2098010ef0be"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="34064d50-38fe-44e4-aaed-129ac3b44933"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="TranslatedString" handle="h9bc55221g2cebg4355ga4e8g2531c757f823" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h2d3004fbg95ecg4b2bg8c04g5a613f62dfde" version="1"/>
+                    <attribute id="Name" type="FixedString" value="Umberlee"/>
+                    <attribute id="UUID" type="guid" value="549641ae-07be-41d3-815e-11ff20a429e8"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="cd460123-380e-4dbb-9d40-e1edb89dd05b"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="6d08632e-0300-4587-80b9-8e411b0efb3b"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="TranslatedString" handle="he132bb75gf148g4e9fg8da7gc7d305ec064d" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h4cad0b8cgc3e2g4b25gaa9bg8d0a32627a0e" version="1"/>
+                    <attribute id="Name" type="FixedString" value="Vecna"/>
+                    <attribute id="UUID" type="guid" value="0d35fad2-4afa-4411-89f5-e343ebb2a94c"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="9b2787e5-efec-486d-92ff-9a37276a5dc3"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="6d08632e-0300-4587-80b9-8e411b0efb3b"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="TranslatedString" handle="h28f3b3e0g7dafg47b8gbefbgb7ab4a549ebf" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h09c523f2gc220g4c6eg933dge63463cfcc89" version="1"/>
+                    <attribute id="Name" type="FixedString" value="Verenestra"/>
+                    <attribute id="UUID" type="guid" value="6a91863c-ff93-431a-ba10-37b7607ee005"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="68025b4f-3b87-4b6a-a5fc-3da0168a1a1c"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="TranslatedString" handle="h54ed6018c5034c66a238ea65f7576f4b2848" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hedab8011a6d94b5290692c92d22da0525414" version="1"/>
+                    <attribute id="Name" type="FixedString" value="Waukeen"/>
+                    <attribute id="UUID" type="guid" value="6360c766-55bc-4760-b65b-1bea35a6e063"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="45ab85ba-ddf4-490d-ae30-7aeb14023c91"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="God">
+                    <attribute id="Description" type="TranslatedString" handle="h5587b5b7g5cbeg4180gbe63gac332d3b0d5c" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hbf62ece0g9ffeg4e5fgaa26gb68d3f3e50d0" version="1"/>
+                    <attribute id="Name" type="FixedString" value="Zerthimon"/>
+                    <attribute id="UUID" type="guid" value="3a74bd1c-9ef6-4770-aa40-9e94ed9ed94d"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="905b1d83-d1aa-4d3d-8627-13f2586a9c5a"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="10" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Player or NPC is a paladin of Verenestra." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h5c868726121949f59fea1827f0f1df227ff7" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="hd0be0e04g97a6g467bg9991gb2a1f86e1ef0" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="PALADIN_VERENESTRA" />
+			<attribute id="UUID" type="guid" value="2c6fb923-4e61-4974-8c5e-e881b77784b0" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Class" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

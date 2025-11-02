@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="10" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Player or NPC is a paladin of Waukeen." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h1b6ee8d8b28d4ac7a80c0ae9061a3c31375a" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h86f1a350c7b94457b5145b79532cae04858f" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="PALADIN_WAUKEEN" />
+			<attribute id="UUID" type="guid" value="edf241a5-d6be-4e57-9b15-8596694ee4e0" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Class" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
