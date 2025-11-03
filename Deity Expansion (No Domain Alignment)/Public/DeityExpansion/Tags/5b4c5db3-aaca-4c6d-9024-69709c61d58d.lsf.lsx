@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="10" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="|Player or NPC chose Maglubiyet.|" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h56410bc5g3eb2g426fga80bg26a6b1b2f13d" version="0" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h1408d328gba8bg4c8fgacf7gc16815bebd24" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="MAGLUBIYET" />
+			<attribute id="UUID" type="guid" value="5b4c5db3-aaca-4c6d-9024-69709c61d58d" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Deity" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

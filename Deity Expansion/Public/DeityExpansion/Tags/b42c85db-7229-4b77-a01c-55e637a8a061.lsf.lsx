@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="9" revision="0" build="400" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="|Player or NPC chose Leira.|" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h5f90d11agaabfg49c0g8c60gf0fa268c1aad" version="0" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h33cf2159g719eg4330gad94g08f008beb51f" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="LEIRA" />
+			<attribute id="UUID" type="guid" value="b42c85db-7229-4b77-a01c-55e637a8a061" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Deity" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

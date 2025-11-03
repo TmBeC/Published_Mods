@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="9" revision="0" build="400" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="|Player or NPC chose Graz'zt.|" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h82f2e0c6g83fdg4620ga100gd487b276b869" version="0" />
+			<attribute id="DisplayName" type="TranslatedString" handle="ha55d80eegfd5eg4daagb66bgf5d77a21fda2" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="GRAZZT" />
+			<attribute id="UUID" type="guid" value="32d5b38b-6dec-4fe8-8ecd-938c194f3ea3" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Deity" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

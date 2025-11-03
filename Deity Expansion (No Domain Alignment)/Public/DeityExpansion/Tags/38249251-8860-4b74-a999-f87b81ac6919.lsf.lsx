@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="200" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Player or NPC is a paladin of Dumathoin." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h86dc3f97gbba6g49e5g97e4gaecb40531643" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h200a5beagc3dbg4a7eg8178g8ac58fecace5" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="PALADIN_DUMATHOIN" />
+			<attribute id="UUID" type="guid" value="38249251-8860-4b74-a999-f87b81ac6919" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Class" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

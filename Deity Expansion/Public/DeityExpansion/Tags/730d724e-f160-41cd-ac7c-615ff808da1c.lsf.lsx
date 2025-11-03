@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="200" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Player or NPC is a paladin of Savras." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h066cf011g7260g4ecega004gb94738479e45" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h555e7efag5aa6g4410gac78gcd398aa5e5af" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="PALADIN_SAVRAS" />
+			<attribute id="UUID" type="guid" value="730d724e-f160-41cd-ac7c-615ff808da1c" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Class" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

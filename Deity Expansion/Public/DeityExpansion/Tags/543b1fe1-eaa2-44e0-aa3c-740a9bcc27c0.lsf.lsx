@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="9" revision="0" build="400" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="|Player or NPC chose Dumathoin.|" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h4c6ed6fbgaa1dg4ec5gabe9gd62976599373" version="0" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h3b826e1eg68cag4509gb3f0g7badea8e72b7" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="DUMATHOIN" />
+			<attribute id="UUID" type="guid" value="543b1fe1-eaa2-44e0-aa3c-740a9bcc27c0" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Deity" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
