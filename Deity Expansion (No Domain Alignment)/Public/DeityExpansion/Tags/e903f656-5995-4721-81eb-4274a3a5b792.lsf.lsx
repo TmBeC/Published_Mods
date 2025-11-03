@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="10" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="|Player or NPC chose the Red Knight.|" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h5e8a51d0g68c4g4dcbg8649g099a7c2829ff" version="0" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h6bee3de5g11edg4d08g99abg0df2f2d0b2f9" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="REDKNIGHT" />
+			<attribute id="UUID" type="guid" value="e903f656-5995-4721-81eb-4274a3a5b792" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Deity" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

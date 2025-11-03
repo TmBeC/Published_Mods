@@ -33,6 +33,20 @@
                     </children>
                 </node>
 				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="h7a915a52ga6deg49b2gb4e4g19194f8b206c" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="h1a565f71g3c48g4424ga11dg6ab6b830ac8a" version="1"/>
+					<attribute id="Name" type="FixedString" value="Amaunator"/>
+					<attribute id="UUID" type="guid" value="d29a9f71-fabc-419a-8bae-f0d2069805fa"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="b6bc56c7-6250-4878-a260-66fc629bab5d"/>
+						</node>
+						<node id="Tags">
+                            <attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+						</node>
+					</children>
+				</node>
+				<node id="God">
 					<attribute id="Description" type="TranslatedString" handle="hbb858aa6gafe7g4ef3gae22g1f10f5713554" version="1"/>
 					<attribute id="DisplayName" type="TranslatedString" handle="h42e3bed0gf71dg4860g84f2ge37a4e74da03" version="1"/>
 					<attribute id="Name" type="FixedString" value="Angharradh"/>
@@ -481,6 +495,20 @@
                     </children>
                 </node>
 				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="h464c9a5cg4f78g40bdgbb2fgc581ca130712" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="h6bee3de5g11edg4d08g99abg0df2f2d0b2f9" version="1"/>
+					<attribute id="Name" type="FixedString" value="RedKnight"/>
+					<attribute id="UUID" type="guid" value="1c63ecb4-53d0-4a0a-92b4-c8b22891380f"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="e903f656-5995-4721-81eb-4274a3a5b792"/>
+						</node>
+						<node id="Tags">
+                            <attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+						</node>
+					</children>
+				</node>
+				<node id="God">
 					<attribute id="Description" type="TranslatedString" handle="h2bb53575g0813g4f57g9405gd090a6e0ec37" version="1"/>
 					<attribute id="DisplayName" type="TranslatedString" handle="h7c76c2c4ge783g46begb0b1g29d6b8e7aa4c" version="1"/>
 					<attribute id="Name" type="FixedString" value="Savras"/>
@@ -519,6 +547,34 @@
 						</node>
 						<node id="Tags">
 							<attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
+						</node>
+					</children>
+				</node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="hf3b73de4g7757g4fc4ga4e3g7b7668303954" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="h3f06c991gecfeg40e0g84d4gadbd8f98b798" version="1"/>
+					<attribute id="Name" type="FixedString" value="Sharess"/>
+					<attribute id="UUID" type="guid" value="a337f41f-8803-432e-9277-a0d6b1e3f12b"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="ed8aaf5f-8559-4009-a4f9-354dc76ff91b"/>
+						</node>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="34064d50-38fe-44e4-aaed-129ac3b44933"/>
+						</node>
+					</children>
+				</node>
+				<node id="God">
+					<attribute id="Description" type="TranslatedString" handle="h6872706bg2c6eg4793g8e54gc9343ba50471" version="1"/>
+					<attribute id="DisplayName" type="TranslatedString" handle="he6b91978ge929g46cag87cdge79b8fa1879b" version="1"/>
+					<attribute id="Name" type="FixedString" value="Shaundakul"/>
+					<attribute id="UUID" type="guid" value="1f44fac2-bef1-4dcb-899e-61a674b2a40d"/>
+					<children>
+						<node id="Tags">
+							<attribute id="Object" type="guid" value="da0685b7-68e3-4b54-b036-1950161a4d9a"/>
+						</node>
+						<node id="Tags">
+                            <attribute id="Object" type="guid" value="c1ff8a7f-c430-4671-bc4e-098f874ae302"/>
 						</node>
 					</children>
 				</node>

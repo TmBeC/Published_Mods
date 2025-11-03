@@ -17,6 +17,13 @@
     },
     {
       "Type": "Deity",
+      "Tag": "AMAUNATOR_b6bc56c7-6250-4878-a260-66fc629bab5d",
+      "DeityCleric": "CLERIC_AMAUNATOR_e05bf549-c2ac-4472-8430-9fb0f6a9ad03",
+      "DeityPaladin": "PALADIN_AMAUNATOR_7f7ee5ee-b935-41bd-a3c7-6b858490d795",
+      "DeityAlignment": "Neutral"
+    },
+    {
+      "Type": "Deity",
       "Tag": "ANGHARRADH_bdcccdc9-660f-46ca-8023-6138ded6c1bb",
       "DeityCleric": "CLERIC_ANGHARRADH_a30a3749-2042-4498-9450-fd183534ef38",
       "DeityPaladin": "PALADIN_ANGHARRADH_4e1da653-a366-42b2-b67a-4af1baff67f2",
@@ -241,6 +248,13 @@
     },
     {
       "Type": "Deity",
+      "Tag": "REDKNIGHT_e903f656-5995-4721-81eb-4274a3a5b792",
+      "DeityCleric": "CLERIC_REDKNIGHT_fddde26e-b2a1-407b-b58d-2043342fe0f8",
+      "DeityPaladin": "PALADIN_REDKNIGHT_c0311e3e-ce3b-45cf-a0aa-9df759873494",
+      "DeityAlignment": "Neutral"
+    },
+    {
+      "Type": "Deity",
       "Tag": "SAVRAS_6926fa18-4e48-408f-b8a9-285adc1c135b",
       "DeityCleric": "CLERIC_SAVRAS_93e03d68-103f-4111-b35b-19e75391007d",
       "DeityPaladin": "PALADIN_SAVRAS_730d724e-f160-41cd-ac7c-615ff808da1c",
@@ -258,6 +272,20 @@
       "Tag": "SEMUANYA_ff5a148c-0db5-4bd9-946c-9d1a7335a3d6",
       "DeityCleric": "CLERIC_SEMUANYA_ae7d6351-079a-4103-b407-b354fcd595f0",
       "DeityPaladin": "PALADIN_SEMUANYA_0787fb2c-0a8b-4ab6-bc86-f1cfdac9be31",
+      "DeityAlignment": "Neutral"
+    },
+    {
+      "Type": "Deity",
+      "Tag": "SHARESS_ed8aaf5f-8559-4009-a4f9-354dc76ff91b",
+      "DeityCleric": "CLERIC_SHARESS_df40176c-1de1-4613-b133-e6112ad09388",
+      "DeityPaladin": "PALADIN_SHARESS_502e6d50-8c75-49b4-b96c-a87ef2e85437",
+      "DeityAlignment": "Good"
+    },
+    {
+      "Type": "Deity",
+      "Tag": "SHAUNDAKUL_da0685b7-68e3-4b54-b036-1950161a4d9a",
+      "DeityCleric": "CLERIC_SHAUNDAKUL_1c37d6fd-4602-48e0-b8d3-9d4073e809ec",
+      "DeityPaladin": "PALADIN_SHAUNDAKUL_1c9dc022-2416-428a-b2b0-d0561a5592d8",
       "DeityAlignment": "Neutral"
     },
     {
