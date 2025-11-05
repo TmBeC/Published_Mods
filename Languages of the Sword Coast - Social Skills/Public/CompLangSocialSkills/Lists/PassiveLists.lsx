@@ -10,7 +10,7 @@
                     <attribute id="UUID" type="guid" value="65debbca-95e7-444a-8f07-df7661e045db"/>
                 </node>
                 <node id="PassiveList">
-                    <attribute id="Name" type="FixedString" value="Linguist Feat Languages"/>
+                    <attribute id="Name" type="FixedString" value="All Languages"/>
                     <attribute id="Passives" type="LSString" value="Language_Draconic,Language_Dwarvish,Language_Elvish,Language_Giant,Language_Gith,Language_Gnomish,Language_Goblin,Language_Halfling,Language_Orc,Language_Abyssal,Language_Celestial,Language_DeepSpeech,Language_Infernal,Language_Primordial,Language_Sylvan,Language_Undercommon"/>
                     <attribute id="UUID" type="guid" value="332aeda4-311d-40f1-b787-3a684cc511cd"/>
                 </node>

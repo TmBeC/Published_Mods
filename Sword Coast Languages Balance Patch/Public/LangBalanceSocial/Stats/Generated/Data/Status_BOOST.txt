@@ -1,8 +1,0 @@
-new entry "LANGUAGE_FLUENCY"
-type "StatusData"
-data "StatusType" "BOOST"
-using "LANGUAGE_FLUENCY"
-data "Description" "hdf8cfa47g29b5g4872g8c82g94635552ca02;1"
-data "DescriptionParams" "2"
-data "Boosts" "Skill(Insight,2);Skill(Perception,2);Skill(Deception,2);Skill(Intimidation,2);Skill(Performance,2);Skill(Persuasion,2)"
-

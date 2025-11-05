@@ -17,6 +17,18 @@ DB_LanguagePassiveToTag("Language_Undercommon", (TAG)REALLY_DROWELF_676e854b-d74
 DB_LanguagePassiveToTag("Language_Undercommon", (TAG)REALLY_DUERGARDWARF_45b007f7-f4f6-46e2-9480-395a49b87ef3);
 DB_LanguagePassiveToTag("Language_Undercommon", (TAG)REALLY_DEEPGNOME_17d29357-beba-4096-accc-c28bdea88fda);
 DB_LanguagePassiveToTag("Language_ThievesCant", (TAG)ROGUE_f8a0608b-666c-4be6-a49c-03b369c10bd2);
+DB_LanguagePassiveToTag("Language_Elvish", (TAG)REALLY_ASTARION_ffd08582-7396-4cac-bcd4-8f9cd0fd8ef3);
+DB_LanguagePassiveToTag("Language_Abyssal", (TAG)REALLY_ASTARION_ffd08582-7396-4cac-bcd4-8f9cd0fd8ef3);
+DB_LanguagePassiveToTag("Language_Orc", (TAG)REALLY_ASTARION_ffd08582-7396-4cac-bcd4-8f9cd0fd8ef3);
+DB_LanguagePassiveToTag("Language_Draconic", (TAG)REALLY_GALE_9b0354c0-56d9-4723-8034-918ac9abab19);
+DB_LanguagePassiveToTag("Language_Giant", (TAG)REALLY_GALE_9b0354c0-56d9-4723-8034-918ac9abab19);
+DB_LanguagePassiveToTag("Language_Celestial", (TAG)REALLY_GALE_9b0354c0-56d9-4723-8034-918ac9abab19);
+DB_LanguagePassiveToTag("Language_Infernal", (TAG)REALLY_KARLACH_1a2f70d6-8ead-4eb5-a824-79ee1971764a);
+DB_LanguagePassiveToTag("Language_Gith", (TAG)REALLY_LAEZEL_b5682d1d-c395-489c-9675-1f9b0c328ea5);
+DB_LanguagePassiveToTag("Language_Draconic", (TAG)REALLY_LAEZEL_b5682d1d-c395-489c-9675-1f9b0c328ea5);
+DB_LanguagePassiveToTag("Language_Elvish", (TAG)REALLY_SHADOWHEART_642d2aee-e3df-47e3-9f47-bbcd441bb9e0);
+DB_LanguagePassiveToTag("Language_Celestial", (TAG)REALLY_SHADOWHEART_642d2aee-e3df-47e3-9f47-bbcd441bb9e0);
+DB_LanguagePassiveToTag("Language_Infernal", (TAG)REALLY_WYLL_5f40def5-d3ec-4698-a367-01a339888956);
 
 //END_REGION
 

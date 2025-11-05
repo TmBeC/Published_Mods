@@ -8,7 +8,7 @@
           "Action": "Insert",
           "Function": "SelectPassives",
           "Params": {
-            "Guid": "65debbca-95e7-444a-8f07-df7661e045db",
+            "Guid": "332aeda4-311d-40f1-b787-3a684cc511cd",
             "Amount": "1",
             "SelectorId": "RacialLanguages"
           }
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "UUIDs": ["bd012f5b-0a0b-424e-ab7c-186dbd82ab30"],
+      "UUIDs": ["bd012f5b-0a0b-424e-ab7c-186dbd82ab30", "4a634f24-bdcb-4559-b8be-7847133ad1c3", "938b6f72-18a6-4af0-924b-5292251d32bf"],
       "Strings": [
         {
           "Action": "Insert",
@@ -36,22 +36,12 @@
       ]
     },
     {
-      "UUIDs": ["496486a4-b5f2-4f91-90ea-6cad9023952e"],
+      "UUIDs": ["496486a4-b5f2-4f91-90ea-6cad9023952e", "4a634f24-bdcb-4559-b8be-7847133ad1c3", "a1729574-2f7b-4561-91d8-3766cf940420"],
       "Strings": [
         {
           "Action": "Insert",
           "Type": "PassivesAdded",
           "Strings": ["Language_Elvish"]
-        }
-      ]
-    },
-    {
-      "UUIDs": ["4a634f24-bdcb-4559-b8be-7847133ad1c3"],
-      "Strings": [
-        {
-          "Action": "Insert",
-          "Type": "PassivesAdded",
-          "Strings": ["Language_Elvish","Language_Undercommon"]
         }
       ]
     },
@@ -66,32 +56,12 @@
       ]
     },
     {
-      "UUIDs": ["938b6f72-18a6-4af0-924b-5292251d32bf"],
-      "Strings": [
-        {
-          "Action": "Insert",
-          "Type": "PassivesAdded",
-          "Strings": ["Language_Undercommon"]
-        }
-      ]
-    },
-    {
       "UUIDs": ["963edcba-c572-4f51-b447-8810bbb43a8e"],
       "Strings": [
         {
           "Action": "Insert",
           "Type": "PassivesAdded",
           "Strings": ["Language_Halfling"]
-        }
-      ]
-    },
-    {
-      "UUIDs": ["a1729574-2f7b-4561-91d8-3766cf940420"],
-      "Strings": [
-        {
-          "Action": "Insert",
-          "Type": "PassivesAdded",
-          "Strings": ["Language_Elvish"]
         }
       ]
     },

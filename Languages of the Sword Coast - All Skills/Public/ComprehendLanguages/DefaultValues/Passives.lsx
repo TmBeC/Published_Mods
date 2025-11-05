@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="400"/>
+    <region id="DefaultValues">
+        <node id="root">
+            <children>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Language_Celestial"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="RacialLanguages"/>
+                    <attribute id="OriginUUID" type="guid" value="2bb39cf2-4649-4238-8d0c-44f62b5a3dfd"/>
+                    <attribute id="TableUUID" type="guid" value="5f06db9e-31b0-41d9-bfbe-3446323c4bf6"/>
+                    <attribute id="UUID" type="guid" value="4f581bb7-744f-4078-b70a-cb0c48bd7901"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Language_Celestial"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="RacialLanguages"/>
+                    <attribute id="OriginUUID" type="guid" value="35c3caad-5543-4593-be75-e7deba30f062"/>
+                    <attribute id="TableUUID" type="guid" value="4b6e7ec9-145b-4a95-9d8a-b2181de2749e"/>
+                    <attribute id="UUID" type="guid" value="fc4175be-560b-445e-be80-07f32ee13cba"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Language_Abyssal"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="RacialLanguages"/>
+                    <attribute id="OriginUUID" type="guid" value="3780c689-d903-41c2-bf64-1e6ec6a8e1e5"/>
+                    <attribute id="TableUUID" type="guid" value="5fd1dfd5-b5bd-4152-a04a-87fb3faba1e9"/>
+                    <attribute id="UUID" type="guid" value="e75efe0e-98a3-4a69-8f92-06eda01b14ae"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Language_Infernal"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="RacialLanguages"/>
+                    <attribute id="OriginUUID" type="guid" value="efc9d114-0296-4a30-b701-365fc07d44fb"/>
+                    <attribute id="TableUUID" type="guid" value="4b6e7ec9-145b-4a95-9d8a-b2181de2749e"/>
+                    <attribute id="UUID" type="guid" value="11efdea6-e3e2-4804-8c1d-2714b1176d24"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

@@ -128,8 +128,8 @@ data "Boosts" "Tag(LANGUAGES_UNDERCOMMON)"
 
 new entry "Language_ThievesCant"
 type "PassiveData"
-data "DisplayName" "ha30943d0g0e38g4b69g8fa5g1fdefe0deda7;1"
-data "Description" "hfe531d07g00e3g43dcgb18eg7c611c523592;1"
+data "DisplayName" "hbb8e28f31a2248888b72abb81361bbc5ebd4;1"
+data "Description" "h1c29b614241b401f8753cefccfcaba267bff;1"
 data "Icon" "Spell_Divination_ComprehendLanguages"
 data "Properties" "Highlighted"
 
