@@ -17,6 +17,13 @@
     },
     {
       "Type": "Deity",
+      "Tag": "AERDRIEFAENYA_389c4f55-47bf-4923-b6f7-8147a1faf177",
+      "DeityCleric": "CLERIC_AERDRIEFAENYA_edc9ff6d-3c59-45b9-ae6d-a2f8f236abb5",
+      "DeityPaladin": "PALADIN_AERDRIEFAENYA_acebe3fd-c00a-416b-af29-1e7748a3b8d5",
+      "DeityAlignment": "Good"
+    },
+    {
+      "Type": "Deity",
       "Tag": "AMAUNATOR_b6bc56c7-6250-4878-a260-66fc629bab5d",
       "DeityCleric": "CLERIC_AMAUNATOR_e05bf549-c2ac-4472-8430-9fb0f6a9ad03",
       "DeityPaladin": "PALADIN_AMAUNATOR_7f7ee5ee-b935-41bd-a3c7-6b858490d795",
@@ -84,6 +91,13 @@
       "DeityCleric": "CLERIC_CELESTIAN_ea442987-d9c3-4ce8-b638-1e619fc0f629",
       "DeityPaladin": "PALADIN_CELESTIAN_68f8eb2c-5e53-4fea-ba12-883eb8489dd8",
       "DeityAlignment": "Neutral"
+    },
+    {
+      "Type": "Deity",
+      "Tag": "CHAUNTEA_0894a68a-a46b-4e49-83c0-b456f12669ef",
+      "DeityCleric": "CLERIC_CHAUNTEA_e490cdea-3f98-4639-afc7-ca7183461e99",
+      "DeityPaladin": "PALADIN_CHAUNTEA_c93cc5e2-2dea-427e-9e49-d0ffcb3bf0f4",
+      "DeityAlignment": "Good"
     },
     {
       "Type": "Deity",
@@ -174,6 +188,13 @@
       "Tag": "IOUN_1b9ecb94-981a-4349-b6f5-51dd06d2e87f",
       "DeityCleric": "CLERIC_IOUN_d1a0bae9-b201-4a85-9def-863bcda1cfa0",
       "DeityPaladin": "PALADIN_IOUN_23262152-4de5-4667-aee8-26e6bf5314eb",
+      "DeityAlignment": "Neutral"
+    },
+    {
+      "Type": "Deity",
+      "Tag": "JERGAL_66dd0758-7365-40e2-9077-f98f572bbb04",
+      "DeityCleric": "CLERIC_JERGAL_e7847416-341d-46cd-94f7-90c16f4bc671",
+      "DeityPaladin": "PALADIN_JERGAL_0926dc35-babc-4b0c-bd2e-7afb02941ec1",
       "DeityAlignment": "Neutral"
     },
     {
@@ -286,6 +307,13 @@
       "Tag": "SHAUNDAKUL_da0685b7-68e3-4b54-b036-1950161a4d9a",
       "DeityCleric": "CLERIC_SHAUNDAKUL_1c37d6fd-4602-48e0-b8d3-9d4073e809ec",
       "DeityPaladin": "PALADIN_SHAUNDAKUL_1c9dc022-2416-428a-b2b0-d0561a5592d8",
+      "DeityAlignment": "Neutral"
+    },
+    {
+      "Type": "Deity",
+      "Tag": "SILVANUS_df1ab695-5721-46bb-bc3d-ef66679c50b6",
+      "DeityCleric": "CLERIC_SILVANUS_b63c6bad-b93c-46db-a3f9-d11ea9461a6e",
+      "DeityPaladin": "PALADIN_SILVANUS_73f93092-874d-4e12-ae26-dd608a26fa2e",
       "DeityAlignment": "Neutral"
     },
     {
