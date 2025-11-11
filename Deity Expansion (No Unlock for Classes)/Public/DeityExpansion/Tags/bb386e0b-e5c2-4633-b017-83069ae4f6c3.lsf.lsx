@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="10" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Player or NPC is a paladin of Baphomet." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h0ac56eaegaf87g48dbg8e0cgb87ad2520c10" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="hcebba62eg0b9cg4987gac9fgaa0a54f908b5" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="PALADIN_BAPHOMET" />
+			<attribute id="UUID" type="guid" value="bb386e0b-e5c2-4633-b017-83069ae4f6c3" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Class" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

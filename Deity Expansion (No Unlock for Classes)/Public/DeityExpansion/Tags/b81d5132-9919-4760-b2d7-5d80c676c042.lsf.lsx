@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="200" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="|Player or NPC chose Beshaba.|" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h8ca7d4e9gead8g4af9gb7e9gd6132a249957" version="0" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h0186985fg2f01g4037gbdb2gf375858a8b2f" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="BESHABA" />
+			<attribute id="UUID" type="guid" value="b81d5132-9919-4760-b2d7-5d80c676c042" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Deity" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

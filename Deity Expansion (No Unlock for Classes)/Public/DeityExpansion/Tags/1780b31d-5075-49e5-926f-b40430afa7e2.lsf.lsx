@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="10" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="|Player or NPC chose Skoraeus Stonebones.|" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="hd9bbfcbdg997ag4a81g9ab6g4177fb65c7e3" version="0" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h0ccd46a5g891bg47f5ga2f4gd7f52cf0542c" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="SKORAEUSSTONEBONES" />
+			<attribute id="UUID" type="guid" value="1780b31d-5075-49e5-926f-b40430afa7e2" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Deity" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

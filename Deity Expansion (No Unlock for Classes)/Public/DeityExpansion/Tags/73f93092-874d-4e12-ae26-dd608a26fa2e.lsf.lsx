@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="10" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Player or NPC is a paladin of Silvanus." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h474c1f54gae36g4bbfga4bdg1ff517dc9cf7" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="hf15e41eegd1c3g40fegbec8gcea88028e95d" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="PALADIN_SILVANUS" />
+			<attribute id="UUID" type="guid" value="73f93092-874d-4e12-ae26-dd608a26fa2e" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Class" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

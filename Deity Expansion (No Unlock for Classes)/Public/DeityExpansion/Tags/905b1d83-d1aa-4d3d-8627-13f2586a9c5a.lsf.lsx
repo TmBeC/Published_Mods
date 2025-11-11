@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="200" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="|Player or NPC chose Zerthimon.|" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h5859098fg6396g4b76gab8fg40639e643565" version="0" />
+			<attribute id="DisplayName" type="TranslatedString" handle="hbf62ece0g9ffeg4e5fgaa26gb68d3f3e50d0" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="ZERTHIMON" />
+			<attribute id="UUID" type="guid" value="905b1d83-d1aa-4d3d-8627-13f2586a9c5a" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Deity" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="200" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Player or NPC is a cleric of Beshaba." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h8ca7d4e9gead8g4af9gb7e9gd6132a249957" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h42aa10ebg9ae9g4bfeg82e4g1b391ac2cfe4" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="CLERIC_BESHABA" />
+			<attribute id="UUID" type="guid" value="a07deb31-eb4b-412e-b23e-7f238fdf63a8" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Class" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

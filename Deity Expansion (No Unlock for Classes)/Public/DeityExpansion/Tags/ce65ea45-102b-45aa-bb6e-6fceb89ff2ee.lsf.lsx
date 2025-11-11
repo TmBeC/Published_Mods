@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="400" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Player or NPC is a paladin of Clangeddin Silverbeard." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h0d6305c6gf64cg4e36g9113ge2fe0d4d9769" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h0d1fe98eg63d2g40f3g8a3fg9cbe620b3aa6" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="PALADIN_CLANGEDDINSILVERBEARD" />
+			<attribute id="UUID" type="guid" value="ce65ea45-102b-45aa-bb6e-6fceb89ff2ee" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Class" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="400" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Player or NPC is a paladin of Deep Sashelas." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="hd23935f0gf0b6g40fag9719g197de64ff4a7" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="hb13d674dge8dag4431g878eg0842f643942c" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="PALADIN_DEEPSASHELAS" />
+			<attribute id="UUID" type="guid" value="10a138c3-d62b-455b-ae27-999be24115b3" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Class" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

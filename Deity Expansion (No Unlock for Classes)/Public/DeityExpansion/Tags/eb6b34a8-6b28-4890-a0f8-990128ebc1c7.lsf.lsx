@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="200" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Player or NPC is a cleric of Gond." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="hda179a6cgada4g45c7g9b59g1b8d18cbc26c" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h92da2059g90a6g453dg9451g9184bc17ee24" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="CLERIC_GOND" />
+			<attribute id="UUID" type="guid" value="eb6b34a8-6b28-4890-a0f8-990128ebc1c7" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Class" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

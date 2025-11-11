@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="200" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Player or NPC is a cleric of Shaundakul." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="haf6f5266ge69dg445cg8842g4fe66ef2a218" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="he6b91978ge929g46cag87cdge79b8fa1879b" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="CLERIC_SHAUNDAKUL" />
+			<attribute id="UUID" type="guid" value="1c37d6fd-4602-48e0-b8d3-9d4073e809ec" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Class" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="10" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Player or NPC is a cleric of Baphomet." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="he5f24b0fg004dg4bf8gb81bg82f35b37cc3b" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h8340bf5dg862eg44d3gb526g3cff0094afe7" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="CLERIC_BAPHOMET" />
+			<attribute id="UUID" type="guid" value="c7653be1-2b67-428e-92e9-137508c1df2c" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Class" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

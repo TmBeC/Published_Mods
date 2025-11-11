@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="200" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="|Player or NPC chose Vecna.|" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h88f89896g744eg495bgb4d6gf3be5e85a733" version="0" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h4cad0b8cgc3e2g4b25gaa9bg8d0a32627a0e" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="VECNA" />
+			<attribute id="UUID" type="guid" value="9b2787e5-efec-486d-92ff-9a37276a5dc3" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Deity" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
