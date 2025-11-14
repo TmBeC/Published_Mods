@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="IconUVList">
+        <node id="root">
+            <children>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Necromancy_WrathfulSmite"/>
+                    <attribute id="U1" type="float" value="0.0"/>
+                    <attribute id="U2" type="float" value="1.0"/>
+                    <attribute id="V1" type="float" value="0.0"/>
+                    <attribute id="V2" type="float" value="1.0"/>
+                </node>
+            </children>
+        </node>
+    </region>
+    <region id="TextureAtlasInfo">
+        <node id="root">
+            <children>
+                <node id="TextureAtlasIconSize">
+                    <attribute id="Height" type="int64" value="64"/>
+                    <attribute id="Width" type="int64" value="64"/>
+                </node>
+                <node id="TextureAtlasPath">
+                    <attribute id="Path" type="LSString" value="Assets/Textures/Icons/IconAtlas.dds"/>
+                    <attribute id="UUID" type="FixedString" value="ad1b7499-3e97-463b-8a3f-857d6aa306eb"/>
+                </node>
+                <node id="TextureAtlasTextureSize">
+                    <attribute id="Height" type="int64" value="64"/>
+                    <attribute id="Width" type="int64" value="64"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
