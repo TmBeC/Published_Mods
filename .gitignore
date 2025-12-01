@@ -6,6 +6,9 @@
 *.7z
 *.rar
 
+# Thumbs DB file
+*.db
+
 # VSCode files and folders
 .vscode/*
 .vscode/
