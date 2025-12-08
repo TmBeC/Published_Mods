@@ -8,7 +8,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="bf1fbc5b-9d6e-4ff8-a5bd-bcd8de1023b1" />
 					<attribute id="Name" type="LSString" value="Polymorph_Frog" />
-					<attribute id="ParentTemplateId" type="FixedString" value="2aac4123-66a2-4233-a7bf-0227eb375b09" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4521a4d1-0940-41de-b4c2-0314b8c8f32d" />
 					<attribute id="Stats" type="FixedString" value="Frog_Polymorph" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<children>

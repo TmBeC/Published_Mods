@@ -8,23 +8,11 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="64bd38fb-0240-47c9-846c-1eb65c055965" />
 					<attribute id="Name" type="LSString" value="Polymorph_Panther" />
-					<attribute id="ParentTemplateId" type="FixedString" value="abed309e-91fb-434b-b79b-3e15b61d19d7" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e7780038-d09c-48e1-8bb8-db86538a3cb9" />
 					<attribute id="Stats" type="FixedString" value="Panther_Polymorph" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<children>
-						<node id="LocomotionParams">
-							<attribute id="MaxDashDistance" type="float" value="3" />
-							<attribute id="MovementAcceleration" type="float" value="10" />
-							<attribute id="MovementSpeedDash" type="float" value="8" />
-							<attribute id="MovementSpeedSprint" type="float" value="10" />
-							<attribute id="WorldClimbingBlendspace_DownA" type="FixedString" value="575b6b01-b21a-62ff-7883-433fe47bf23a" />
-							<attribute id="WorldClimbingBlendspace_DownB" type="FixedString" value="4a6f8da3-6276-967f-8f1a-13f41c17c949" />
-							<attribute id="WorldClimbingBlendspace_DownBHeight" type="float" value="1" />
-							<attribute id="WorldClimbingBlendspace_UpA" type="FixedString" value="b566ed99-b547-2b59-7c7e-7ab982e9675b" />
-							<attribute id="WorldClimbingBlendspace_UpB" type="FixedString" value="6944f681-0d92-8f01-8c1d-f76e5505d236" />
-							<attribute id="WorldClimbingBlendspace_UpBHeight" type="float" value="1" />
-							<attribute id="WorldClimbingRadius" type="float" value="1" />
-						</node>
+						<node id="LocomotionParams" />
 						<node id="SkillList">
 							<children>
 								<node id="Skill">
@@ -110,6 +98,7 @@
 								</node>
 							</children>
 						</node>
+						<node id="Tags" />
 					</children>
 				</node>
 			</children>

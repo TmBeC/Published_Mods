@@ -5,21 +5,17 @@
 		<node id="Templates">
 			<children>
 				<node id="GameObjects">
-					<attribute id="AnimationSetResourceID" type="FixedString" value="62d007d3-cc86-47e3-aada-1ace63c8fd14" />
-					<attribute id="AnubisConfigName" type="FixedString" value="DefaultBeast" />
 					<attribute id="CanFight" type="bool" value="True" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="b29e4724-7697-b475-1403-180f208451bd" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h5311bfc8cc62484f828459939479340d1efe" version="1" />
 					<attribute id="GeneratePortrait" type="LSString" value="Icon_Snake" />
 					<attribute id="Icon" type="FixedString" value="b29e4724-7697-b475-1403-180f208451bd-_(Icon_Snake)" />
-					<attribute id="IsInspector" type="bool" value="False" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="6caf8dba-20ba-40a5-9783-56c1dbd1306b" />
 					<attribute id="Name" type="LSString" value="Polymorph_Snake" />
 					<attribute id="ParentTemplateId" type="FixedString" value="3c74d59c-9ef9-44a2-a744-b09f671af9a5" />
 					<attribute id="PortraitVisualResourceID" type="FixedString" value="b29e4724-7697-b475-1403-180f208451bd" />
 					<attribute id="Race" type="guid" value="27a5799e-1f5c-4c2c-9adf-fe1c0276a64e" />
-					<attribute id="SpotSneakers" type="bool" value="True" />
 					<attribute id="Stats" type="FixedString" value="Snake_Polymorph" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="VisualTemplate" type="FixedString" value="" />

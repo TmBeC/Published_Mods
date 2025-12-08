@@ -5,12 +5,23 @@
 		<node id="AnimationSetBank">
 			<children>
 				<node id="Resource">
-					<attribute id="ID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="ID" type="FixedString" value="9dbe8dc9-92e9-4dea-99ec-2e7bf740decf" />
+					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Name" type="LSString" value="MSW_Fallback_Animation_Set" />
 					<attribute id="PreviewVisualResourceID" type="guid" value="00000000-0000-0000-0000-000000000000" />
 					<attribute id="SourceFile" type="LSString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960758165" />
 					<children>
-						<node id="AnimationSet" />
+						<node id="AnimationSet">
+							<children>
+								<node id="AnimationBank">
+									<attribute id="FallBackAnimation" type="guid" value="00000000-0000-0000-0000-000000000000" />
+									<attribute id="ShortNameSetId" type="guid" value="00000000-0000-0000-0000-000000000000" />
+									<children>
+										<node id="AnimationSubSets" />
+									</children>
+								</node>
+							</children>
 						</node>
 					</children>
 				</node>

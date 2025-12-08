@@ -4,224 +4,225 @@
 	<region id="Templates">
 		<node id="Templates">
 			<children>
-<node id="GameObjects">
-	<attribute id="DisplayName" type="TranslatedString" handle="hf87299ad088445bc80dddc62ce605c1498ac" version="1" />
-	<attribute id="Equipment" type="FixedString" value="EQP_Orthon_Crossbow_Shortsword" />
-	<attribute id="LevelName" type="FixedString" value="" />
-	<attribute id="MapKey" type="FixedString" value="e45ae94c-c77e-48c3-b4ba-c2b2f3e78aee" />
-	<attribute id="Name" type="LSString" value="TruePolymorph_Orthon" />
-	<attribute id="ParentTemplateId" type="FixedString" value="49044a53-3559-4bd5-8a2b-174dff98b0a3" />
-	<attribute id="Stats" type="FixedString" value="Orthon_TruePolymorph" />
-	<attribute id="Type" type="FixedString" value="character" />
-	<children>
-		<node id="LocomotionParams">
-			<attribute id="MaxDashDistance" type="float" value="3" />
-			<attribute id="MovementSpeedDash" type="float" value="5.5" />
-			<attribute id="MovementSpeedSprint" type="float" value="4.3" />
-			<attribute id="WorldClimbingBlendspace_DownA" type="FixedString" value="575b6b01-b21a-62ff-7883-433fe47bf23a" />
-			<attribute id="WorldClimbingBlendspace_DownB" type="FixedString" value="4a6f8da3-6276-967f-8f1a-13f41c17c949" />
-			<attribute id="WorldClimbingBlendspace_DownBHeight" type="float" value="1.65" />
-			<attribute id="WorldClimbingBlendspace_UpA" type="FixedString" value="b566ed99-b547-2b59-7c7e-7ab982e9675b" />
-			<attribute id="WorldClimbingBlendspace_UpBHeight" type="float" value="1.65" />
-			<attribute id="WorldClimbingHeight" type="float" value="3.1" />
-			<attribute id="WorldClimbingRadius" type="float" value="0.9" />
-			<attribute id="WorldClimbingSpeed" type="float" value="3.75" />
-		</node>
-		<node id="SkillList">
-			<children>
-				<node id="Skill">
-					<attribute id="AIFlags" type="uint16" value="0" />
-					<attribute id="FallbackStartRound" type="int32" value="-1" />
-					<attribute id="LearningStrategy" type="uint8" value="0" />
-					<attribute id="MinimumImpact" type="int32" value="0" />
-					<attribute id="OnlyCastOnSelf" type="bool" value="False" />
-					<attribute id="ScoreModifier" type="float" value="1" />
-					<attribute id="Skill" type="FixedString" value="Shout_InvisibilityField_Orthon" />
-					<attribute id="SpellCastingAbility" type="uint8" value="0" />
-					<attribute id="StartRound" type="int32" value="0" />
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="hf87299ad088445bc80dddc62ce605c1498ac" version="1" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Orthon_Crossbow_Shortsword" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="e45ae94c-c77e-48c3-b4ba-c2b2f3e78aee" />
+					<attribute id="Name" type="LSString" value="TruePolymorph_Orthon" />
+					<attribute id="ParentTemplateId" type="FixedString" value="49044a53-3559-4bd5-8a2b-174dff98b0a3" />
+					<attribute id="Scale" type="float" value="0.85" />
+					<attribute id="Stats" type="FixedString" value="Orthon_TruePolymorph" />
+					<attribute id="Type" type="FixedString" value="character" />
 					<children>
-						<node id="SourceConditions">
-							<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-							<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-							<children>
-								<node id="Tags" />
-							</children>
+						<node id="LocomotionParams">
+							<attribute id="MaxDashDistance" type="float" value="3" />
+							<attribute id="MovementSpeedDash" type="float" value="5.5" />
+							<attribute id="MovementSpeedSprint" type="float" value="4.3" />
+							<attribute id="WorldClimbingBlendspace_DownA" type="FixedString" value="575b6b01-b21a-62ff-7883-433fe47bf23a" />
+							<attribute id="WorldClimbingBlendspace_DownB" type="FixedString" value="4a6f8da3-6276-967f-8f1a-13f41c17c949" />
+							<attribute id="WorldClimbingBlendspace_DownBHeight" type="float" value="1.65" />
+							<attribute id="WorldClimbingBlendspace_UpA" type="FixedString" value="b566ed99-b547-2b59-7c7e-7ab982e9675b" />
+							<attribute id="WorldClimbingBlendspace_UpBHeight" type="float" value="1.65" />
+							<attribute id="WorldClimbingHeight" type="float" value="3.1" />
+							<attribute id="WorldClimbingRadius" type="float" value="0.9" />
+							<attribute id="WorldClimbingSpeed" type="float" value="3.75" />
 						</node>
-						<node id="TargetConditions">
-							<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-							<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+						<node id="SkillList">
 							<children>
-								<node id="Tags" />
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Shout_InvisibilityField_Orthon" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_InfernalDagger_TruePolymorph" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Projectile_Concussion_TruePolymorph_Orthon" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Projectile_Acid_TruePolymorph_Orthon" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Projectile_Blindness_TruePolymorph_Orthon" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Projectile_Entangle_TruePolymorph_Orthon" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Projectile_Paralysis_TruePolymorph_Orthon" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				<node id="Skill">
-					<attribute id="AIFlags" type="uint16" value="0" />
-					<attribute id="FallbackStartRound" type="int32" value="-1" />
-					<attribute id="LearningStrategy" type="uint8" value="0" />
-					<attribute id="MinimumImpact" type="int32" value="0" />
-					<attribute id="OnlyCastOnSelf" type="bool" value="False" />
-					<attribute id="ScoreModifier" type="float" value="1" />
-					<attribute id="Skill" type="FixedString" value="Target_InfernalDagger_TruePolymorph" />
-					<attribute id="SpellCastingAbility" type="uint8" value="0" />
-					<attribute id="StartRound" type="int32" value="0" />
-					<children>
-						<node id="SourceConditions">
-							<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-							<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-							<children>
-								<node id="Tags" />
-							</children>
-						</node>
-						<node id="TargetConditions">
-							<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-							<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-							<children>
-								<node id="Tags" />
-							</children>
-						</node>
-					</children>
-				</node>
-				<node id="Skill">
-					<attribute id="AIFlags" type="uint16" value="0" />
-					<attribute id="FallbackStartRound" type="int32" value="-1" />
-					<attribute id="LearningStrategy" type="uint8" value="0" />
-					<attribute id="MinimumImpact" type="int32" value="0" />
-					<attribute id="OnlyCastOnSelf" type="bool" value="False" />
-					<attribute id="ScoreModifier" type="float" value="1" />
-					<attribute id="Skill" type="FixedString" value="Projectile_Concussion_TruePolymorph_Orthon" />
-					<attribute id="SpellCastingAbility" type="uint8" value="0" />
-					<attribute id="StartRound" type="int32" value="0" />
-					<children>
-						<node id="SourceConditions">
-							<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-							<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-							<children>
-								<node id="Tags" />
-							</children>
-						</node>
-						<node id="TargetConditions">
-							<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-							<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-							<children>
-								<node id="Tags" />
-							</children>
-						</node>
-					</children>
-				</node>
-				<node id="Skill">
-					<attribute id="AIFlags" type="uint16" value="0" />
-					<attribute id="FallbackStartRound" type="int32" value="-1" />
-					<attribute id="LearningStrategy" type="uint8" value="0" />
-					<attribute id="MinimumImpact" type="int32" value="0" />
-					<attribute id="OnlyCastOnSelf" type="bool" value="False" />
-					<attribute id="ScoreModifier" type="float" value="1" />
-					<attribute id="Skill" type="FixedString" value="Projectile_Acid_TruePolymorph_Orthon" />
-					<attribute id="SpellCastingAbility" type="uint8" value="0" />
-					<attribute id="StartRound" type="int32" value="0" />
-					<children>
-						<node id="SourceConditions">
-							<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-							<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-							<children>
-								<node id="Tags" />
-							</children>
-						</node>
-						<node id="TargetConditions">
-							<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-							<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-							<children>
-								<node id="Tags" />
-							</children>
-						</node>
-					</children>
-				</node>
-				<node id="Skill">
-					<attribute id="AIFlags" type="uint16" value="0" />
-					<attribute id="FallbackStartRound" type="int32" value="-1" />
-					<attribute id="LearningStrategy" type="uint8" value="0" />
-					<attribute id="MinimumImpact" type="int32" value="0" />
-					<attribute id="OnlyCastOnSelf" type="bool" value="False" />
-					<attribute id="ScoreModifier" type="float" value="1" />
-					<attribute id="Skill" type="FixedString" value="Projectile_Blindness_TruePolymorph_Orthon" />
-					<attribute id="SpellCastingAbility" type="uint8" value="0" />
-					<attribute id="StartRound" type="int32" value="0" />
-					<children>
-						<node id="SourceConditions">
-							<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-							<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-							<children>
-								<node id="Tags" />
-							</children>
-						</node>
-						<node id="TargetConditions">
-							<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-							<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-							<children>
-								<node id="Tags" />
-							</children>
-						</node>
-					</children>
-				</node>
-				<node id="Skill">
-					<attribute id="AIFlags" type="uint16" value="0" />
-					<attribute id="FallbackStartRound" type="int32" value="-1" />
-					<attribute id="LearningStrategy" type="uint8" value="0" />
-					<attribute id="MinimumImpact" type="int32" value="0" />
-					<attribute id="OnlyCastOnSelf" type="bool" value="False" />
-					<attribute id="ScoreModifier" type="float" value="1" />
-					<attribute id="Skill" type="FixedString" value="Projectile_Entangle_TruePolymorph_Orthon" />
-					<attribute id="SpellCastingAbility" type="uint8" value="0" />
-					<attribute id="StartRound" type="int32" value="0" />
-					<children>
-						<node id="SourceConditions">
-							<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-							<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-							<children>
-								<node id="Tags" />
-							</children>
-						</node>
-						<node id="TargetConditions">
-							<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-							<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-							<children>
-								<node id="Tags" />
-							</children>
-						</node>
-					</children>
-				</node>
-				<node id="Skill">
-					<attribute id="AIFlags" type="uint16" value="0" />
-					<attribute id="FallbackStartRound" type="int32" value="-1" />
-					<attribute id="LearningStrategy" type="uint8" value="0" />
-					<attribute id="MinimumImpact" type="int32" value="0" />
-					<attribute id="OnlyCastOnSelf" type="bool" value="False" />
-					<attribute id="ScoreModifier" type="float" value="1" />
-					<attribute id="Skill" type="FixedString" value="Projectile_Blindness_TruePolymorph_Orthon" />
-					<attribute id="SpellCastingAbility" type="uint8" value="0" />
-					<attribute id="StartRound" type="int32" value="0" />
-					<children>
-						<node id="SourceConditions">
-							<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-							<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-							<children>
-								<node id="Tags" />
-							</children>
-						</node>
-						<node id="TargetConditions">
-							<attribute id="MaximumHealthPercentage" type="int32" value="100" />
-							<attribute id="MinimumHealthPercentage" type="int32" value="0" />
-							<children>
-								<node id="Tags" />
-							</children>
-						</node>
-					</children>
-				</node>
-			</children>
-		</node>
-	</children>
-</node>
 			</children>
 		</node>
 	</region>

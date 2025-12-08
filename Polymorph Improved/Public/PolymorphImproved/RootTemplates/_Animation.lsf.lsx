@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="AnimationSetResourceID" type="FixedString" value="9dbe8dc9-92e9-4dea-99ec-2e7bf740decf" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="f49e0d03-7170-442e-8679-28c626f8071b" />
+					<attribute id="Name" type="LSString" value="MSW_AnimationFallback" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
