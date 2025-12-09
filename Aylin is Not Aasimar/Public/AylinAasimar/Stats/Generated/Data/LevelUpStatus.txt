@@ -1,0 +1,102 @@
+// ==========================================================================
+// Level Up Status
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+new entry "LOW_NIGHTSONG_LEVEL_11"
+type "StatusData"
+data "StatusType" "BOOST"
+// Levelled Up
+data "DisplayName" "h7d32963cgf197g4846gacf7g6248d9c0a38f;1"
+// Affected entity has returned stronger than before.
+data "Description" "h6825d6a3gcd65g4073g9eabgc9f4a9d3b213;1"
+data "StackId" "GLO_NIGHTSONG_LEVEL_11"
+data "StackPriority" "5"
+data "Boosts" "IncreaseMaxHP(20);"
+data "StatusPropertyFlags" "DisableCombatlog;DisablePortraitIndicator;DisableOverhead"
+
+
+
+DB_CMB_LevelUpNpcInRegion((CHARACTER)_Char, _Region, _LevelUpTo, _HelperStatus)
+DB_CMB_LevelUpNpcInRegion((CHARACTER)S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, "CTY_Main_A", 11,"LOW_NIGHTSONG_LEVEL_11");
+DB_CMB_LevelUpNpcInRegion((CHARACTER)S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, "END_Main", 11,"LOW_NIGHTSONG_LEVEL_11");
+
+
+//REGION NPC Leveler
+//DB_CMB_LevelUpNpcInRegion( _Char, _Region,_LevelUpTo, _HelperStatus )
+
+IF
+EnteredLevel((CHARACTER)_Char, _, _Level)
+AND
+DB_CMB_LevelUpNpcInRegion(_Char, _Level, _LevelUpTo, _HelperStatus)
+AND
+NOT DB_Players(_Char)
+AND
+_HelperStatus != ""
+AND
+HasActiveStatus(_Char, _Helperstatus, 0)
+THEN
+NOT DB_CMB_LevelUpNpcInRegion(_Char, _Level,_LevelUpTo, _HelperStatus);
+SetLevel(_Char, _LevelUpTo);
+ApplyStatus(_Char, _HelperStatus, -1.0, 1);
+
+IF
+EnteredLevel((CHARACTER)_Char, _, _Level)
+AND
+DB_CMB_LevelUpNpcInRegion(_Char, _Level, _LevelUpTo, _HelperStatus)
+AND
+NOT DB_Players(_Char)
+AND
+_HelperStatus == ""
+THEN
+NOT DB_CMB_LevelUpNpcInRegion(_Char, _Level,_LevelUpTo, _HelperStatus);
+SetLevel(_Char, _LevelUpTo);
+
+//END_REGION
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

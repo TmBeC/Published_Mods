@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="Races">
+        <node id="root">
+            <children>
+                <node id="Race">
+                    <attribute id="Description" type="TranslatedString" handle="h46ca0067151248e99bbfe12feb24656634d4" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="h67786fb14b174c898c7a5e51cf390c2607b2" version="1" />
+                    <attribute id="DisplayTypeUUID" type="guid" value="899d275e-9893-490a-9cd5-be856794929f" />
+                    <attribute id="Name" type="FixedString" value="Empyrean" />
+                    <attribute id="ParentGuid" type="guid" value="a71d0a73-074d-4859-8b9e-f81c0d90060c" />
+                    <attribute id="UUID" type="guid" value="c3ba4ca9-ef3f-493d-a6ea-9e549ed51544" />
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

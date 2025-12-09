@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="h67786fb14b174c898c7a5e51cf390c2607b2" version="1">Empyrean</content>
+	<content contentuid="h46ca0067151248e99bbfe12feb24656634d4" version="1">Creatures of strong emotions, empyreans are the direct children of deities. Some are near-demigods wielding fantastic might and power while others are little more than moments of immortal attention made manifest.</content>
+
+
+
+
+
+
+
+
+
+	<content contentuid="PLACEHOLDER" version="1">Example_Text_Block</content>
+
+
+&lt;LSTag
+
+&lt;
+
+&gt;
+
+&lt;/LSTag&gt;
+
+&lt;br&gt;
+
+&lt;LSTag Tooltip="THING_HERE"&gt;TEXT_HERE&lt;/LSTag&gt;
+
+&lt;LSTag Type="THING_TYPE_HERE" Tooltip="THING_HERE"&gt;TEXT_HERE&lt;/LSTag&gt;
+
+
+</contentList>

@@ -1,0 +1,26 @@
+new equipment "SHA_Nightsong"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_Greatsword_1"
+add equipmentgroup
+add equipment entry "ARM_Plate_Body"
+add equipmentgroup
+add equipment entry "EQP_Longbow_Sahuagin"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

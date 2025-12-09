@@ -1,0 +1,224 @@
+// ==========================================================================
+// Actions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+new entry "Target_MOO_Nightsong_SearingSmite"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Smite_Searing"
+data "RequirementConditions" "not HasStatus('LOW_RAMAZITHSTOWER_NIGHTSONG_GLOBE_FUNCTIONAL_AURA')"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType); ExecuteWeaponFunctors(MainHand); DealDamage(1d6, Radiant,Magical); ApplyStatus(BURNING_HOLY, 100, 2)"
+data "Icon" "Spell_Evocation_LunarSmite"
+// Lunar Smite
+data "DisplayName" "h4d353f31g6d0bg480fg9f83gf19c75e1217b;2"
+// Engulf your weapon in Selûne's light, an additional [1] and inflicting <LSTag Type="Status" Tooltip="BURNING_HOLY">Holy Flame</LSTag> on a hit.
+data "Description" "h90e2ebe0g1948g4e17g8f0fg70121c9fd858;2"
+data "DescriptionParams" "DealDamage(1d6,Radiant)"
+data "ExtraDescription" ""
+data "TooltipDamageList" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(1d6,Radiant)"
+data "TooltipStatusApply" "ApplyStatus(BURNING_HOLY, 100, 2)"
+data "CastSound" "CrSpell_Cast_Nightsong_LunarSmite"
+data "TargetSound" "CrSpell_Impact_Nightsong_LunarSmite"
+data "SpellAnimation" "71369b20-18f1-4d33-89ad-a99b10f0444c,,;48beee2b-7124-4fa1-b820-dab4d89198d4,,;bcecc5ce-e7c9-4391-b4b6-5f93872ba2e6,,;9add032c-e500-4e88-a2ea-ef6c905bd656,,;3b9da8d4-3eff-43bd-9eaa-1c13fba0045e,,;d9feef5a-3726-4e23-95e5-6ec295efdc96,,;d5be826c-163f-4cc3-b195-2101e32e3da2,,;,,;,,"
+data "SpellFlags" "IsHarmful;HasVerbalComponent;IsSpell"
+data "PrepareEffect" "9c039ed5-7c45-41e9-ba57-93f11928588f"
+data "CastEffect" "0425afbd-2921-4dd0-afb9-4c12af333b99"
+data "TargetEffect" "e429039a-183d-4930-9d05-045479f753d5"
+
+
+
+
+
+
+
+
+new entry "Projectile_MOO_Nightsong_GuidingBolt"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_GuildingBolt_2"
+data "SpellProperties" "GROUND:CreateSurface(2,3,HolyFire)"
+data "SpellSuccess" "DealDamage(5d6,Radiant,Magical)"
+data "Trajectories" "98f6e27e-d223-4618-89cf-de7bc7abe7f0"
+// Lunar Flare
+data "DisplayName" "h7ad12a2bg9d88g4593g8c32g46a12174403d;2"
+// Fire a mote of moonlight that spills roiling Holy Fire in a [1] radius where it impacts.
+data "Description" "hc2fdc7cdgba8fg48e4gb0a8gcfc98e3d358b;2"
+data "DescriptionParams" "Distance(2)"
+data "SpellAnimation" "0cf0f8a6-73e1-4bef-8430-9645c110b69a,,;,,;7d312bbc-2393-4db5-81cf-f0ea2e2d4786,,;ef51bd7a-28cc-4aef-83b7-1eb72fd3e150,,;3b92b3a4-edd2-4169-a8f2-6e8d92607153,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
+data "SpellFlags" "HasSomaticComponent;HasVerbalComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful"
+data "SpellAnimationIntentType" "Aggressive"
+data "RootSpellID" ""
+data "PowerLevel" ""
+data "PrepareEffect" "05e14f13-5fbc-4c89-9d8a-e4be7e111b06"
+data "CastEffect" "c78d3929-46b2-48a2-bf60-ce0bd1eec54a"
+data "Sheathing" "Melee"
+
+
+
+
+
+
+
+
+
+new entry "Shout_MOO_Nightsong_RadiantConsumption"
+type "SpellData"
+data "SpellType" "Shout"
+data "Cooldown" "OncePerCombat"
+data "AIFlags" ""
+data "SpellProperties" "ApplyStatus(SELF,MOO_NIGHTSONG_MOONBEAM,100,10);AI_ONLY:ApplyStatus(AI_HELPER_BUFF,100,4)"
+data "Icon" "GenericIcon_DamageType_Radiant"
+// Lunar Blessing
+data "DisplayName" "hf8723df2g1884g46aagb114g523ea75da964;4"
+// Surround yourself in a pillar of Selûne's light, inflicting <LSTag Type="Status" Tooltip="MOONBEAM">Moonbeam</LSTag> on nearby foes.
+data "Description" "h9705bf5dg6a89g4205g9a88gaf5c5aecb5db;2"
+data "TooltipStatusApply" "ApplyStatus(MOO_NIGHTSONG_MOONBEAM,100,1)"
+data "CastSound" "CrSpell_Cast_Nightsong_LunarBlessing"
+data "TargetSound" "CrSpell_Impact_Nightsong_LunarBlessing"
+data "CastTextEvent" "Cast"
+data "UseCosts" ""
+data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;39daf365-ec06-49a8-81f3-9032640699d7,,;5c400e93-0266-499c-a2e1-75d53358460f,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
+data "SpellFlags" "HasSomaticComponent"
+data "HitAnimationType" "MagicalDamage_External"
+data "SpellAnimationIntentType" "Aggressive"
+data "Requirements" ""
+data "RequirementConditions" "not HasStatus('MOO_NIGHTSONG_MOONBEAM') and not HasStatus('LOW_RAMAZITHSTOWER_NIGHTSONG_GLOBE_FUNCTIONAL_AURA')"
+data "PrepareEffect" "3044bca0-7b0e-4d65-9b15-f586f5d58388"
+data "CastEffect" "2b656a6d-9180-484f-8a75-c37afb857d97"
+data "Sheathing" "DontChange"
+
+new entry "MOO_NIGHTSONG_MOONBEAM"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MOONBEAM_AURA"
+// Moonfire
+data "DisplayName" "h47fbac5dgda23g402bg9bcdg2cae3cc38820;1"
+// The blessing of Dame Aylin's divine mother deals [1] to foes that come within [2] of her or start their turn there.
+data "Description" "h6e20f892gecf1g434aga880g3c2e3166302e;1"
+data "DescriptionParams" "DealDamage(2d10,Radiant);Distance(3)"
+data "AuraRadius" "2"
+data "AuraStatuses" "TARGET:IF(Character() and not Dead() and not Ally()):ApplyStatus(MOONBEAM,100,-1)"
+
+
+
+
+
+new entry "Target_MOO_Nightsong_AbjureEnemy"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_AbjureEnemy"
+data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;9bcbf658-8433-46f0-a34a-9c9d2dcd585b,,;d75865cd-fddd-4ad1-be34-d5b89155d7c6,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
+data "SpellFlags" "IsHarmful"
+data "SpellAnimationIntentType" "Aggressive"
+data "Sheathing" "Melee"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+new entry "SHA_NIGHTSONG_SOULCAGE"
+type "StatusData"
+data "StatusType" "INCAPACITATED"
+using "HOLD_PERSON"
+// Soul Caged
+data "DisplayName" "he117d030ga042g40b7g9f74gce163f534a33;1"
+// This creature is greatly weakened by their imprisonment in a Soul Cage.
+data "Description" "hefa6f302gb34bg45b2g9c15gc3b8919f9901;1"
+data "AnimationStart" "43dc4737-8335-4507-a237-20f1c2edc74c(STAT_SoulCage_Combat_01_Start)"
+data "AnimationLoop" "dd46f010-9fdd-4486-ad65-5df09f24b4a4(STAT_SoulCage_Combat_01_Loop)"
+data "AnimationEnd" "b65b21b0-99a8-4654-9e38-19e6dcbe46b6(STAT_SoulCage_Peace_01_End)"
+data "StillAnimationPriority" "KO"
+data "FreezeTime" "0"
+data "TickType" ""
+data "Boosts" "AbilityFailedSavingThrow(Strength);AbilityFailedSavingThrow(Dexterity);CriticalHit(AttackTarget,Success,Always,3);DetectDisturbancesBlock(true);IncreaseMaxHP(-(MaxHP-1));Attribute(Grounded)"
+data "RemoveConditions" ""
+data "TooltipSave" ""
+data "StatusPropertyFlags" "OverheadOnTurn;ApplyToDead"
+data "RemoveEvents" ""
+data "StatusGroups" "SG_Incapacitated;SG_Condition"
+data "OnApplyFunctors" "BreakConcentration();RemoveStatus(GLO_NIGHTSONG_RESURRECTION);RemoveStatus(SHA_NIGHTSONG_GROUNDED)"
+data "OnRemoveFunctors" "ApplyStatus(GLO_NIGHTSONG_RESURRECTION, 100, -1);"
+data "StatusEffect" "fdff9289-7ec2-49de-8684-6bdb073b9f80"
+
+new entry "COL_NIGHTSONG_SOULCAGE"
+type "StatusData"
+data "StatusType" "INCAPACITATED"
+using "SHA_NIGHTSONG_SOULCAGE"
+// A Soul Cage binds the Nightsong as an engine for Ketheric's <LSTag Tooltip="Immune">Immunity</LSTag> to all damage. <br><br>The Nightsong can be <LSTag Type="Spell" Tooltip="Target_Help">Helped</LSTag> out of the Soul Cage.
+data "Description" "h27d4addcg3545g48c4g9d5bg5097c7ea5666;1"
+data "Boosts" "Invulnerable();AbilityFailedSavingThrow(Strength);AbilityFailedSavingThrow(Dexterity);DetectDisturbancesBlock(true);Attribute(Grounded)"
+data "StatusPropertyFlags" "OverheadOnTurn;ApplyToDead;ExcludeFromPortraitRendering;DisableInteractions"
+data "StatusGroups" "SG_Incapacitated;SG_Condition;SG_Paralyzed;SG_Helpable_Condition"
+data "OnApplyFunctors" "Stabilize();BreakConcentration();RemoveStatus(GLO_NIGHTSONG_RESURRECTION);"
+data "OnRemoveFunctors" "ApplyStatus(GLO_NIGHTSONG_RESURRECTION, 100, -1);"
+data "StatusEffect" "cb7016ae-b108-4d4c-84b8-682ec2ad1549"
+
+
+
+
+new entry "GLO_NIGHTSONG_RESURRECTION"
+type "StatusData"
+data "StatusType" "BOOST"
+// Moonmaiden's Reconstitution
+data "DisplayName" "hb0d0c629g6e2bg419ega9fbgba280d9f2d00;1"
+data "Passives" "SHA_NightsongResurrection"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+new entry "SHA_NightsongResurrection"
+type "PassiveData"
+// Child of the Moonmaiden
+data "DisplayName" "hc929021bg2701g44aegbcf0g19299216768d;2"
+// Blessed with the favour of a goddess, Nightsong cannot be permanently killed. When unconscious, the start of her turn she recovers 1 <LSTag Tooltip="HitPoints">hit point</LSTag>. 
+data "Description" "h193b7ee8g5a0bg4d44g93dega35d0a6530f8;1"
+data "Properties" "Highlighted"
+data "Boosts" "DownedStatus(GLO_NIGHTSONGRESURRECTION_DOWNED,20)"
+
+new entry "GLO_NIGHTSONGRESURRECTION_DOWNED"
+type "StatusData"
+data "StatusType" "DOWNED"
+using "DOWNED"
+data "AnimationStart" "c5fccc78-9c37-474e-a059-0374e79da7ae(UTIL_NightsongResurrect_01_Start)"
+data "AnimationLoop" "2c8fb7f8-c0c0-4ada-8664-52001113665e(UTIL_NightsongResurrect_01_Loop)"
+data "AnimationEnd" "c9ad579f-dd08-4cc6-b477-6b45103f0be7(UTIL_NightsongResurrect_01_End)"
+data "Boosts" "Invulnerable();Tag(AI_IGNORED_TARGET)"
+data "TickFunctors" "RegainHitPoints(1)"
+data "OnApplyFunctors" "Stabilize();RemoveStatus(MOO_NIGHTSONG_MOONBEAM);"
+data "OnRemoveFunctors" "ResetCombatTurn();RestoreResource(Movement, 100%, 0);RestoreResource(BonusActionPoint, 100%, 0);"
+data "StableRollDC" "0"
+data "NumStableSuccess" "1"
+data "NumStableFailed" "1"
+data "OnSuccess" "Stabilize()"
+data "OnRollsFailed" "Stabilize()"
+data "StatusGroups" "SG_Unconscious;SG_Condition;SG_Incapacitated;SG_Helpable_Condition"
+data "StatusEffect" "def81a2d-8c1e-45ae-9cea-4842866aa26a"
+
+
+
+
+
+
+
