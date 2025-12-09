@@ -16,14 +16,3 @@ add equipmentgroup
 add equipment entry "WPN_Shortsword"
 add equipmentgroup
 add equipment entry "ARM_StuddedLeather_Body"
-
-
-
-
-
-
-
-
-
-
-

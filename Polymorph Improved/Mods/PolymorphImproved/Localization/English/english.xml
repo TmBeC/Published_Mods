@@ -50,8 +50,8 @@
 	<content contentuid="h0f25d309fe47477e9fcac42f2ec55756g9e5" version="1">Transform a creature into an eagle.</content>
 	<content contentuid="hf2ce15c999ac4296b385fd50112c06f22f13" version="1">Polymorph: Giant Spider</content>
 	<content contentuid="hcff2ce03458945be9f54271baa948f022c11" version="1">Transform a creature into a giant spider.</content>
-	<content contentuid="h7fc403589f564986900963c514c1105c301g" version="1">Polymorph: Dinosaur</content>
-	<content contentuid="h0e1ce92f3d59403aa0cdba0e2c9cd5516984" version="1">Transform a creature into a dinosaur.</content>
+	<content contentuid="h7fc403589f564986900963c514c1105c301g" version="1">Polymorph: Dilophosaurus</content>
+	<content contentuid="h0e1ce92f3d59403aa0cdba0e2c9cd5516984" version="1">Transform a creature into a dilophosaurus.</content>
 	<content contentuid="hde4156f2b77c4526a89edfa7a80159807349" version="1">Polymorph: Saber-Toothed Tiger</content>
 	<content contentuid="hd7de98ef2423419c825f91afded82fccbcae" version="1">Transform a creature into a sabertooth tiger.</content>
 	<content contentuid="h9e33b0ecc1734ac99c186b26b604b8888cb5" version="1">Bloodied Fury</content>
@@ -105,6 +105,7 @@
 	<content contentuid="h26a6742a59dd4041a564f6be22176f7c4920" version="1">Exhale a cone of poisonous gas.</content>
 	<content contentuid="hadf727153592409a914d37a9cd34e4f57gc2" version="1">Poison Breath Recharge</content>
 	<content contentuid="hffc11d12c90f4816b98c590cd86ed7aa9b2a" version="1">Golem must recharge before it can use Poison Breath again.</content>
+	<content contentuid="h6d4d42a8f0314f3289e7bf02aa71b14c9664" version="1">Fiery Bolt</content>
 	<content contentuid="hfaace98ae5044e83b31e03bff029a954e439" version="1">Fire Absorption</content>
 	<content contentuid="h3b66f999e5864c34bff2f079c521f1e1f1ab" version="1">When this entity is subjected to Fire damage, it takes no damage and instead regains hit points equal to the Fire damage dealt.</content>
 	<content contentuid="h654234069b7c4e888d0260d19ddfcb39cc01" version="1">Strike with a colossal blade.</content>

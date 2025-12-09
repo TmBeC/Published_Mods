@@ -128,31 +128,3 @@ using "TRUE_POLYMORPH_BASE"
 data "Description" "h3abc192a39414968aa97a5aca34fe022gf74;1"
 data "TemplateID" "53e8a92f-4dca-4d0d-ab7d-5652f4c41b62"
 
-
-
-//Target_TruePolymorph_Tadpole
-//Target_TruePolymorph_Flumph
-
-//Target_TruePolymorph_Hollyphant
-
-//Target_TruePolymorph_Djinni
-
-//Target_TruePolymorph_Succubus
-
-//Target_TruePolymorph_Ogre
-
-//Target_TruePolymorph_Bugbear
-
-//Target_TruePolymorph_Kuo-toa
-//Target_TruePolymorph_Werewolf
-
-//Target_TruePolymorph_Drider
-//Target_TruePolymorph_Minotaur
-
-//Target_TruePolymorph_Ooze
-
-//Target_TruePolymorph_Box
-
-
-
-

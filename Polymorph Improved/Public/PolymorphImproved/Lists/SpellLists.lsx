@@ -9,6 +9,36 @@
                     <attribute id="Spells" type="LSString" value="Target_Polymorph;Target_Polymorph_Shapechanger"/>
                     <attribute id="UUID" type="guid" value="c84d130d-ab4a-4ac8-a8ed-880d18fe03cd"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="2bbd99d0-21b4-41cc-836e-e386a96fc8e6"/>
+                    <attribute id="Name" type="FixedString" value="Bard SLevel 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_MassPolymorph;Target_TruePolymorph"/>
+                    <attribute id="UUID" type="guid" value="aaee6e91-ff73-4cb0-a96c-15fc87581738"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="cd83187f-c886-45c2-be81-34083981f240"/>
+                    <attribute id="Name" type="FixedString" value="Bard Magical Secrets 18"/>
+                    <attribute id="Spells" type="LSString" value="Target_MassPolymorph;Target_TruePolymorph"/>
+                    <attribute id="UUID" type="guid" value="1fa61237-2eb6-40cf-aeee-4c6072cbbd6f"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="d58ac072-e079-410b-b167-a5e43723b59f"/>
+                    <attribute id="Name" type="FixedString" value="Sorcerer SLevel 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_MassPolymorph"/>
+                    <attribute id="UUID" type="guid" value="f5f753bb-b421-4f93-a6d5-2461b2958cd8"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="47766c27-e791-4e6e-9b3d-2bb379106e62"/>
+                    <attribute id="Name" type="FixedString" value="Warlock Mysic Arcanum SLevel 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_TruePolymorph"/>
+                    <attribute id="UUID" type="guid" value="d05b8140-0f7a-4bd4-8079-7b17da0f3aef"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="MergedInto" type="guid" value="cb123d97-8809-4d71-a0cb-0ecb66177d15"/>
+                    <attribute id="Name" type="FixedString" value="Wizard SLevel 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_MassPolymorph;Target_TruePolymorph"/>
+                    <attribute id="UUID" type="guid" value="1d2aa1c6-9d51-42b6-9f1b-e77afbffe5f9"/>
+                </node>
             </children>
         </node>
     </region>
