@@ -487,5 +487,5 @@ new entry "BrandingSmiteUnlock"
 type "PassiveData"
 data "DisplayName" "h5776c9e34b83452bafe6bdc7116b08a1f31f;1"
 data "Properties" "IsHidden"
-data "Boosts" "UnlockSpell(Target_Smite_Branding_Unlock);UnlockSpell(Target_Smite_Branding_Critical_Unlock);UnlockInterrupt(Interrupt_Smite_Branding);UnlockInterrupt(Interrupt_Smite_Branding_Critical)"
+data "Boosts" "UnlockSpell(Target_Smite_Branding_Unlock,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_Smite_Branding_Critical_Unlock,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockInterrupt(Interrupt_Smite_Branding);UnlockInterrupt(Interrupt_Smite_Branding_Critical)"
 

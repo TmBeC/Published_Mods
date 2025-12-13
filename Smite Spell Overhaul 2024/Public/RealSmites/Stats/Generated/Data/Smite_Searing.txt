@@ -525,5 +525,5 @@ new entry "SearingSmiteUnlock"
 type "PassiveData"
 data "DisplayName" "ha191f48556924536b24a7d1a3c0151d9fbed;1"
 data "Properties" "IsHidden"
-data "Boosts" "UnlockSpell(Target_Smite_Searing_Unlock);UnlockSpell(Target_Smite_Searing_Critical_Unlock);UnlockInterrupt(Interrupt_Smite_Searing);UnlockInterrupt(Interrupt_Smite_Searing_Critical)"
+data "Boosts" "UnlockSpell(Target_Smite_Searing_Unlock,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_Smite_Searing_Critical_Unlock,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockInterrupt(Interrupt_Smite_Searing);UnlockInterrupt(Interrupt_Smite_Searing_Critical)"
 

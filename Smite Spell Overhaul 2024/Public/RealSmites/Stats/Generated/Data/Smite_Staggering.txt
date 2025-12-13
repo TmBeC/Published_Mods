@@ -307,5 +307,5 @@ new entry "StaggeringSmiteUnlock"
 type "PassiveData"
 data "DisplayName" "h1c8c8b7d844d4ae497736c5b299fdf1c0766;1"
 data "Properties" "IsHidden"
-data "Boosts" "UnlockSpell(Target_StaggeringSmite_Unlock);UnlockSpell(Target_StaggeringSmite_Critical_Unlock);UnlockInterrupt(Interrupt_Smite_Staggering);UnlockInterrupt(Interrupt_Smite_Staggering_Critical)"
+data "Boosts" "UnlockSpell(Target_StaggeringSmite_Unlock,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_StaggeringSmite_Critical_Unlock,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockInterrupt(Interrupt_Smite_Staggering);UnlockInterrupt(Interrupt_Smite_Staggering_Critical)"
 

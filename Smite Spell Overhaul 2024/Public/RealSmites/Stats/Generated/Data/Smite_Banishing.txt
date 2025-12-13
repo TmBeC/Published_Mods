@@ -293,5 +293,5 @@ new entry "BanishingSmiteUnlock"
 type "PassiveData"
 data "DisplayName" "hdda00b4142324d45a797e6595f3c5b3322d1;1"
 data "Properties" "IsHidden"
-data "Boosts" "UnlockSpell(Target_Smite_Banishing_Unlock);UnlockSpell(Target_Smite_Banishing_Critical_Unlock);UnlockInterrupt(Interrupt_Smite_Banishing);UnlockInterrupt(Interrupt_Smite_Banishing_Critical)"
+data "Boosts" "UnlockSpell(Target_Smite_Banishing_Unlock,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_Smite_Banishing_Critical_Unlock,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockInterrupt(Interrupt_Smite_Banishing);UnlockInterrupt(Interrupt_Smite_Banishing_Critical)"
 

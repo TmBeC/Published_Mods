@@ -6,7 +6,7 @@ end
 
 function IsSmiteSpells()
     return SpellId('Target_Smite_Branding_ZarielTiefling') | SpellId('Target_Smite_Searing_ZarielTiefling') 
-    | SpellId('Target_FOR_Smite_Searing_DeathOfATrueSoul') | SpellId('Target_UND_Smite_Searing_DuergarBlacksmithHammer') | SpellId('END_Thrall_StaggeringSmite')  | SpellId('Target_MAG_ThunderousSmite') | SpellId('Target_MAG_Smite_Wrathful') 
+    | SpellId('Target_FOR_Smite_Searing_DeathOfATrueSoul') | SpellId('Target_UND_Smite_Searing_DuergarBlacksmithHammer') | SpellId('END_Thrall_StaggeringSmite')  | SpellId('Target_MAG_ThunderousSmite') | SpellId('Target_MAG_Smite_Wrathful') | SpellId('Target_MOO_Nightsong_SearingSmite') 
     | SpellId('Target_Smite_Banishing') | SpellId('Target_Smite_Banishing_6') | SpellId('Target_Smite_Banishing_7') | SpellId('Target_Smite_Banishing_8') | SpellId('Target_Smite_Banishing_9') 
     | SpellId('Target_Smite_Blinding') | SpellId('Target_Smite_Blinding_4') | SpellId('Target_Smite_Blinding_5') | SpellId('Target_Smite_Blinding_6') | SpellId('Target_Smite_Blinding_7') | SpellId('Target_Smite_Blinding_8') | SpellId('Target_Smite_Blinding_9') 
     | SpellId('Target_Smite_Branding') | SpellId('Target_Smite_Branding_3') | SpellId('Target_Smite_Branding_4') | SpellId('Target_Smite_Branding_5') | SpellId('Target_Smite_Branding_6') | SpellId('Target_Smite_Branding_7') | SpellId('Target_Smite_Branding_8') | SpellId('Target_Smite_Branding_9') 

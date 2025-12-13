@@ -445,5 +445,5 @@ new entry "ThunderousSmiteUnlock"
 type "PassiveData"
 data "DisplayName" "h7a52ebfd9a354f59a8ffb07b100ddcfc3d17;1"
 data "Properties" "IsHidden"
-data "Boosts" "UnlockSpell(Target_Smite_Thunderous_Unlock);UnlockSpell(Target_Smite_Thunderous_Critical_Unlock);UnlockInterrupt(Interrupt_Smite_Thunderous);UnlockInterrupt(Interrupt_Smite_Thunderous_Critical)"
+data "Boosts" "UnlockSpell(Target_Smite_Thunderous_Unlock,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_Smite_Thunderous_Critical_Unlock,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockInterrupt(Interrupt_Smite_Thunderous);UnlockInterrupt(Interrupt_Smite_Thunderous_Critical)"
 

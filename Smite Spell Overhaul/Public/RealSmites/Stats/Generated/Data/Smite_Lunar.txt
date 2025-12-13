@@ -574,5 +574,5 @@ new entry "LunarSmiteUnlock"
 type "PassiveData"
 data "DisplayName" "h8ef291102e2241a8b3be232c6a4c439e0c2a;1"
 data "Properties" "IsHidden"
-data "Boosts" "UnlockSpell(Target_Smite_Lunar_Unlock);UnlockSpell(Target_Smite_Lunar_Critical_Unlock);UnlockInterrupt(Interrupt_Smite_Lunar);UnlockInterrupt(Interrupt_Smite_Lunar_Critical)"
+data "Boosts" "UnlockSpell(Target_Smite_Lunar_Unlock,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_Smite_Lunar_Critical_Unlock,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockInterrupt(Interrupt_Smite_Lunar);UnlockInterrupt(Interrupt_Smite_Lunar_Critical)"
 

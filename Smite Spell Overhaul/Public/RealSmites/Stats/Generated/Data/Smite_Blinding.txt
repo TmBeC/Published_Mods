@@ -399,5 +399,5 @@ new entry "BlindingSmiteUnlock"
 type "PassiveData"
 data "DisplayName" "hf16b5c9ae49d451d84d95a332ad20b25aea4;1"
 data "Properties" "IsHidden"
-data "Boosts" "UnlockSpell(Target_Smite_Blinding_Unlock);UnlockSpell(Target_Smite_Blinding_Critical_Unlock);UnlockInterrupt(Interrupt_Smite_Blinding);UnlockInterrupt(Interrupt_Smite_Blinding_Critical)"
+data "Boosts" "UnlockSpell(Target_Smite_Blinding_Unlock,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_Smite_Blinding_Critical_Unlock,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockInterrupt(Interrupt_Smite_Blinding);UnlockInterrupt(Interrupt_Smite_Blinding_Critical)"
 
