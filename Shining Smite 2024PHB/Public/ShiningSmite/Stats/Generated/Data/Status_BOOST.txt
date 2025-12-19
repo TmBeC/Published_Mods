@@ -1,7 +1,0 @@
-new entry "BRANDING_SMITE"
-type "StatusData"
-data "StatusType" "BOOST"
-using "BRANDING_SMITE"
-data "DisplayName" "hf3214a4f4054456ca3f0edfaa1268484df8a;1"
-data "Description" "he1b1e0d143544ba59669eb451911f852c88g;1"
-data "Boosts" "GameplayLight(9,false,0.1);StatusImmunity(SG_Invisible);Advantage(AttackTarget)"
