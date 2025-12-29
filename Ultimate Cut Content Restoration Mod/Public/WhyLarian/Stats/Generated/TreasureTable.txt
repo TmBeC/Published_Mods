@@ -433,6 +433,7 @@ object category "I_MAG_Enforcer_NonLethalFright_Club",1,0,0,0,0,0,0,0
 
 new treasuretable "EquipmentTrader_Shield"
 CanMerge 1
+new subtable "1,1"
 StartLevel "12"
 object category "I_ARM_Shield_2",1,0,0,0,0,0,0,0
 
