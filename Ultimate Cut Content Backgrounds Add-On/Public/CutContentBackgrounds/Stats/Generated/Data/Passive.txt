@@ -1,0 +1,12 @@
+new entry "Background_Hermit"
+type "PassiveData"
+data "DisplayName" "hb8394477e803451a8a609252205e993egace;1"
+data "Description" "h7caadc493ac6488baf54a4245d95ec9dga0a;1"
+data "Boosts" "ProficiencyBonus(Skill,Medicine);ProficiencyBonus(Skill,Religion)"
+
+new entry "Background_Sailor"
+type "PassiveData"
+data "DisplayName" "h590dcf6be74d4fa39878627d38e4dd6a6f2g;1"
+data "Description" "h4614d25764da44ed924a7aa627c51713b7a1;1"
+data "Boosts" "ProficiencyBonus(Skill,Athletics);ProficiencyBonus(Skill,Perception)"
+

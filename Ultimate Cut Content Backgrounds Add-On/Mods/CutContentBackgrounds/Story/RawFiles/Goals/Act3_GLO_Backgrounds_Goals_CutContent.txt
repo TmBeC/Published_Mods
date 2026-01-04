@@ -1,0 +1,43 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+//REGION Hermit
+
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act3_Acolyte_ServicedBySharessCaress", 3cc3c0d9-e285-459c-91a0-b2da4ddd153c);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act3_Acolyte_SquattersStayed", 8eff5894-40b0-4913-8f57-fd8475e88f8b);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act3_Acolyte_ReturnedDribblesToLucretious", 8e483520-84fc-4552-a057-db9e0bb2deb7);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act3_Acolyte_SidedWithClosedMindedPriest", a5473945-8e0f-43e9-a2b8-c0ba47ce7c18);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act3_Acolyte_SidedWithOpenMindedPriest", f72ac2eb-310b-435e-aa70-0d580ce582cb);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act3_Acolyte_LongRestDonation", cceba771-2e40-4c68-b126-6e4d9331cff8);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act3_Acolyte_TabernacleOfferingGiven", a017bd1a-b8fd-437a-9a0f-ccdac309230d);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act3_Acolyte_WaveFuneralOfferingGiven", 5d3ef49a-f540-4fa3-aa3b-bbf34776cc1a);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act3_Acolyte_MurderTribunalCompleted", 1d06b7eb-c27e-4eca-a00e-e50795fa4fa0);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act3_Acolyte_MurderTribunalRejected", 8ed13b56-cd37-4080-b31e-38622888d1ba);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act3_Acolyte_BurnedKerriPortraitTrue", 352d328e-cc25-49c1-9a00-3c60b7595fb3);
+
+//END_REGION Hermit
+
+//REGION Sailor
+
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act3_Charlatan_GenieRingTaken", 649aab41-b4c8-4fb7-a20e-88338697e5d0);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act3_FolkHero_ObtainedOskarPortrait", b1843ad0-9942-4a6c-90b3-0110b68c119c);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act3_GuildArtisan_DevilRelicsIdentified", fab79018-5590-41d3-a2d6-e57ae978d42d);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act3_Soldier_BalduranHelmFound", db81c273-e1f6-47dc-a4bb-bf32d9492882);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act3_Noble_CircusAccessed", 16e55d04-8404-4e1f-a1e9-6c66c44694bf);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act3_Noble_FoundMissingPostHouseLetters", f191df9c-c5f2-45f0-b60f-50d4f01a94ea);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act3_Outlander_MissingLettersFound", 03e01d47-72d2-4967-a22b-40d5fea7ffe7);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act3_Outlander_DribblePiecesFound", eab23812-8868-4185-9263-7a2e8df9be0c);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act3_Outlander_TookInfernalPortal", b7b6ee8b-593b-471f-8082-45efa505a6e1);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act3_Outlander_EnterTheUndercella", 1044e29f-c4b5-4bea-9c3c-b3188d0932d5);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act3_Outlander_IronThroneEntered", 936bb087-8811-4ab1-881c-93cc81edcc8b);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act3_Outlander_BhaalTempleEntered", ce0cbf26-7f39-4c73-82f7-7c912cbf1839);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act3_Urchin_AccessedUndercellar", c03d9d15-31c9-4040-8ed4-7a0e19622b11);
+
+//END_REGION Sailor
+
+KBSECTION
+
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "Act3_GEN"

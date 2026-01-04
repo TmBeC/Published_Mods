@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="config">
+		<node id="config">
+			<children>
+				<node id="entries">
+					<children>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/CC/icons_backgrounds/05b20ab3-ff7e-4779-8f94-e52ac6ffc2eb.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="300" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="300" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/CC/icons_backgrounds/ea789c10-8b80-4957-bef7-f252fd64353e.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="300" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="300" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

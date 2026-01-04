@@ -1,0 +1,47 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+//REGION Hermit
+
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act2_Acolyte_IsobelLastLightIntro", 429b9887-5c42-4037-a1e0-87a22527d23d);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act2_Acolyte_CursedTownSharTests", 3228433c-f066-4a0c-a6ef-a4811b2af9df);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act2_Acolyte_SharTempleTrials", e0a8e51a-156c-4d2d-839a-c0b4533385c8);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act2_Acolyte_SoleDarkJusticiarSurvivor", 4ff716e8-a944-4bad-ab8c-7aae418c859a);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act2_Acolyte_SurgeonConfrontation", bfc3f053-f9b2-4387-bcb5-4c055fa98738);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act2_Acolyte_HarperFuneral", a38d3781-0891-4b7c-9604-2385b9e612a5);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act2_Acolyte_AaasimarJournal", a0f82eb6-70b6-47c5-83d1-0168a5b96759);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act2_Acolyte_NightsongFateFreedom", bd1784c1-4237-4322-a412-559b542be809);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act2_Acolyte_NightSongFateChained", 877887a8-6b1e-4a6d-a0eb-fbae693ebd9e);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act2_Soldier_IsobelSeluneBlessing", 1b1a194c-7073-42b3-ab97-fe0d435b4eb0);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act2_Sage_DeadDruidBookSCL", 94e06f95-2467-4950-93e5-7311bdab2f62);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act2_Sage_FoundSurgeonResearchNotes", c3ce04eb-8eee-43e0-806b-ac8fb864e5c5);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act2_Urchin_RefusedSpikedWineJaheira", 5bb05989-3b8d-49b6-825a-88506b53249a);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act2_Criminal_BrewerPoisonRecipe", b933740f-a968-47b8-b45b-8ddda6aaf86f);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act2_Charlatan_JaheiraTruthSerum", 75f96ab4-329e-41fc-8336-c2a83f69d195);
+
+//END_REGION Hermit
+
+//REGION Sailor
+
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act2_GuildArtisan_BrilliantRetortTaken", a952c7a0-2817-4475-a947-6256702084e3);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act2_GuildArtisan_SharCeremonialDaggerTaken", 71e0006b-7468-4d8b-b9f1-f18a04bfd448);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act2_GuildArtisan_SharSpearTaken", 569331ad-9c8e-4589-ac70-365e4deb9791);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act2_GuildArtisan_TollTakerLootRareItem", ec1f5fa9-b0aa-4339-9a10-eeb899890e3f);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act2_Outlander_CompleteSharNoLastLightMoonrise", 60083cc3-2501-4a8b-9838-83e87a751dc6);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act2_Outlander_ExploreColonyFully", e79811b4-fd97-456e-bd90-a27aa9317869);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act2_Outlander_ExploreMoonriseExteriorPath", 38e5d350-243a-4966-9959-5bda558d6cfb);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act2_Outlander_ExploreOubliette", 12608f98-a272-4158-98e0-590fdf826e38);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act2_Outlander_ObtainOrhtonCrossbow", dcdf6ced-5a30-44bc-b0df-58bfd8102330);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act2_Outlander_SCLFullyExplored", 915f9eef-b5b0-476d-99dc-36c15b90eff9);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act2_Outlander_DrinkBrewerBrew", 091f7050-a495-41b7-84cf-40307025d8eb);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act2_Criminal_DriderMoonlantern", 24970243-be16-47c9-942b-c306a4b43f9b);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act2_Criminal_TollTakerLoot", 74d541a2-98ea-4c3f-9b12-94f2b35ce686);
+
+//END_REGION Sailor
+
+KBSECTION
+
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "Act2"

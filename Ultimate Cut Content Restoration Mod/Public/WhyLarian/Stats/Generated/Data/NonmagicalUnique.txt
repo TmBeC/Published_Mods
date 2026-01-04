@@ -11,6 +11,33 @@ using "ARM_Cloak"
 data "RootTemplate" "0bd70497-f7b4-4ea0-8be0-21a0c66f0576"
 data "Unique" "1"
 
+// ==========================================================================
+// Twitch Drops
+
+new entry "ARM_DLC_TWITCH_Camp_Body"
+type "Armor"
+using "ARM_Camp_Body"
+data "RootTemplate" "9dc4dafd-590a-44ec-8523-95136f46be9e"
+data "Unique" "1"
+
+new entry "ARM_DLC_TWITCH_Camp_Shoes"
+type "Armor"
+using "ARM_Camp_Shoes"
+data "RootTemplate" "14339654-a714-4341-b03f-62530508c8e3"
+data "Unique" "1"
+
+new entry "ARM_DLC_TWITCH_Underwear_A"
+type "Armor"
+using "ARM_Underwear"
+data "RootTemplate" "bf974183-9bf5-4086-9742-a2deef9e7675"
+data "Unique" "1"
+
+new entry "ARM_DLC_TWITCH_Underwear_B"
+type "Armor"
+using "ARM_Underwear"
+data "RootTemplate" "f6af55dd-a75a-46ea-87f0-89ebf4e7b74e"
+data "Unique" "1"
+
 
 // ==========================================================================
 // Dream Guardian

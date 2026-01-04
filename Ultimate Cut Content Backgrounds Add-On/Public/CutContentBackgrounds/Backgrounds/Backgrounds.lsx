@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="10"/>
+    <region id="Backgrounds">
+        <node id="root">
+            <children>
+                <node id="Background">
+                    <attribute id="Description" type="TranslatedString" handle="h18fdb0bb03e14e179f5de4b41b47aa157ff6" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="he1ef076a6ddf47528863482ad85577be4b34" version="1"/>
+                    <attribute id="Passives" type="LSString" value="Background_Hermit"/>
+                    <attribute id="UUID" type="guid" value="ea789c10-8b80-4957-bef7-f252fd64353e"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="2fa3f042-2b50-41b2-8045-39ddd4421ca9"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="TranslatedString" handle="h6d09272ff7944d2d89894db26982b1917632" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h31b92c215dff4464ad37505465e7e183252f" version="1"/>
+                    <attribute id="Passives" type="LSString" value="Background_Sailor"/>
+                    <attribute id="UUID" type="guid" value="05b20ab3-ff7e-4779-8f94-e52ac6ffc2eb"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

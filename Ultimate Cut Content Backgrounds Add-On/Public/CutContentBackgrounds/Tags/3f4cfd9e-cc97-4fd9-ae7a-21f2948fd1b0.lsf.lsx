@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="|Driven by discovery and the lure of treasure, sailors know the tides, trust their instincts, and never stay in one place for long. The sea calls to your restless spirit, and every map holds the promise of something yet undiscovered.|" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="hec97f38722644c0daf42a18a8dc773b97531" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="hf6b59f5ccd6c4d07a175d73b672c7aca12bc" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="SAILOR" />
+			<attribute id="UUID" type="guid" value="3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Code" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Background" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

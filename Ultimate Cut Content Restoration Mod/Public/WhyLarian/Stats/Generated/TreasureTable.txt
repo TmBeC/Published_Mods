@@ -629,3 +629,104 @@ object category "I_WPN_Dart_1",1,0,0,0,0,0,0,0
 new treasuretable "MOO_TrueSoul_ZealotKrizt"
 new subtable "-1"
 object category "I_MAG_Psychic_MentalFatigue_Cape",1,0,0,0,0,0,0,0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+add to treasure table:
+
+new subtable "-1"
+
+MAG_WYRM_SleepImmunity_Amulet
+MAG_TheClover_Scimitar
+object category "I_WPN_Shortbow_Makeshift",1,0,0,0,0,0,0,0
+ARM_Padded_Bandit_Body
+WPN_Greataxe_B
+ARM_Padded_BGWatch
+ARM_DLC_TWITCH_Camp_Body
+ARM_DLC_TWITCH_Camp_Shoes
+ARM_DLC_TWITCH_Underwear_A
+ARM_DLC_TWITCH_Underwear_B
+ARM_ScaleMail_FlamingFist
+
+
+
+
+
+arrows not spawning?
+
+
+
+
+
+
+
+Unused Rogue passives ideas??
+
+new entry "SecondStoryWork_Jumping"
+type "PassiveData"
+// Second-Story Work: Jumping
+data "DisplayName" "h3840c33dgf699g414bgaf37g764b5aa6cec0;2"
+// Your jumping distance is increased.
+data "Description" "h66cee67aga3afg40ecga42dg0bc59a8fae9a;3"
+data "Icon" "Action_Jump"
+
+data "Boosts" "JumpMaxDistanceBonus(3)"
+^ applied based on dex mod
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fix boobies popping out
+
+d1ec23df-f3d6-4378-ab07-dea2ff1ad556
+
+
+
+
+
+
+
+
+
+
+
+I would also add divine guardian to every paladin subclass lvl 2 or 3 (coding is %100 complete I tested myself few months ago)
+
+
+
+
+
+
+
+
+
+
+

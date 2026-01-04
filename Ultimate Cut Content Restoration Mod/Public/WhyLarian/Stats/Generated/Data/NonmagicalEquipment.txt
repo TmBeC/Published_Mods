@@ -53,6 +53,11 @@ type "Armor"
 using "ARM_Leather_Body_Druid"
 data "RootTemplate" "d0a3d13a-5ce4-4732-87b1-31654747277f"
 
+new entry "ARM_Padded_Bandit_Body"
+type "Armor"
+using "ARM_Padded_Body"
+data "RootTemplate" "2f63906e-259e-49af-a8a8-7d3f7c7587a8"
+
 
 // ==========================================================================
 // Helmets
@@ -70,4 +75,125 @@ new entry "ARM_Robe_Body_B"
 type "Armor"
 using "ARM_Robe_Body"
 data "RootTemplate" "7ec40cde-4d96-4352-b93e-cdcab6383337"
+
+
+// ==========================================================================
+// Weapons
+
+new entry "WPN_Greataxe_B"
+type "Weapon"
+using "WPN_Greataxe"
+data "RootTemplate" "9fffd630-0361-4a3e-95b1-67bcfd43ca9b"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Boots Variants with different descriptions
+Osi.TemplateAddTo("38f78b0a-4f55-406f-8b28-7c0ec8220905", GetHostCharacter(), 1, 1);
+
+Osi.TemplateAddTo("f649e46c-f1d1-4eb7-af73-368423951707", GetHostCharacter(), 1, 1);
+
+Osi.TemplateAddTo("c1f9f7af-cdb2-49f6-8459-521f2b9263cb", GetHostCharacter(), 1, 1);
+
+Osi.TemplateAddTo("10e07ff1-5586-44fb-b437-31db1f7748ec", GetHostCharacter(), 1, 1);
+
+Osi.TemplateAddTo("8166e78b-a5c1-42d3-8ffb-a0f87cf4f789", GetHostCharacter(), 1, 1);
+
+Osi.TemplateAddTo("2134b8b6-fb84-4521-a154-b734c3cf6fd9", GetHostCharacter(), 1, 1);
+
+Osi.TemplateAddTo("39eb6810-3cb9-4ddb-966a-ddd68b93e62c", GetHostCharacter(), 1, 1);
+
+Osi.TemplateAddTo("524ca019-25b5-4769-a9e4-842505710e77", GetHostCharacter(), 1, 1);
+
+Osi.TemplateAddTo("d7219371-2f32-4675-b805-a0c9af19c1ff", GetHostCharacter(), 1, 1);
+
+Osi.TemplateAddTo("643ccbd3-4e7a-4c98-9ea3-312a3d786d30", GetHostCharacter(), 1, 1);
+
+Osi.TemplateAddTo("b873b44d-0a18-482e-9a44-9aa08389c3b3", GetHostCharacter(), 1, 1);
+
+
+
+
+
+
+Non-magical Jewelry Variants
+Osi.TemplateAddTo("63b224be-b135-4b2b-93f5-95af3f06fdfa", GetHostCharacter(), 1, 1);
+
+Osi.TemplateAddTo("d6b70158-3493-4c76-9f8d-e410e2e36cec", GetHostCharacter(), 1, 1);
+
+Osi.TemplateAddTo("fc44cf0e-04dc-4feb-b143-b1c52cffe252", GetHostCharacter(), 1, 1);
+
+Osi.TemplateAddTo("c652a8d0-14e6-4999-8b98-a9325c845bce", GetHostCharacter(), 1, 1);
+
+Osi.TemplateAddTo("54566608-c5e2-40e1-b2fc-014ba43a67ae", GetHostCharacter(), 1, 1);
+
+Osi.TemplateAddTo("e2467d34-1b3f-4e7a-987b-bbf77b9db73c", GetHostCharacter(), 1, 1);
+
+Osi.TemplateAddTo("1bbbc944-19a4-4001-8be3-edb2d8784828", GetHostCharacter(), 1, 1);
+
+Osi.TemplateAddTo("e75e18a0-0a94-42b4-8745-063ea00a5a66", GetHostCharacter(), 1, 1);
+
+Osi.TemplateAddTo("f2f3d3a1-459f-483e-85d9-3170ffd71e93", GetHostCharacter(), 1, 1);
+
+Osi.TemplateAddTo("3a3a688b-4d18-44df-9190-003493492070", GetHostCharacter(), 1, 1);
+
+Osi.TemplateAddTo("b04fcde0-694d-4783-a701-106363c98272", GetHostCharacter(), 1, 1);
+
+
+
+
+Flaming Fist Gear
+
+Osi.TemplateAddTo("5c98c7c8-97f3-4675-bf22-920168450949", GetHostCharacter(), 1, 1);
+
+Osi.TemplateAddTo("0466c509-9947-441a-ad51-85ad4f407f38", GetHostCharacter(), 1, 1);
+
+Osi.TemplateAddTo("3ae83f97-63f4-4dab-848f-0b8ac5c26649", GetHostCharacter(), 1, 1);
+
+Osi.TemplateAddTo("e3d70237-c1da-4195-b486-d17e69e45174", GetHostCharacter(), 1, 1);
+
+Osi.TemplateAddTo("4aa373b2-0cb7-4b69-af38-0d1352236a1f", GetHostCharacter(), 1, 1);
+
+Osi.TemplateAddTo("6fbbe358-8915-4781-b738-098c3e5a3bff", GetHostCharacter(), 1, 1);
+
+Osi.TemplateAddTo("0db0d565-db86-4213-befa-096c3bd09330", GetHostCharacter(), 1, 1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

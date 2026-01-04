@@ -1,0 +1,82 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+//REGION Global Goals: Sailor
+
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "GLO_Sailor_SellHighValueItem", 770bce4f-5ec5-4738-9f78-5db70ce8da67);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "GLO_Sailor_TraderAttitude", 4560bbf2-d32a-4705-963c-7fd3ffdaa001);
+
+DB_GLO_Backgrounds_Sailor_HighValueSell(1000, "GLO_Sailor_SellHighValueItem");
+
+//END_REGION Global Goals: Sailor
+
+KBSECTION
+//REGION Global Goals: Sailor
+// GLO_Sailor_SellHighValueItem
+IF
+MovedFromTo(_Item, (CHARACTER)_Player, (CHARACTER)_NPC, 1)
+AND
+QRY_OnlyOnce_Reset("GLO_Backgrounds_Sailor_SellValuable")
+AND
+DB_Players(_Player)
+AND
+NOT DB_Players(_NPC)
+AND
+IsItem(_Item, 1)
+AND
+ItemGetGoldValue((ITEM)_Item, _Value)
+AND
+GetStackAmount(_Item, _Amount,_)
+AND
+IntegerDivide(_Value, _Amount, _AmountPerItem)
+AND
+DB_GLO_Backgrounds_Sailor_HighValueSell(_RequiredValue, _GoalId)
+AND
+_AmountPerItem > _RequiredValue
+AND
+QRY_OnlyOnce("GLO_Backgrounds_Sailor_SellValuable")
+THEN
+PROC_GLO_Backgrounds_CompleteGoal(_Player, _GoalId);
+
+// GLO_Sailor_TraderAttitude
+IF
+MovedFromTo(_Item, _Trader, _Player, 1)
+AND
+IsItem(_Item, 1)
+THEN
+PROC_GLO_Backgrounds_Sailor_Trading((CHARACTER)_Player, (CHARACTER)_Trader, (ITEM)_Item);
+
+IF
+MovedFromTo(_Item, _Player, _NPC, 1)
+AND
+IsItem(_Item, 1)
+THEN
+PROC_GLO_Backgrounds_Sailor_Trading((CHARACTER)_Player, (CHARACTER)_NPC, (ITEM)_Item);
+
+PROC
+PROC_GLO_Backgrounds_Sailor_Trading((CHARACTER)_Player, (CHARACTER)_NPC, (ITEM)_Item)
+AND
+DB_Players(_Player)
+AND
+NOT DB_Players(_NPC)
+AND
+GetAttitudeTowardsPlayer(_NPC, _Player, _Attitude)
+AND
+_Attitude >= 75
+AND
+ItemGetGoldValue(_Item, _Value)
+AND
+GetStackAmount(_Item, _Amount,_)
+AND
+IntegerDivide(_Value, _Amount, _AmountPerItem)
+AND
+_AmountPerItem >= 10
+THEN
+PROC_GLO_Backgrounds_CompleteGoal(_Player, "GLO_Sailor_TraderAttitude");
+
+//END_REGION Global Goals: Sailor
+
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "ModWrapper_Gustav"

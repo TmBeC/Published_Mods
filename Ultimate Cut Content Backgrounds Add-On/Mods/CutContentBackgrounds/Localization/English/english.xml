@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <content contentuid="he1ef076a6ddf47528863482ad85577be4b34" version="1">Hermit</content>
+  <content contentuid="h18fdb0bb03e14e179f5de4b41b47aa157ff6" version="1">Whether alone in a hut or as part of a monastery, you've spent a considerable amount of time outside the trappings of society. You've grown comfortable pondering the wonders and mysteries of creation.</content>
+  <content contentuid="hbd1e673c49a04d9b844efbda1a64cfa6d481" version="1">Hermit</content>
+  <content contentuid="h5463af315dbb48c0a32763ef5d13f7c0g0a4" version="1">A life spent in seclusion grants a clear mind, but makes the chaos of society distasteful.</content>
+  <content contentuid="hb8394477e803451a8a609252205e993egace" version="1">Hermit</content>
+  <content contentuid="h7caadc493ac6488baf54a4245d95ec9dga0a" version="1">You have &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in &lt;LSTag Tooltip="Medicine"&gt;Medicine&lt;/LSTag&gt; and &lt;LSTag Tooltip="Religion"&gt;Religion&lt;/LSTag&gt;, skills garnered after years of being solitary, becoming comfortable pondering the wonders and mysteries of creation.</content>
+  <content contentuid="h31b92c215dff4464ad37505465e7e183252f" version="1">Sailor</content>
+  <content contentuid="h6d09272ff7944d2d89894db26982b1917632" version="1">You called the open water your home, survived some of the sea's harshest storms. You've swapped stories with the best of them, whether that's on the barstool of a random port or the denizens of the world beneath the waves.</content>
+  <content contentuid="hf6b59f5ccd6c4d07a175d73b672c7aca12bc" version="1">Sailor</content>
+  <content contentuid="hec97f38722644c0daf42a18a8dc773b97531" version="1">You are pushed by greed and wanderlust, ever curious, seeking hoards and wonders unknown. Finding secret treasures opens the path to new discoveries.</content>
+  <content contentuid="h590dcf6be74d4fa39878627d38e4dd6a6f2g" version="1">Sailor</content>
+  <content contentuid="h4614d25764da44ed924a7aa627c51713b7a1" version="1">You have &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in &lt;LSTag Tooltip="Athletics"&gt;Athletics&lt;/LSTag&gt; and &lt;LSTag Tooltip="Perception"&gt;Perception&lt;/LSTag&gt;, picked up from surviving the seas while on the hunt for treasure and adventure.</content>
+</contentList>

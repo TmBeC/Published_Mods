@@ -1,0 +1,59 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+//REGION Hermit
+
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act1_Acolyte_BookOfTheDead", 2eb4035d-105a-486e-83f3-578a6e77bcb2);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act1_Acolyte_Resurrect", c566f9ad-3447-4bb4-b4f1-babcd0335b27);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act1_Outlander_Noblestalk", e638ee96-726d-4077-b850-554b0d3ac5d4);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act1_GuildArtisan_HagPotions", 1fb6f70a-ad35-4e75-bd62-3f7d6d86525e);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act1_GuildArtisan_Antidote", fc37b5b8-8c30-4e74-9c24-27de1a2ab960);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act1_GuildArtisan_OmeluumPotion", 111c7499-2c40-4b24-8fb6-36cd407e365a);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act1_Sage_SpiderHermit", 6466b365-b49b-4810-b956-61f6e8c145cd);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act1_Hermit_MystraCleric", 3ae823cc-cc2b-4923-93c2-787a3872d686);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act1_Hermit_MyconidDrow", fe7c98ca-f577-4d72-ae90-8ea7957b860a);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act1_Hermit_WaterfallGoblin", e661c36b-4644-4900-ac09-791843bb7c10);
+DB_GLO_Backgrounds_Goal((TAG)HERMIT_2fa3f042-2b50-41b2-8045-39ddd4421ca9, "Act1_Hermit_Apothecary", 4021d0f3-97ff-4c6b-8c73-d3bb3e6447c8);
+
+DB_GLO_Backgrounds_ChainAfterBookClosed((ITEM)S_UND_ClericDiary_623c1d86-4d4e-4120-986c-bda7cf6350ed, "Act1_Hermit_MystraCleric");
+DB_GLO_Backgrounds_ChainAfterBookClosed((ITEM)S_UND_MyconidCircle_DrowDiary_96330d15-fe1a-4179-9b67-5bf5a335d206, "Act1_Hermit_MyconidDrow");
+DB_GLO_Backgrounds_ChainAfterBookClosed((ITEM)S_FOR_ThayanJournal_9339e000-6be5-45c3-868d-7e686c7d2b69, "Act1_Hermit_Apothecary");
+DB_GLO_Backgrounds_ChainAfterBookClosed((ITEM)S_GOB_Checkpoint_LetterToZrell_9d6c5969-9f9f-4517-8e7f-a51eac1fa0a5, "Act1_Hermit_WaterfallGoblin");
+
+//END_REGION Hermit
+
+//REGION Sailor
+
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act1_Sailor_CarrionCrawlerNest", 6dbd4ba8-a144-485e-be9b-39a4ce2b6830);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act1_Sailor_Harpies", 2e5b12d5-a4cd-42a8-9c9f-433e6d2178a3);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act1_Sailor_HarpersCrashside", b9c7f16a-698e-474c-9bf0-92522a8cf313);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act1_Sailor_HarpersNearDen", 4c34630a-3b76-4225-8506-25855182f0a4);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act1_Sailor_TavernDowry", 7efbf193-af48-4384-adbe-4118a94a9e4d);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act1_Sailor_DrowPatrol", c02d5290-363f-4ae5-bdc5-c05eb6f4849c);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act1_Sailor_ZhentCache", c8f995ac-08c8-408e-be23-f71270eb4d85);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act1_Sailor_ForestGoblinStash", 60ba0f03-a68e-45be-bf9e-d3d307f8c5ff);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act1_Sailor_UndBirdNest", b1b23dab-e459-4276-ac7f-2131cbf7ee43);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act1_Soldier_DuergarRaft", ec15f676-5c65-4974-9174-5c3bfac5aaa7);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act1_Outlander_FairyRings", 76bae619-f90d-4f4f-b693-2b6a06b1cff8);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act1_Outlander_JumpFromBottomlessWell", 232bc2fa-0473-4d7e-8aa1-12181a86ff5e);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act1_Outlander_OutpostSpiders", 50d99c9c-d226-4033-9fd3-62d7bc566e2d);
+DB_GLO_Backgrounds_Goal((TAG)SAILOR_3f4cfd9e-cc97-4fd9-ae7a-21f2948fd1b0, "Act1_Noble_SoulCoin", 7e325707-5d3b-4fe1-8386-35e3a3efd873);
+
+DB_GLO_Backgrounds_ChainAfterCharacterFlag((FLAG)UND_WormWall_Event_LowerGiveReward_de7918ce-e0e0-eed1-7f6a-c97571d56fc2, "Act1_Sailor_CarrionCrawlerNest");
+DB_GLO_Backgrounds_ChainAfterItemOpened((ITEM)S_CRA_HarperTreasureBox_89b85f26-c282-40e2-bfdc-bf0932649443, "Act1_Sailor_HarpersCrashside");
+DB_GLO_Backgrounds_ChainAfterItemOpened((ITEM)S_DEN_HarpyNest_a5c87ab6-b38b-4c2b-bf4f-a1f5f391f79f, "Act1_Sailor_Harpies");
+DB_GLO_Backgrounds_ChainAfterItemOpened((ITEM)S_UND_BirdNest_CONT_GEN_Chest_Common_Placeholder_001_55a460d7-a082-43d5-90a9-25689e67324c, "Act1_Sailor_UndBirdNest");
+DB_GLO_Backgrounds_ChainAfterItemOpened((ITEM)S_CHA_OutpostBag_3e93a5e1-c8ae-4f2a-b4c9-0e34085240f9, "Act1_Sailor_HarpersNearDen");
+DB_GLO_Backgrounds_ChainAfterItemOpened((ITEM)S_PLA_StuckHalfElf_Dowry_Chest_d7368244-74f3-46f6-9198-d0dd81d72a78,"Act1_Sailor_TavernDowry");
+DB_GLO_Backgrounds_ChainAfterItemOpened((ITEM)S_FOR_ZhentCache_0d88a72b-e7b9-4609-8f56-ccb4a15e61bd,"Act1_Sailor_ZhentCache");
+DB_GLO_Backgrounds_ChainAfterItemOpened((ITEM)S_FOR_WarMap_Stash_876e5a0b-80ed-4f29-a177-e60dbb54e3c5,"Act1_Sailor_ForestGoblinStash");
+DB_GLO_Backgrounds_ChainAfterItemOpened((ITEM)S_UND_DrowResupply_HeavyChest_e8f726d4-aacd-4397-adaa-27ebdf6a0f5b,"Act1_Sailor_DrowPatrol");
+
+//END_REGION Sailor
+
+KBSECTION
+
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "Act1"
