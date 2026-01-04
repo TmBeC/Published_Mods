@@ -1,19 +1,9 @@
 Version 1
 SubGoalCombiner SGC_AND
 INITSECTION
+PROC_LaezelGetsHerOwnBooties();
 
 KBSECTION
-IF
-CharacterJoinedParty(_Laezel)
-AND
-_Laezel == S_Player_Laezel_58a69333-40bf-8358-1d17-fff240d7fb12
-AND
-TemplateIsInInventory((ITEMROOT)ARM_Camp_Shoes_Laezel_212bf756-b237-4ede-9c67-e871fd60e788,_Laezel, 0)
-AND
-QRY_OnlyOnce("FreeNewShoesForLaezel")
-THEN
-TemplateAddTo((ITEMROOT)ARM_Camp_Shoes_Laezel_212bf756-b237-4ede-9c67-e871fd60e788, _Laezel, 1, 0);
-
 PROC
 PROC_LaezelGetsHerOwnBooties()
 THEN

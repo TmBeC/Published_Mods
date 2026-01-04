@@ -666,6 +666,17 @@ ARM_DLC_TWITCH_Camp_Shoes
 ARM_DLC_TWITCH_Underwear_A
 ARM_DLC_TWITCH_Underwear_B
 ARM_ScaleMail_FlamingFist
+ARM_HalfPlate_FlamingFist
+ARM_HalfPlate_FlamingFist_B
+ARM_Helmet_Metal_FlamingFist_B
+ARM_Helmet_Metal_FlamingFist_C
+ARM_Boots_Metal_C
+ARM_Boots_Metal_A
+ARM_Boots_Metal_B
+ARM_Boots_Metal_D
+ARM_Boots_Metal_E
+ARM_Boots_Hide
+
 
 
 
