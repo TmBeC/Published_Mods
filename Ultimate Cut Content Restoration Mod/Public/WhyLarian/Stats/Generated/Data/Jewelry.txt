@@ -2,6 +2,15 @@
 // Jewelry
 
 // ==========================================================================
+// Amulets
+
+new entry "MAG_SleepImmunity_Passive"
+type "PassiveData"
+using "MAG_SleepImmunity_Passive"
+data "Boosts" "StatusImmunity(SLEEP);StatusImmunity(POISON_DROW_CONDITION);StatusImmunity(DRUG_ETHER_CONDITION);StatusImmunity(SG_Sleeping_Magical)"
+
+
+// ==========================================================================
 // Rings
 
 // Ring of Crabsight

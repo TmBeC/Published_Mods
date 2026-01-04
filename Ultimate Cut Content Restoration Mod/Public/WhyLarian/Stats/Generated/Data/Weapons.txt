@@ -126,7 +126,7 @@ new entry "Target_MAG_WeaponAction_FlashingDawn"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_MAG_WeaponAction_FlashingDawn"
-data "SpellSuccess" "TARGET:DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);TARGET:DealDamage(ProficiencyBonus,Radiant,,,0,,true,true);TARGET:AOE:IF(Enemy()):ApplyStatus(BLINDED,100,3,,,,not SavingThrow(Ability.Constitution, ManeuverSaveDC()+2));ExecuteWeaponFunctors(MainHand)"
+data "SpellSuccess" "TARGET:DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);TARGET:DealDamage(ProficiencyBonus,Radiant,,,0,,true,false);TARGET:AOE:IF(Enemy()):ApplyStatus(BLINDED,100,3,,,,not SavingThrow(Ability.Constitution, ManeuverSaveDC()+2));ExecuteWeaponFunctors(MainHand)"
 
 
 // ==========================================================================

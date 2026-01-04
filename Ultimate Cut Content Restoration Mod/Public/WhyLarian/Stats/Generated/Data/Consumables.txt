@@ -308,3 +308,12 @@ data "CastEffect" "bfe351bd-a007-4302-bb7a-9d2e98ecb3b6"
 data "TargetEffect" "53412dd1-8066-4860-a2ae-b27e77bfdab5"
 data "DamageType" "Fire"
 
+
+// ==========================================================================
+// Cup of Endless Water
+
+new entry "CRA_ShellKid_Cup"
+type "Object"
+using "CRA_ShellKid_Cup"
+data "ItemUseType" "Scroll"
+

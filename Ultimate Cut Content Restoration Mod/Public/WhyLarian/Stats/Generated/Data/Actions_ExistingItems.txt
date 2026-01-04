@@ -24,3 +24,12 @@ type "Weapon"
 using "DEN_HalsinBlade"
 data "PassivesOnEquip" "DEN_HalsinBlade_Passive"
 
+
+// ==========================================================================
+// Nymph Cloak
+
+new entry "MAG_LC_Nymph_Cloak_Passive"
+type "PassiveData"
+using "MAG_LC_Nymph_Cloak_Passive"
+data "PassivesOnEquip" "MAG_LC_Nymph_Cloak_Passive"
+
