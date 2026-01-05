@@ -12,6 +12,14 @@
                     <attribute id="TableUUID" type="guid" value="69eb2e41-0317-46d7-a6b6-3593de1a5220"/>
                     <attribute id="UUID" type="guid" value="61919b53-790d-4b9c-b318-f76886a2a888"/>
                 </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Thief"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SecondStoryWork_Jumping"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="f6acc595-46b4-4d96-b7d5-6f33366fc2de"/>
+                    <attribute id="UUID" type="guid" value="814b590c-2dc6-403f-882a-f00802cbb953"/>
+                </node>
             </children>
         </node>
     </region>

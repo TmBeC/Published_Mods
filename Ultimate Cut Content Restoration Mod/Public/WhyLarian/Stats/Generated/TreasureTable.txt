@@ -65,6 +65,8 @@ new treasuretable "LOW_SteepsTrader_Armor"
 CanMerge 1
 new subtable "-1"
 object category "I_MAG_Oathbreaker_Platemail",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Padded_BGWatch",1,0,0,0,0,0,0,0
 
 new treasuretable "LOW_DeathKnight_Elite_Treasure"
 CanMerge 1
@@ -82,11 +84,31 @@ new treasuretable "EquipmentTrader_SecondaryArmor_Metal"
 CanMerge 1
 new subtable "1,1"
 object category "I_ARM_Helmet_Watch_Metal_A",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Boots_Metal_A",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Boots_Metal_B",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Boots_Metal_D",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Boots_Metal_E",1,0,0,0,0,0,0,0
 
 new treasuretable "WYR_FlamingFist_Quartermaster_Trade"
 CanMerge 1
 new subtable "1,1"
 object category "I_ARM_Robe_FlamingFist",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_ScaleMail_FlamingFist",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_HalfPlate_FlamingFist",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_HalfPlate_FlamingFist_B",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Helmet_Metal_FlamingFist_B",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Helmet_Metal_FlamingFist_C",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Boots_Metal_C",1,0,0,0,0,0,0,0
 
 new treasuretable "MOO_BugBearvendor_Trade"
 CanMerge 1
@@ -255,6 +277,8 @@ new treasuretable "DEN_Volo_Trade"
 CanMerge 1
 new subtable "-1"
 object category "I_SHA_SandthiefsRing",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_MAG_WYRM_SleepImmunity_Amulet",1,0,0,0,0,0,0,0
 
 new treasuretable "LOW_Weaponsmith_Trade"
 CanMerge 1
@@ -323,6 +347,8 @@ new subtable "-1"
 object category "I_HAV_MAG_ShadowRending_Dagger",1,0,0,0,0,0,0,0
 new subtable "-1"
 object category "I_TWN_SharDagger",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Padded_Bandit_Body",1,0,0,0,0,0,0,0
 
 new treasuretable "WYR_Danthelon_Trader"
 CanMerge 1
@@ -334,6 +360,8 @@ new subtable "1,1"
 object category "I_WPN_Halberd_2",1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "I_WPN_Maul_2",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Padded_BGWatch",1,0,0,0,0,0,0,0
 
 new treasuretable "LOW_MurderTribunal_Merchant"
 CanMerge 1
@@ -540,6 +568,8 @@ new subtable "1,1"
 object category "I_WPN_Battleaxe_2",1,0,0,0,0,0,0,0
 object category "I_WPN_Spear_2",1,0,0,0,0,0,0,0
 object category "I_WPN_HeavyCrossbow_2",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_Padded_BGWatch",1,0,0,0,0,0,0,0
 
 new treasuretable "S_WYR_BuriedChest_02"
 CanMerge 1
@@ -630,114 +660,50 @@ new treasuretable "MOO_TrueSoul_ZealotKrizt"
 new subtable "-1"
 object category "I_MAG_Psychic_MentalFatigue_Cape",1,0,0,0,0,0,0,0
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-add to treasure table:
-
-new subtable "-1"
-
-MAG_WYRM_SleepImmunity_Amulet
-MAG_TheClover_Scimitar
-object category "I_WPN_Shortbow_Makeshift",1,0,0,0,0,0,0,0
-ARM_Padded_Bandit_Body
-WPN_Greataxe_B
-ARM_Padded_BGWatch
-ARM_DLC_TWITCH_Camp_Body
-ARM_DLC_TWITCH_Camp_Shoes
-ARM_DLC_TWITCH_Underwear_A
-ARM_DLC_TWITCH_Underwear_B
-ARM_ScaleMail_FlamingFist
-ARM_HalfPlate_FlamingFist
-ARM_HalfPlate_FlamingFist_B
-ARM_Helmet_Metal_FlamingFist_B
-ARM_Helmet_Metal_FlamingFist_C
-ARM_Boots_Metal_C
-ARM_Boots_Metal_A
-ARM_Boots_Metal_B
-ARM_Boots_Metal_D
-ARM_Boots_Metal_E
-ARM_Boots_Hide
-
-
-
-
-
-
-arrows not spawning?
-
-
-
-
-
-
-
-Unused Rogue passives ideas??
-
-new entry "SecondStoryWork_Jumping"
-type "PassiveData"
-// Second-Story Work: Jumping
-data "DisplayName" "h3840c33dgf699g414bgaf37g764b5aa6cec0;2"
-// Your jumping distance is increased.
-data "Description" "h66cee67aga3afg40ecga42dg0bc59a8fae9a;3"
-data "Icon" "Action_Jump"
-
-data "Boosts" "JumpMaxDistanceBonus(3)"
-^ applied based on dex mod
-
-
-
-
-
-
-
-
-
-
-
-
-
-Fix boobies popping out
-
-d1ec23df-f3d6-4378-ab07-dea2ff1ad556
-
-
-
-
-
-
-
-
-
-
-
-I would also add divine guardian to every paladin subclass lvl 2 or 3 (coding is %100 complete I tested myself few months ago)
-
-
-
-
-
-
-
-
-
-
-
+new treasuretable "UND_KC_Shar_Weapons_Big"
+CanMerge 1
+new subtable "0,1; 1,2; 2,1"
+object category "I_WPN_Greataxe_B",1,0,0,0,0,0,0,0
+
+new treasuretable "ST_MartialMeleeWeapons"
+CanMerge 1
+new subtable "1,1"
+object category "I_WPN_Greataxe_B",1,0,0,0,0,0,0,0
+
+new treasuretable "CHA_Exterior_Bandit_Melee"
+CanMerge 1
+new subtable "1,1"
+object category "I_ARM_Padded_Bandit_Body",1,0,0,0,0,0,0,0
+
+new treasuretable "DEN_RobbedAdventurer"
+CanMerge 1
+new subtable "1,1"
+object category "I_ARM_Padded_Bandit_Body",1,0,0,0,0,0,0,0
+
+new treasuretable "GOB_Festivities_Corpse_Adventurer"
+CanMerge 1
+new subtable "1,1"
+object category "I_ARM_Padded_Bandit_Body",1,0,0,0,0,0,0,0
+
+new treasuretable "LOW_Guildhall_FetchersBrat_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "I_ARM_Padded_Bandit_Body",1,0,0,0,0,0,0,0
+
+new treasuretable "HAV_HarperQuarterMaster"
+CanMerge 1
+new subtable "1,1"
+object category "I_ARM_Padded_BGWatch",1,0,0,0,0,0,0,0
+
+new treasuretable "Clothes_Variation_Boots"
+CanMerge 1
+new subtable "1,1"
+object category "I_ARM_Boots_Hide",1,0,0,0,0,0,0,0
+
+new treasuretable "LOW_Figaro_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "I_ARM_DLC_TWITCH_Camp_Body",1,0,0,0,0,0,0,0
+object category "I_ARM_DLC_TWITCH_Camp_Shoes",1,0,0,0,0,0,0,0
+object category "I_ARM_DLC_TWITCH_Underwear_A",1,0,0,0,0,0,0,0
+object category "I_ARM_DLC_TWITCH_Underwear_B",1,0,0,0,0,0,0,0

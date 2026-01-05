@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList">
+                    <attribute id="MergedInto" type="guid" value="49704931-e47b-4ce6-abc6-dfa7ba640752"/>
+                    <attribute id="Name" type="FixedString" value="Metamagic level 2 Empowered"/>
+                    <attribute id="Passives" type="LSString" value="Metamagic_Empowered"/>
+                    <attribute id="UUID" type="guid" value="5a3d27ce-0e4e-401d-9095-0b8cf419b905"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="MergedInto" type="guid" value="c3506532-36eb-4d18-823e-497a537a9619"/>
+                    <attribute id="Name" type="FixedString" value="Metamagic level 3 Empowered"/>
+                    <attribute id="Passives" type="LSString" value="Metamagic_Empowered"/>
+                    <attribute id="UUID" type="guid" value="6f003875-a534-45b0-943b-553971255e8a"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

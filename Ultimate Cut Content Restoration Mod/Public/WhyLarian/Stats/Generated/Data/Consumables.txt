@@ -6,28 +6,33 @@
 
 new entry "OBJ_ArrowOfCelestialSlaying"
 type "Object"
-using "_Arrow"
-data "ObjectCategory" "ArrowUncommon"
+using "OBJ_ArrowOfCelestialSlaying"
+data "ObjectCategory" "ArrowOfSlaying"
+data "Priority" "2"
 
 new entry "OBJ_ArrowOfFeySlaying"
 type "Object"
-using "_Arrow"
-data "ObjectCategory" "ArrowUncommon"
+using "OBJ_ArrowOfFeySlaying"
+data "ObjectCategory" "ArrowOfSlaying"
+data "Priority" "2"
 
 new entry "OBJ_ArrowOfGiantSlaying"
 type "Object"
-using "_Arrow"
-data "ObjectCategory" "ArrowUncommon"
+using "OBJ_ArrowOfGiantSlaying"
+data "ObjectCategory" "ArrowOfSlaying"
+data "Priority" "2"
 
 new entry "OBJ_ArrowOfOozeSlaying"
 type "Object"
-using "_Arrow"
-data "ObjectCategory" "ArrowUncommon"
+using "OBJ_ArrowOfOozeSlaying"
+data "ObjectCategory" "ArrowOfSlaying"
+data "Priority" "2"
 
 new entry "OBJ_ArrowOfPlantSlaying"
 type "Object"
-using "_Arrow"
-data "ObjectCategory" "ArrowUncommon"
+using "OBJ_ArrowOfPlantSlaying"
+data "ObjectCategory" "ArrowOfSlaying"
+data "Priority" "2"
 
 
 // ==========================================================================

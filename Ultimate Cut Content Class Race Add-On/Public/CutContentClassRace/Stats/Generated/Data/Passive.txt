@@ -1,0 +1,12 @@
+new entry "SecondStoryWork_Jumping"
+type "PassiveData"
+using "SecondStoryWork_Jumping"
+data "Boosts" "JumpMaxDistanceBonus(3)"
+
+new entry "Metamagic_Empowered"
+type "PassiveData"
+using "Metamagic_Empowered"
+data "EnabledConditions" "HasActionResource('SorceryPoint',1,0,false,false, context.Source)"
+data "EnabledContext" "OnCastResolved;OnLongRest;OnActionResourcesChanged"
+data "Boosts" "Reroll(Damage,20,false);UnlockSpellVariant(EmpoweredSpellCheck(),ModifyUseCosts(Add,SorceryPoint,1,0),ModifyTooltipDescription(),ModifyIconGlow())"
+

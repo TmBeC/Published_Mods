@@ -250,6 +250,7 @@
 				<node id="GameObjects">
 					<attribute id="Description" type="TranslatedString" handle="h06974fddg3c22g4430g8092gf0aee166dbb3" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="he9f587f1gc090g4175g9acdge1e18c209ee0" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Amulet_Necklace_C_Bronze_A_1" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="d9ee5eb0-3fa8-4d9c-96d2-676798791095" />
 					<attribute id="Name" type="LSString" value="MAG_WYRM_SleepImmunity_Amulet" />

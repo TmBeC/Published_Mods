@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="VisualBank">
+		<node id="VisualBank">
+			<children>
+				<node id="Resource">
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.66430396 1.6142384 0.16591355" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.6662037 0.537471 -0.16350837" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="75e5b7e7-3c17-6a19-c3db-6c94084dff4f" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="HUM_F_ARM_Githyanki_HalfPlate_A_Body" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="RemapperSlotId" type="FixedString" value="" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Body" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Characters/_Models/Humans/_Female/Resources/HUM_F_ARM_Githyanki_HalfPlate_A_Body.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Characters/_Models/Humans/_Female/Resources/HUM_F_ARM_Githyanki_HalfPlate_A_Body.Dummy_Root.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144818875517632512" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="ClothParams">
+							<attribute id="AngularDrag" type="fvec3" value="0.0001 0.0001 0.0001" />
+							<attribute id="AngularInertia" type="fvec3" value="0.7 0.7 0.7" />
+							<attribute id="AnimDriveDampingForce" type="float" value="0" />
+							<attribute id="AnimDriveSpringForce" type="float" value="25" />
+							<attribute id="AnimInfluenceMultiplier" type="float" value="1" />
+							<attribute id="AtmosphericWindEnabled" type="bool" value="False" />
+							<attribute id="BendingStiffness" type="float" value="1" />
+							<attribute id="CentrifugalInertia" type="fvec3" value="0.5 0.5 0.5" />
+							<attribute id="ClothMainWindFrequency" type="float" value="0" />
+							<attribute id="ClothMainWindSpeed" type="float" value="0" />
+							<attribute id="ClothMainWindVariance" type="float" value="0" />
+							<attribute id="ClothMaxWindDirectionOffset" type="float" value="0" />
+							<attribute id="ClothWindDirectionOffsetFrequency" type="float" value="0" />
+							<attribute id="ClothWindSpeed" type="float" value="0" />
+							<attribute id="CollisionMassScale" type="float" value="1" />
+							<attribute id="CompressionLimit" type="float" value="0.8" />
+							<attribute id="Damping" type="fvec3" value="0.025 0.025 0.025" />
+							<attribute id="DragCoefficient" type="float" value="0.4" />
+							<attribute id="EnableCCD" type="bool" value="False" />
+							<attribute id="EnableVirtualParticles" type="bool" value="False" />
+							<attribute id="FluidDensity" type="float" value="0.1" />
+							<attribute id="Friction" type="float" value="0.1" />
+							<attribute id="FrontalWindSpeed" type="float" value="0" />
+							<attribute id="FrontalWindVariance" type="float" value="0" />
+							<attribute id="LiftCoefficient" type="float" value="0.01" />
+							<attribute id="LinearDrag" type="fvec3" value="0.0001 0.0001 0.0001" />
+							<attribute id="LinearInertia" type="fvec3" value="0.6 0.6 0.6" />
+							<attribute id="LinearStiffness" type="float" value="1" />
+							<attribute id="OverrideAtmosphericWind" type="bool" value="False" />
+							<attribute id="SelfCollisionDistance" type="float" value="0" />
+							<attribute id="SelfCollisionStiffness" type="float" value="0" />
+							<attribute id="SolverFrequency" type="float" value="30" />
+							<attribute id="StiffnessFrequency" type="float" value="300" />
+							<attribute id="StiffnessMultiplier" type="float" value="1" />
+							<attribute id="StretchLimit" type="float" value="1.2" />
+							<attribute id="TetherConstraintScale" type="float" value="1" />
+							<attribute id="TetherConstraintStiffness" type="float" value="1" />
+							<attribute id="UUID" type="FixedString" value="HUM_F_ARM_Githyanki_HalfPlate_A_Body.HUM_F_ARM_Githyanki_HalfPlate_A_Body_Mesh.0" />
+						</node>
+						<node id="ClothParams">
+							<attribute id="AngularDrag" type="fvec3" value="0.0001 0.0001 0.0001" />
+							<attribute id="AngularInertia" type="fvec3" value="0.7 0.7 0.7" />
+							<attribute id="AnimDriveDampingForce" type="float" value="0" />
+							<attribute id="AnimDriveSpringForce" type="float" value="25" />
+							<attribute id="AnimInfluenceMultiplier" type="float" value="1" />
+							<attribute id="AtmosphericWindEnabled" type="bool" value="False" />
+							<attribute id="BendingStiffness" type="float" value="1" />
+							<attribute id="CentrifugalInertia" type="fvec3" value="0.5 0.5 0.5" />
+							<attribute id="ClothMainWindFrequency" type="float" value="0" />
+							<attribute id="ClothMainWindSpeed" type="float" value="0" />
+							<attribute id="ClothMainWindVariance" type="float" value="0" />
+							<attribute id="ClothMaxWindDirectionOffset" type="float" value="0" />
+							<attribute id="ClothWindDirectionOffsetFrequency" type="float" value="0" />
+							<attribute id="ClothWindSpeed" type="float" value="0" />
+							<attribute id="CollisionMassScale" type="float" value="1" />
+							<attribute id="CompressionLimit" type="float" value="0.8" />
+							<attribute id="Damping" type="fvec3" value="0.025 0.025 0.025" />
+							<attribute id="DragCoefficient" type="float" value="0.4" />
+							<attribute id="EnableCCD" type="bool" value="False" />
+							<attribute id="EnableVirtualParticles" type="bool" value="False" />
+							<attribute id="FluidDensity" type="float" value="0.1" />
+							<attribute id="Friction" type="float" value="0.1" />
+							<attribute id="FrontalWindSpeed" type="float" value="0" />
+							<attribute id="FrontalWindVariance" type="float" value="0" />
+							<attribute id="LiftCoefficient" type="float" value="0.01" />
+							<attribute id="LinearDrag" type="fvec3" value="0.0001 0.0001 0.0001" />
+							<attribute id="LinearInertia" type="fvec3" value="0.6 0.6 0.6" />
+							<attribute id="LinearStiffness" type="float" value="1" />
+							<attribute id="OverrideAtmosphericWind" type="bool" value="False" />
+							<attribute id="SelfCollisionDistance" type="float" value="0" />
+							<attribute id="SelfCollisionStiffness" type="float" value="0" />
+							<attribute id="SolverFrequency" type="float" value="30" />
+							<attribute id="StiffnessFrequency" type="float" value="300" />
+							<attribute id="StiffnessMultiplier" type="float" value="1" />
+							<attribute id="StretchLimit" type="float" value="1.2" />
+							<attribute id="TetherConstraintScale" type="float" value="1" />
+							<attribute id="TetherConstraintStiffness" type="float" value="1" />
+							<attribute id="UUID" type="FixedString" value="HUM_F_ARM_Githyanki_HalfPlate_A_Body.HUM_F_ARM_Githyanki_HalfPlate_A_Body_Cloth_Mesh.1" />
+						</node>
+						<node id="ClothParams">
+							<attribute id="AngularDrag" type="fvec3" value="0.0001 0.0001 0.0001" />
+							<attribute id="AngularInertia" type="fvec3" value="0.7 0.7 0.7" />
+							<attribute id="AnimDriveDampingForce" type="float" value="0" />
+							<attribute id="AnimDriveSpringForce" type="float" value="25" />
+							<attribute id="AnimInfluenceMultiplier" type="float" value="1" />
+							<attribute id="AtmosphericWindEnabled" type="bool" value="False" />
+							<attribute id="BendingStiffness" type="float" value="1" />
+							<attribute id="CentrifugalInertia" type="fvec3" value="0.5 0.5 0.5" />
+							<attribute id="ClothMainWindFrequency" type="float" value="0" />
+							<attribute id="ClothMainWindSpeed" type="float" value="0" />
+							<attribute id="ClothMainWindVariance" type="float" value="0" />
+							<attribute id="ClothMaxWindDirectionOffset" type="float" value="0" />
+							<attribute id="ClothWindDirectionOffsetFrequency" type="float" value="0" />
+							<attribute id="ClothWindSpeed" type="float" value="0" />
+							<attribute id="CollisionMassScale" type="float" value="1" />
+							<attribute id="CompressionLimit" type="float" value="0.8" />
+							<attribute id="Damping" type="fvec3" value="0.025 0.025 0.025" />
+							<attribute id="DragCoefficient" type="float" value="0.4" />
+							<attribute id="EnableCCD" type="bool" value="False" />
+							<attribute id="EnableVirtualParticles" type="bool" value="False" />
+							<attribute id="FluidDensity" type="float" value="0.1" />
+							<attribute id="Friction" type="float" value="0.1" />
+							<attribute id="FrontalWindSpeed" type="float" value="0" />
+							<attribute id="FrontalWindVariance" type="float" value="0" />
+							<attribute id="LiftCoefficient" type="float" value="0.01" />
+							<attribute id="LinearDrag" type="fvec3" value="0.0001 0.0001 0.0001" />
+							<attribute id="LinearInertia" type="fvec3" value="0.6 0.6 0.6" />
+							<attribute id="LinearStiffness" type="float" value="1" />
+							<attribute id="OverrideAtmosphericWind" type="bool" value="False" />
+							<attribute id="SelfCollisionDistance" type="float" value="0" />
+							<attribute id="SelfCollisionStiffness" type="float" value="0" />
+							<attribute id="SolverFrequency" type="float" value="30" />
+							<attribute id="StiffnessFrequency" type="float" value="300" />
+							<attribute id="StiffnessMultiplier" type="float" value="1" />
+							<attribute id="StretchLimit" type="float" value="1.2" />
+							<attribute id="TetherConstraintScale" type="float" value="1" />
+							<attribute id="TetherConstraintStiffness" type="float" value="1" />
+							<attribute id="UUID" type="FixedString" value="HUM_F_ARM_Githyanki_HalfPlate_A_Body.HUM_F_ARM_Githyanki_HalfPlate_A_Body_Mesh_LOD1.2" />
+						</node>
+						<node id="ClothParams">
+							<attribute id="AngularDrag" type="fvec3" value="0.0001 0.0001 0.0001" />
+							<attribute id="AngularInertia" type="fvec3" value="0.7 0.7 0.7" />
+							<attribute id="AnimDriveDampingForce" type="float" value="0" />
+							<attribute id="AnimDriveSpringForce" type="float" value="25" />
+							<attribute id="AnimInfluenceMultiplier" type="float" value="1" />
+							<attribute id="AtmosphericWindEnabled" type="bool" value="False" />
+							<attribute id="BendingStiffness" type="float" value="1" />
+							<attribute id="CentrifugalInertia" type="fvec3" value="0.5 0.5 0.5" />
+							<attribute id="ClothMainWindFrequency" type="float" value="0" />
+							<attribute id="ClothMainWindSpeed" type="float" value="0" />
+							<attribute id="ClothMainWindVariance" type="float" value="0" />
+							<attribute id="ClothMaxWindDirectionOffset" type="float" value="0" />
+							<attribute id="ClothWindDirectionOffsetFrequency" type="float" value="0" />
+							<attribute id="ClothWindSpeed" type="float" value="0" />
+							<attribute id="CollisionMassScale" type="float" value="1" />
+							<attribute id="CompressionLimit" type="float" value="0.8" />
+							<attribute id="Damping" type="fvec3" value="0.025 0.025 0.025" />
+							<attribute id="DragCoefficient" type="float" value="0.4" />
+							<attribute id="EnableCCD" type="bool" value="False" />
+							<attribute id="EnableVirtualParticles" type="bool" value="False" />
+							<attribute id="FluidDensity" type="float" value="0.1" />
+							<attribute id="Friction" type="float" value="0.1" />
+							<attribute id="FrontalWindSpeed" type="float" value="0" />
+							<attribute id="FrontalWindVariance" type="float" value="0" />
+							<attribute id="LiftCoefficient" type="float" value="0.01" />
+							<attribute id="LinearDrag" type="fvec3" value="0.0001 0.0001 0.0001" />
+							<attribute id="LinearInertia" type="fvec3" value="0.6 0.6 0.6" />
+							<attribute id="LinearStiffness" type="float" value="1" />
+							<attribute id="OverrideAtmosphericWind" type="bool" value="False" />
+							<attribute id="SelfCollisionDistance" type="float" value="0" />
+							<attribute id="SelfCollisionStiffness" type="float" value="0" />
+							<attribute id="SolverFrequency" type="float" value="30" />
+							<attribute id="StiffnessFrequency" type="float" value="300" />
+							<attribute id="StiffnessMultiplier" type="float" value="1" />
+							<attribute id="StretchLimit" type="float" value="1.2" />
+							<attribute id="TetherConstraintScale" type="float" value="1" />
+							<attribute id="TetherConstraintStiffness" type="float" value="1" />
+							<attribute id="UUID" type="FixedString" value="HUM_F_ARM_Githyanki_HalfPlate_A_Body.HUM_F_ARM_Githyanki_HalfPlate_A_Body_Cloth_Mesh_LOD1.3" />
+						</node>
+						<node id="ClothProxyMapping">
+							<children>
+								<node id="Object">
+									<attribute id="MapKey" type="FixedString" value="HUM_F_ARM_Githyanki_HalfPlate_A_Body.HUM_F_ARM_Githyanki_HalfPlate_A_Body_Cloth_Mesh.1" />
+									<children>
+										<node id="MapValue">
+											<children>
+												<node id="Object">
+													<attribute id="ClosestVertices" type="ScratchBuffer" value="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" />
+													<attribute id="Name" type="FixedString" value="HUM_F_ARM_Githyanki_HalfPlate_A_Body.HUM_F_ARM_Githyanki_HalfPlate_A_Body_Mesh.0" />
+													<attribute id="NbClosestVertices" type="int32" value="2898" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Object">
+									<attribute id="MapKey" type="FixedString" value="HUM_F_ARM_Githyanki_HalfPlate_A_Body.HUM_F_ARM_Githyanki_HalfPlate_A_Body_Cloth_Mesh_LOD1.3" />
+									<children>
+										<node id="MapValue">
+											<children>
+												<node id="Object">
+													<attribute id="ClosestVertices" type="ScratchBuffer" value="eNqNVl1PW0cQnRCI8oCxoWpBAhOICWCMsfkKxBcQFhhQKX2gfYFWqfj/P+L2zDmz10uIELI8O/fM7OzMuXt358LOrSwv7BLjuV1AP7chxlPiQ46ndgb9FPgZtbI8sxOg/9o/GE+InODpyZJ0rzN4nJgiKKZW0VxFS9YL2mX1mMrkgjloFa17GnKc8yURRRjiacSIrl8x5zOu4zme2MAK5HeCDD3HgtpYehzNUpzLqGvAGFfMWD65NTFznlXnOXvU06rCYdT4HeuX5XfYHqj/Z4+M84Snh9CFX9qfdoffPTStdcd1tfoIlmHkc4VxZMpzgDxTRQWefHyyG8R+gu+AtivgQ8z3GhRfERRTqwj3tzfA6FblnNj4kQdl+xS1FKzO/bWupK94H/F9hVtWc4fVR9CVg+d2yyquo5aCWhFvrUCcIt7egLV4hoqjyJolfMjYeV0FuLiO+MqniOcBcxgxK8/txn5n9g9Y0bWb6k05Il0+sv7FWYp5a39XNd7GOxpRv4LF1ypLX/UPaq679IqumV/BPB2RHESOKc6oWsvfqeIPfmK9Z7wictMqyuE29BF0WY/swL5COt7F6PqOdfFzZCfwL8B2IF3bpnS8hXEd/zU8fQl/9znK5iqa+7RM8btZTEVTnBbxNY6SrVjlszUwvwGsQaTBaHWbxXMDsh74+7C+B/LODE8+Ol6vZELcUz5HyCAx8BVseJZd5NZjrsq2xzyV8zZy7UXm65At5r9mqaIuMEXoBgOuy0cxDyi1liIrpqKto96WpdpdCvmMSh1p8Mk5EDLLuhrBh8tZzqpX3MxynCMrMyYGxnKG+aTaPcN+jNuQnSrDDvNLeXYiWyGJH5+lClMt24zgMQ8oe0Q03+vaYGXrIYV4XauUrUyuVmgd0uucw1+a43OoZDZw11N1kjM2YXrjM/g78o7aJPEJ+pstAhWySNuvtmC/AF2AvmTzwBeALYXu1nn7jWxLz5EDO66q7tshtF7oaUf1wULf9oOjTrxrf+qAha1AJN13P+Z61MPwkX96g71guB8xxecGZ0k6y4nhVWgrlJsVw3PE56wJ6f5C/N8MOYOxRlmWSXNZs4lKLoGveWqT5HMR/0mbJosTYc2leDoEY6nGfTyJn57tAu0EG7vkxWtfh7aLUYh8fFZZKo5bnT33TO9BfPYrtsXJJnydg62Kq1VytEl2JIWIkxXyICnEmalVWI38rQRvtUCOmdsBVj9+pifepjG6bFZ7sgY5BaQsp20KT8KnyOOUfSC3vrp24wf7WO3Mj7BKpt2Y68fcjYfcny6/ga1d7sRD2yOTLjtkcAsztqqndiDykb8iyLpPzzz+PtfQfMUZs93O5EbGdjuTq5bYFvNN+1Tp7u2WTz8w79YkE/P9kNob32L0t6A6vCLXtcdc7rFW7aI2RyF7YfVZiiOra9q3iR/FUQRV2ibSrnadanRkk3WsYJQufIXVOJ4Y8FqX4en6NKpbflbvsiV702RdJmN5f/72njzvkN/SFefd7GP0rvfsNse9q/q91OMN2Gl5l6juMe8b837vLT1e3qE9Rmc17qPe3jupI8r7mZedjPoT9SGNrOtIncbPu4u8Q3jZGzy/99Xx1KsbPL+vX79zdZPq3tT9qDuxnt16uul0r728uV6/ccYn5GZ2+jWf3QI67fMT/vVTOj8B9CXnX7ROS52NOgl1+ulMy0+210+n8RfXjq8pnR7js+L1bzx9v+lrbT77EtPX5+j/TS2EiQ==" />
+													<attribute id="Name" type="FixedString" value="HUM_F_ARM_Githyanki_HalfPlate_A_Body.HUM_F_ARM_Githyanki_HalfPlate_A_Body_Mesh_LOD1.2" />
+													<attribute id="NbClosestVertices" type="int32" value="1968" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="6ba76daf-a874-f5a5-6f0d-63e76f75f8d2" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_F_ARM_Githyanki_HalfPlate_A_Body.HUM_F_ARM_Githyanki_HalfPlate_A_Body_Mesh.0" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="9e2966c7-b61c-4bc1-bef1-a79cb5fde067" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_F_ARM_Githyanki_HalfPlate_A_Body.HUM_F_ARM_Githyanki_HalfPlate_A_Body_Cloth_Mesh.1" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="1" />
+							<attribute id="MaterialID" type="FixedString" value="6ba76daf-a874-f5a5-6f0d-63e76f75f8d2" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_F_ARM_Githyanki_HalfPlate_A_Body.HUM_F_ARM_Githyanki_HalfPlate_A_Body_Mesh_LOD1.2" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="1" />
+							<attribute id="MaterialID" type="FixedString" value="9e2966c7-b61c-4bc1-bef1-a79cb5fde067" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_F_ARM_Githyanki_HalfPlate_A_Body.HUM_F_ARM_Githyanki_HalfPlate_A_Body_Cloth_Mesh_LOD1.3" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Torso" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Shoulders" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="decolletage_02" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Underwear_Bra" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Nipple Covers" />
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.8137616 1.806505 0.18476978" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.81469566 0.56765306 -0.1943211" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="77b46e6b-b14d-22d1-f5b5-c08ed6b8b412" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="HUM_FS_ARM_Githyanki_HalfPlate_A_Body" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="RemapperSlotId" type="FixedString" value="" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Body" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Characters/_Models/Humans/_FemaleStrong/Resources/HUM_FS_ARM_Githyanki_HalfPlate_A_Body.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Characters/_Models/Humans/_FemaleStrong/Resources/HUM_FS_ARM_Githyanki_HalfPlate_A_Body.Dummy_Root.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144818875517632512" />
+					<children>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="" />
+						</node>
+						<node id="Base" />
+						<node id="ClothParams">
+							<attribute id="AngularDrag" type="fvec3" value="0.0001 0.0001 0.0001" />
+							<attribute id="AngularInertia" type="fvec3" value="0.7 0.7 0.7" />
+							<attribute id="AnimDriveDampingForce" type="float" value="0" />
+							<attribute id="AnimDriveSpringForce" type="float" value="25" />
+							<attribute id="AnimInfluenceMultiplier" type="float" value="1" />
+							<attribute id="AtmosphericWindEnabled" type="bool" value="False" />
+							<attribute id="BendingStiffness" type="float" value="1" />
+							<attribute id="CentrifugalInertia" type="fvec3" value="0.5 0.5 0.5" />
+							<attribute id="ClothMainWindFrequency" type="float" value="0" />
+							<attribute id="ClothMainWindSpeed" type="float" value="0" />
+							<attribute id="ClothMainWindVariance" type="float" value="0" />
+							<attribute id="ClothMaxWindDirectionOffset" type="float" value="0" />
+							<attribute id="ClothWindDirectionOffsetFrequency" type="float" value="0" />
+							<attribute id="ClothWindSpeed" type="float" value="0" />
+							<attribute id="CollisionMassScale" type="float" value="1" />
+							<attribute id="CompressionLimit" type="float" value="0.8" />
+							<attribute id="Damping" type="fvec3" value="0.025 0.025 0.025" />
+							<attribute id="DragCoefficient" type="float" value="0.4" />
+							<attribute id="EnableCCD" type="bool" value="False" />
+							<attribute id="EnableVirtualParticles" type="bool" value="False" />
+							<attribute id="FluidDensity" type="float" value="0.1" />
+							<attribute id="Friction" type="float" value="0.1" />
+							<attribute id="FrontalWindSpeed" type="float" value="0" />
+							<attribute id="FrontalWindVariance" type="float" value="0" />
+							<attribute id="LiftCoefficient" type="float" value="0.01" />
+							<attribute id="LinearDrag" type="fvec3" value="0.0001 0.0001 0.0001" />
+							<attribute id="LinearInertia" type="fvec3" value="0.6 0.6 0.6" />
+							<attribute id="LinearStiffness" type="float" value="1" />
+							<attribute id="OverrideAtmosphericWind" type="bool" value="False" />
+							<attribute id="SelfCollisionDistance" type="float" value="0" />
+							<attribute id="SelfCollisionStiffness" type="float" value="0" />
+							<attribute id="SolverFrequency" type="float" value="30" />
+							<attribute id="StiffnessFrequency" type="float" value="300" />
+							<attribute id="StiffnessMultiplier" type="float" value="1" />
+							<attribute id="StretchLimit" type="float" value="1.2" />
+							<attribute id="TetherConstraintScale" type="float" value="1" />
+							<attribute id="TetherConstraintStiffness" type="float" value="1" />
+							<attribute id="UUID" type="FixedString" value="HUM_FS_ARM_Githyanki_HalfPlate_A_Body.HUM_FS_ARM_Githyanki_HalfPlate_A_Body_Cloth_Mesh.1" />
+						</node>
+						<node id="ClothParams">
+							<attribute id="AngularDrag" type="fvec3" value="0.0001 0.0001 0.0001" />
+							<attribute id="AngularInertia" type="fvec3" value="0.7 0.7 0.7" />
+							<attribute id="AnimDriveDampingForce" type="float" value="0" />
+							<attribute id="AnimDriveSpringForce" type="float" value="25" />
+							<attribute id="AnimInfluenceMultiplier" type="float" value="1" />
+							<attribute id="AtmosphericWindEnabled" type="bool" value="False" />
+							<attribute id="BendingStiffness" type="float" value="1" />
+							<attribute id="CentrifugalInertia" type="fvec3" value="0.5 0.5 0.5" />
+							<attribute id="ClothMainWindFrequency" type="float" value="0" />
+							<attribute id="ClothMainWindSpeed" type="float" value="0" />
+							<attribute id="ClothMainWindVariance" type="float" value="0" />
+							<attribute id="ClothMaxWindDirectionOffset" type="float" value="0" />
+							<attribute id="ClothWindDirectionOffsetFrequency" type="float" value="0" />
+							<attribute id="ClothWindSpeed" type="float" value="0" />
+							<attribute id="CollisionMassScale" type="float" value="1" />
+							<attribute id="CompressionLimit" type="float" value="0.8" />
+							<attribute id="Damping" type="fvec3" value="0.025 0.025 0.025" />
+							<attribute id="DragCoefficient" type="float" value="0.4" />
+							<attribute id="EnableCCD" type="bool" value="False" />
+							<attribute id="EnableVirtualParticles" type="bool" value="False" />
+							<attribute id="FluidDensity" type="float" value="0.1" />
+							<attribute id="Friction" type="float" value="0.1" />
+							<attribute id="FrontalWindSpeed" type="float" value="0" />
+							<attribute id="FrontalWindVariance" type="float" value="0" />
+							<attribute id="LiftCoefficient" type="float" value="0.01" />
+							<attribute id="LinearDrag" type="fvec3" value="0.0001 0.0001 0.0001" />
+							<attribute id="LinearInertia" type="fvec3" value="0.6 0.6 0.6" />
+							<attribute id="LinearStiffness" type="float" value="1" />
+							<attribute id="OverrideAtmosphericWind" type="bool" value="False" />
+							<attribute id="SelfCollisionDistance" type="float" value="0" />
+							<attribute id="SelfCollisionStiffness" type="float" value="0" />
+							<attribute id="SolverFrequency" type="float" value="30" />
+							<attribute id="StiffnessFrequency" type="float" value="300" />
+							<attribute id="StiffnessMultiplier" type="float" value="1" />
+							<attribute id="StretchLimit" type="float" value="1.2" />
+							<attribute id="TetherConstraintScale" type="float" value="1" />
+							<attribute id="TetherConstraintStiffness" type="float" value="1" />
+							<attribute id="UUID" type="FixedString" value="HUM_FS_ARM_Githyanki_HalfPlate_A_Body.HUM_FS_ARM_Githyanki_HalfPlate_A_Body_Cloth_Mesh_LOD1.3" />
+						</node>
+						<node id="ClothProxyMapping">
+							<children>
+								<node id="Object">
+									<attribute id="MapKey" type="FixedString" value="HUM_FS_ARM_Githyanki_HalfPlate_A_Body.HUM_FS_ARM_Githyanki_HalfPlate_A_Body_Cloth_Mesh.1" />
+									<children>
+										<node id="MapValue">
+											<children>
+												<node id="Object">
+													<attribute id="ClosestVertices" type="ScratchBuffer" value="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" />
+													<attribute id="Name" type="FixedString" value="HUM_FS_ARM_Githyanki_HalfPlate_A_Body.HUM_FS_ARM_Githyanki_HalfPlate_A_Body_Mesh.0" />
+													<attribute id="NbClosestVertices" type="int32" value="2826" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Object">
+									<attribute id="MapKey" type="FixedString" value="HUM_FS_ARM_Githyanki_HalfPlate_A_Body.HUM_FS_ARM_Githyanki_HalfPlate_A_Body_Cloth_Mesh_LOD1.3" />
+									<children>
+										<node id="MapValue">
+											<children>
+												<node id="Object">
+													<attribute id="ClosestVertices" type="ScratchBuffer" value="eNqNV4tOYzcQnW1BgApUZMMjoBBYSnhDWVgqSEM2YRWpPFYVJLT//yPunHPG916KQCsr4/HxeDxz7Gs75/bZUvpm53bDX0o39i20lAZeP/pv4K1HG3s9cJnSE3u/25M9ePlu9y7vC/yBEn3wMKbPAXuhj6kPaCNcc2nOc8bzyHkUR3WWsUfz5H2ISXGes0bsA8qhZZ8D1+HlJuSYIyG7pkgevJb3HjNICfLWgI+Y0Sh6EXOXo/smz5oLfqq9NxGJ2BhwViGK84l5jJlBtke0z7SHvLNnsvGP/W1/meIRXiKlPSzP7It7/2J/2Bln+ez10Nuad+itvimSIaPve90NHrre6nkBI73IFlmPfNZeyK7/+q73vA8ezsK/ZtRY+BnTc54RNuem2MRnmW9GtCIDxlSyhCyQw61b3EXud2RBUgh4ePY5wMCQo/psKYa+RwS9y5Xpud5lfIp2xFHK6Jb59oiOuPbioc+RZUY3RabwI8+a947eNMuIssfZu8RzJIhN0SILyWdfz399XZHpvb1E7mij9b3w0UOX/ci3b1+5EsoXyFfGqhmvmYFiGHEuyGsr9Zdxvozw7FX8kmX81/QOm2tTJBdcbc2iSIQjxgv73U7s1MuRa9I/2bG3Trz+jXpK0CC3vQa2aRuGFmoh2UajTtzTUfQeuceT8Jm9bXsND1suEfMma0khG9by8UCWQwpZobZMG0kh8+xZtl9dkxQyb0veKtGUpAuftwWbCnnKmBFtSkfkAREj2hPXjj1m6JgR0X8y5bvl+IaXTc9FvcLlTWPlbYMj5F+e4VNcgAn5gYdWRcLzskmuGDC0lPNKICueC/CcsdoZz5lCCj/l7JJHdsC1P2WOaOV1akdk217apli3GOd6RCvkOHLAKGWnXlnKf/bcLry16KXFHdCiddaFr1iDcqMiGwXa8kyybBQ18p0PKWTRV3aJ7YVCAqsysOD4nC1wDOqa/+bcao67IstpxyGn/DcXSManbdJmKT9QztFm0stPjkx6S3KGyEyguReIufzZf/AgHUweeLlkrMfU23YVHLZjH7bZ3g/O1720bScQ2WgU/KSk3lOuhXxWVyR7wKiG17uhlyuC3objYL7hRZbaaQ3yDG4XiSxG76KtButCsl7zFrgFKxPOXs2xWRNScy0lMDMd3M66VS0shV9yX11GjpBXxA6Yy6Hn3A6WDp2NNvPc97LjfeBhy7V914TI5tJHwR58yZv8y1KjtCIHBbfHMYv8i7Fd9wn+dl7w2XKkSbxJ9tbJInqbZFWyUfC25MwBW7U6WWxyP4tbsF13bDF6FXmdvC5yB9e4g2ve+5F8fgx9lvtViHRwm9KM178U+oSzPMNVgJzwMuO9pcQOnfCdOsF4pGuXgbc/TRweBp/Yj2C4Q5YP2doh8+uhq1f28rDDPSz77EHrglk0NrO8a3uFBIKd2ySjO4UEknneNXAuKWTVa8i10MFsnZyvFSiQK+6IK4/vMqJV1IeMtsN6n5x0iixTQlwdE9KJ/Ds+Sn7UK0v5z7yJAe1AZLdHfS/2WNNKHK29yK1ZZLdGVDLni2zWIjPtvVW267RfpQQuBDtGeD2shFT/Qfz4v4bqi12v9Lfe56/f1dVXtN63w3hTlm/m169lvZD1UtX77eUbEq/Ht96Nr199r99mb73B3n8Rla+d5eIlgxu6+j75kbfERuWFkF8FuP90179/O+fbdoXjdIPq3pwv7sfyTpwq7r5J3mzTcXN9iDvr/RtHZ+D6/8631eI0w12g878WZw7O+erJ/NaZnE/aJr9f+K+emdVTsXoSlideSvlMg8/3zyJ9azpPql+Tzof3v+785e7yu9NXCeSt70vyP/xQXQ8=" />
+													<attribute id="Name" type="FixedString" value="HUM_FS_ARM_Githyanki_HalfPlate_A_Body.HUM_FS_ARM_Githyanki_HalfPlate_A_Body_Mesh_LOD1.2" />
+													<attribute id="NbClosestVertices" type="int32" value="2046" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="6ba76daf-a874-f5a5-6f0d-63e76f75f8d2" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_ARM_Githyanki_HalfPlate_A_Body.HUM_FS_ARM_Githyanki_HalfPlate_A_Body_Mesh.0" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="9e2966c7-b61c-4bc1-bef1-a79cb5fde067" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_ARM_Githyanki_HalfPlate_A_Body.HUM_FS_ARM_Githyanki_HalfPlate_A_Body_Cloth_Mesh.1" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="1" />
+							<attribute id="MaterialID" type="FixedString" value="6ba76daf-a874-f5a5-6f0d-63e76f75f8d2" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_ARM_Githyanki_HalfPlate_A_Body.HUM_FS_ARM_Githyanki_HalfPlate_A_Body_Mesh_LOD1.2" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="1" />
+							<attribute id="MaterialID" type="FixedString" value="9e2966c7-b61c-4bc1-bef1-a79cb5fde067" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_ARM_Githyanki_HalfPlate_A_Body.HUM_FS_ARM_Githyanki_HalfPlate_A_Body_Cloth_Mesh_LOD1.3" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Torso" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="decolletage_01" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="decolletage_02" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Underwear_Bra" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Underwear_Panties" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Private_Parts" />
+						</node>
+						<node id="VertexColorMaskSlots">
+							<attribute id="Object" type="FixedString" value="Nipple Covers" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
