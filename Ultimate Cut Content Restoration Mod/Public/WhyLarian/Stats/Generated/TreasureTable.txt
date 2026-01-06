@@ -208,8 +208,6 @@ CanMerge 1
 new subtable "-1"
 object category "I_ARM_HeadbandOfIntellect",1,0,0,0,0,0,0,0
 new subtable "-1"
-object category "I_WPN_Shortbow_Makeshift_Player",1,0,0,0,0,0,0,0
-new subtable "-1"
 object category "I_MAG_Hat_Circushat",1,0,0,0,0,0,0,0
 
 new treasuretable "UND_KuoToa_Boooal"
@@ -242,14 +240,6 @@ new treasuretable "LOW_SorcerousSundries_Trade_Magic"
 CanMerge 1
 new subtable "-1"
 object category "I_MAG_PHB_ScarabOfProtection_Amulet",1,0,0,0,0,0,0,0
-new subtable "-1"
-object category "I_WPN_Djinni_Scimitar_Player",1,0,0,0,0,0,0,0
-new subtable "-1"
-object category "I_WPN_Flail_Air_Myrmidon_Player",1,0,0,0,0,0,0,0
-new subtable "-1"
-object category "I_WPN_Trident_Water_Myrmidon_Player",1,0,0,0,0,0,0,0
-new subtable "-1"
-object category "I_WPN_Scimitar_Fire_Myrmidon_Player",1,0,0,0,0,0,0,0
 
 new treasuretable "UND_KC_Trader_Utility"
 CanMerge 1
@@ -315,16 +305,6 @@ CanMerge 1
 new subtable "-1"
 object category "I_MAG_Vampiric_Gloves",1,0,0,0,0,0,0,0
 
-new treasuretable "LOW_StormshoreTabernacle_Guardian"
-CanMerge 1
-new subtable "-1"
-object category "I_WPN_Mace_Deva_Player",1,0,0,0,0,0,0,0
-
-new treasuretable "LOW_SteepsTrader_Weapons"
-CanMerge 1
-new subtable "-1"
-object category "I_WPN_Warhammer_Azer_Player",1,0,0,0,0,0,0,0
-
 new treasuretable "LOW_DevilsFee_Diabolist_Trade_Magic"
 CanMerge 1
 new subtable "1,1"
@@ -335,11 +315,6 @@ new subtable "1,1"
 object category "I_MAG_Infernal_Mace",1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "I_MAG_Infernal_Spear",1,0,0,0,0,0,0,0
-
-new treasuretable "WYR_Circus_LoveDryad"
-CanMerge 1
-new subtable "-1"
-object category "I_WPN_Quaterstaff_Dryad_Player",1,0,0,0,0,0,0,0
 
 new treasuretable "GOB_Festivities_Trader"
 CanMerge 1

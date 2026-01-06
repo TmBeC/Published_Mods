@@ -1,0 +1,32 @@
+treasure itemtypes "Common","Uncommon","Rare","Epic","Legendary","Divine","Unique"
+
+new treasuretable "WYR_Circus_KoboldMerchant_Magic"
+CanMerge 1
+new subtable "-1"
+object category "I_WPN_Shortbow_Makeshift_Player",1,0,0,0,0,0,0,0
+
+new treasuretable "LOW_SorcerousSundries_Trade_Magic"
+CanMerge 1
+new subtable "-1"
+object category "I_WPN_Djinni_Scimitar_Player",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_WPN_Flail_Air_Myrmidon_Player",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_WPN_Trident_Water_Myrmidon_Player",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_WPN_Scimitar_Fire_Myrmidon_Player",1,0,0,0,0,0,0,0
+
+new treasuretable "LOW_StormshoreTabernacle_Guardian"
+CanMerge 1
+new subtable "-1"
+object category "I_WPN_Mace_Deva_Player",1,0,0,0,0,0,0,0
+
+new treasuretable "LOW_SteepsTrader_Weapons"
+CanMerge 1
+new subtable "-1"
+object category "I_WPN_Warhammer_Azer_Player",1,0,0,0,0,0,0,0
+
+new treasuretable "WYR_Circus_LoveDryad"
+CanMerge 1
+new subtable "-1"
+object category "I_WPN_Quaterstaff_Dryad_Player",1,0,0,0,0,0,0,0

@@ -19,23 +19,23 @@
         <node id="ModuleInfo">
           <attribute id="Author" type="LSString" value="MaxStrengthWizard" />
           <attribute id="CharacterCreationLevelName" type="FixedString" value="" />
-          <attribute id="Description" type="LSString" value="It's the Ultimate Restoration Mod of ultimate destiny." />
-          <attribute id="Folder" type="LSString" value="WhyLarian" />
+          <attribute id="Description" type="LSString" value="Optional add-on to gain access to the summons weapons." />
+          <attribute id="Folder" type="LSString" value="CutContentSummonsGear" />
           <attribute id="LobbyLevelName" type="FixedString" value="" />
           <attribute id="MD5" type="LSString" value="" />
           <attribute id="MainMenuBackgroundVideo" type="FixedString" value="" />
           <attribute id="MenuLevelName" type="FixedString" value="" />
-          <attribute id="Name" type="LSString" value="Ultimate Cut Content Restoration Mod" />
+          <attribute id="Name" type="LSString" value="Ultimate Cut Content Summons Weapons Add-On" />
           <attribute id="NumPlayers" type="uint8" value="4" />
           <attribute id="PhotoBooth" type="FixedString" value="" />
           <attribute id="StartupLevelName" type="FixedString" value="" />
           <attribute id="Tags" type="LSString" value="" />
           <attribute id="Type" type="FixedString" value="Add-on" />
-          <attribute id="UUID" type="FixedString" value="296545d8-50a9-4e5f-83f2-d5e5ba52ee4b" />
-          <attribute id="Version64" type="int64" value="36591746972385289" />
+          <attribute id="UUID" type="FixedString" value="35b3648c-9934-43c7-ab78-c36059e9a2a2" />
+          <attribute id="Version64" type="int64" value="36028797018963968" />
           <children>
             <node id="PublishVersion">
-              <attribute id="Version64" type="int64" value="36591746972385289" />
+              <attribute id="Version64" type="int64" value="36028797018963968" />
             </node>
             <node id="Scripts" />
             <node id="TargetModes">
