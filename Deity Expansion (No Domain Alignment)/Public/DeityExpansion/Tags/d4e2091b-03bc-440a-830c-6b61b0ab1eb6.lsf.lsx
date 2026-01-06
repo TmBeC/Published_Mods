@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="|Player or NPC chose Skerrit.|" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="ha41f48f6gd724g4218ga6bagb216e0d78b79" version="0" />
+			<attribute id="DisplayName" type="TranslatedString" handle="hdc3923c1g6eaag42a8g82eagbf175bbc853b" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="SKERRIT" />
+			<attribute id="UUID" type="guid" value="d4e2091b-03bc-440a-830c-6b61b0ab1eb6" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Deity" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

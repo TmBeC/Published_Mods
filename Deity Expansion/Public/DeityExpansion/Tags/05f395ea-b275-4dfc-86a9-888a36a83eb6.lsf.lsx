@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Player or NPC is a paladin of Rillifane Rallathil." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="ha1d0e838gdf41g4d93gbf93gdaec535a6e6e" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="ha76e6c3agfa3eg48dfg8da0g93b2a9d9df43" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="PALADIN_RILLIFANERALLATHIL" />
+			<attribute id="UUID" type="guid" value="05f395ea-b275-4dfc-86a9-888a36a83eb6" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Class" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

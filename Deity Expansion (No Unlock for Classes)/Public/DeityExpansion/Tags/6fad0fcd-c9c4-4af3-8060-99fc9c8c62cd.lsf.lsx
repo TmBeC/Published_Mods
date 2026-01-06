@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="|Player or NPC chose Hoar.|" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h27968d06gdb76g446cgb12eg0730ba5720f1" version="0" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h873dcc25g192dg4959g999cg66ac448bb9c0" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="HOAR" />
+			<attribute id="UUID" type="guid" value="6fad0fcd-c9c4-4af3-8060-99fc9c8c62cd" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Deity" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

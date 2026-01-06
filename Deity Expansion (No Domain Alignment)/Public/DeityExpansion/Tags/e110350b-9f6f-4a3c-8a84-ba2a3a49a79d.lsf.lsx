@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Player or NPC is a cleric of Sekolah." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h06250a33g68cbg44b3g8ef9g9d24c6564ea5" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h0403ae0cgcc40g412ag9b0cga3682d534d45" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="CLERIC_SEKOLAH" />
+			<attribute id="UUID" type="guid" value="e110350b-9f6f-4a3c-8a84-ba2a3a49a79d" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Class" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

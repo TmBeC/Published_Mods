@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="|Player or NPC chose Baervan Wildwanderer.|" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="hddef0905gb480g4673gb0fbg1e2fe17ccada" version="0" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h6a0ac1e7g672fg448bgb6d3gd7d5ef5d0be3" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="BAERVANWILDWANDERER" />
+			<attribute id="UUID" type="guid" value="8ffe5f71-5c8f-4c8e-a3e9-a9d5f7138de7" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Deity" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

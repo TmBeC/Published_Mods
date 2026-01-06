@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Player or NPC is a paladin of Lurue." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="ha7d80390g01d3g4188g924cg58762b655b58" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="hc839d595gb2f9g471fga17dg0bc9d6cd5dd1" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="PALADIN_LURUE" />
+			<attribute id="UUID" type="guid" value="af02e75c-6e84-4b40-9714-b93d894b8967" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Dialog" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Class" />
+						</node>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="CharacterSheet" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
